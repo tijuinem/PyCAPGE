@@ -27,7 +27,8 @@ Configure the script to your liking, then create your adventure scenes in /scene
 - Place Your: variables, intro, ending, and scenes in the /scenes/ directory
 - Source code is available and modifiable
 
-/ (root)
+```text
+(root)
 │
 ├── __pycache__/         <-- Cache storage
 ├── backgrounds/         <-- Walkable and environment backgrounds
@@ -55,6 +56,7 @@ Configure the script to your liking, then create your adventure scenes in /scene
 │
 ├── main.py              <-- Entry point
 └── config.py            <-- General configuration
+
 
 
 GAMES CREATED WITH PyCAPGE
