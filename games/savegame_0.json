@@ -1,0 +1,31 @@
+{
+    "version": 1.1,
+    "timestamp": "2026-01-02 10:08",
+    "game_state": {
+        "campana_recogida": false,
+        "martillo_recogido": true,
+        "farol_recogido": true,
+        "pilas_linterna_recogidas": true,
+        "linterna_sin_pilas_recogida": true,
+        "linterna_con_pilas_recogida": false,
+        "intro_ayuntamiento_vista": true,
+        "pala_recogida": true,
+        "controlando_gilo": true,
+        "controlando_bart": false,
+        "tengo_mapa": true
+    },
+    "scene": "AVDA_PAZ",
+    "position": [
+        342,
+        402
+    ],
+    "inventory": [
+        "martillo",
+        "farol",
+        "mapa1",
+        "linterna_sin_pilas",
+        "pilas_para_linterna",
+        "pala"
+    ],
+    "char_id": "Gilo"
+}
