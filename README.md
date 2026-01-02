@@ -27,12 +27,16 @@ Configure the script to your liking, then create your adventure scenes in /scene
 - Place Your: variables, intro, ending, and scenes in the /scenes/ directory
 - Source code is available and modifiable
 
-<p align="center">
-  <img src="tutorial/pyvapge%20panoramic%20street.jpg" width="600"><br>
-  <img src="tutorial/pyvapge%20parallax%20exampleu.jpg" width="600"><br>
-  <img src="tutorial/pyvapge%20peace%20avenue.jpg" width="600"><br>
-  <img src="tutorial/pyvapge%20tawn%20hall.jpg" width="600">
-</p>
+<table align="center">
+  <tr>
+    <td><img src="tutorial/pyvapge%20panoramic%20street.jpg" width="400"></td>
+    <td><img src="tutorial/pyvapge%20parallax%20exampleu.jpg" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="tutorial/pyvapge%20peace%20avenue.jpg" width="400"></td>
+    <td><img src="tutorial/pyvapge%20tawn%20hall.jpg" width="400"></td>
+  </tr>
+</table>
 
 ```text
 (root)
