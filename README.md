@@ -56,7 +56,7 @@ Configure the script to your liking, then create your adventure scenes in /scene
 │
 ├── main.py              <-- Entry point
 └── config.py            <-- General configuration
-
+```
 
 
 GAMES CREATED WITH PyCAPGE
