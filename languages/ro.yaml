@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRADUCERE: (ro.yaml)
+# ====================================================================================
+
+language_name: "Română"
+
+# ====================================================================================
+#  SISTEMUL DE VERBE - CUTIA DE VERBE
+# ====================================================================================
+verbs:
+  WALK: "MERGI LA"        # <--- CHEIE CU LITERE MARI
+  OPEN: "DESCHIDE"
+  CLOSE: "ÎNCHIDE"
+  PUSH: "ÎMPINGE"
+  PULL: "TRAGE"
+  PICK UP: "RIDICĂ"
+  USE: "FOLosește"
+  TALK TO: "VORBEȘTE CU" # <--- CHEIE CU LITERE MARI
+  GIVE: "DA"
+  LOOK AT: "PRIVEȘTE"
+  WITH: "cu"
+
+# ====================================================================================
+#  MENIUL PRINCIPAL - ACTIV CU F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FISIER"
+  SAVE_CMD: "SALVEAZĂ"
+  LOAD_CMD: "ÎNCARCĂ"
+  HELP_TITLE: "AJUTOR"
+  NO_OPT: "NU"
+  GAME_HELP_OPT: "AJUTOR JOC"
+  DEBUG_OPT: "MOD DEBUG"
+  SOUND_TITLE: "SUNET"
+  YES_OPT: "DA"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLASIC"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEXTE"
+  VEL_LABEL: "VIT >"
+  SIZE_LABEL: "MĂRIME >"
+  # Liste simple
+  VEL_OPTS: ["ÎNCET", "MEDIU", "RAPID"]
+  SIZE_OPTS: ["MIC", "MEDIU", "MARE"]
+  LANG_TITLE: "LIMBĂ"
+  CLOSE_CMD: "ÎNCHIDE"
+
+# ====================================================================================
+#  TITLURI - ECRAN DE START
+# ====================================================================================
+titles:
+  NEW_GAME: "JOC NOU"
+  LOAD_GAME: "ÎNCARCĂ JOC"
+  LANGUAGE: "LIMBĂ"
+  CREDITS: "CREDITE"
+  EXIT: "IEȘIRE"
+
+# ====================================================================================
+#  MESAJE ALE SISTEMULUI
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Nu pot face asta."
+  CANNOT_REACH: "Nu pot ajunge acolo."
+  DOES_NOT_WORK: "Asta nu funcționează."
+  MAKES_NO_SENSE: "Nu are sens."
+  DEFAULT_LOOK: "Este "
+  PICKED_UP: "Am luat "
+  SENTENCE_TO: " către "                                   # Lăsați gol dacă e româna (Mergi la + destinație)
+  SENTENCE_WITH: " CU "
+  PREP_WITH: " cu..."
+  VERB_WALK: "MERGI LA"                                 # În traducere putem alege "MERGI LA" sau doar "MĂRȘ" și apoi adăugăm fraza "către"
+  SAVE_SUCCESS: "Joc salvat cu succes."
+  SAVE_ERROR: "Eroare la salvarea fișierului."
+  LOAD_SUCCESS: "Joc încărcat."
+  LOAD_CORRUPT: "Fișier corupt."
+  MSG_SPEED: "Viteză: "
+  MSG_SIZE: "Mărime: "
+  CRAFTING_DONE: "Am combinat {0} cu {1}."
+  CHAR_SWAP: "Acum îl controlez pe {0}!"
+  CREDITS_TITLE: "CREDITE"
+  DEBUG_TITLE: "CONSOLĂ DEBUG (Trage-mă)"
+
+  #  sistem de salvare stil clasic
+  SLOT_EMPTY: "--- Gol ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Necunoscut"         # EN: "Unknown"
+  SLOT_CORRUPT: "Fișier corupt"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "Nu există salvare aici."  # EN: "No save game here."
+  BTN_CANCEL: "ANULEAZĂ"              # EN: "CANCEL"
+
+# ====================================================================================
+#  NUME SCENE (Pentru debug, salvări și hartă)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Bulevardul Păcii"
+  TOWN_HALL: "Primărie"
+  PANORAMIC: "Panoramic"
+  DARK_ROOM: "Scenă fără lumină"
+  PARALLAX: "Demo Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NUME OBIECTE (Etichete care apar la trecerea mouse-ului)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Clopot"
+  HAMMER: "Ciocan"
+  
+  # Escena 2 - Primărie
+  WINDOW_OLD: "Fereastră veche"
+  LANTERN_OLD: "Un felinar vechi"
+  MACHINE_STRANGE: "Mașinărie ciudată"
+  BONFIRE: "Foc de tabără"
+  
+   
+  # Escena 3 - Panoramic
+  STONE: "Piatra"
+  SHOVEL: "Lopeată grea"
+  TRASHCAN: "Coș de gunoi"
+  FLASHLIGHT_EMPTY: "O lanternă fără baterii"
+  BATTERIES: "Baterii pentru lanternă"
+  FLASHLIGHT_FULL: "O lanternă aprinsă"
+  BIRD: "Pasăre mare"
+  
+  # Escena 4
+  MAP: "Hartă veche"
+
+  # Escena 5
+  MARK_X: "Marcaj pe sol"
+
+  # Personaje (Etichete) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCENE : DESCRIERI ȘI REACȚII (Privește, Ridică, Împinge...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "ACESTA ESTE UN TEXT DEMO PENTRU JUCĂTOR"
+  BELL_HINT: "Folosește ciocanul aici!"
+  BELL_MAGIC_USE: "Sunetul răsună dublu datorită magiei!"
+  BELL_LOOK: "Este un clopot cu adevărat mare."
+  BELL_OPEN: "Este din bronz masiv."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooong! Ce zăngănitor."
+  HAMMER_LOOK: "Ciocan de tâmplărie."
+  HAMMER_PICK: "Bine, îl iau cu mine."
+  
+  # Escena 2
+  WINDOW_LOOK: "Este fereastra doamnei Fletcher."
+  WINDOW_OPEN: "Este blocată, vopsită de ani de zile."
+  WINDOW_STONE: "Mai bine nu stric nimic azi."
+  LANTERN_LOOK: "Un felinar de pe Aliexpress."
+  LANTERN_PICK: "Îl iau cu mine."
+  MACHINE_LOOK: "Pare o mașinărie complexă."
+  MACHINE_USE: "Funcționează!"
+  MACHINE_PUSH: "Îi dau un mic impuls..."
+  BONFIRE_LOOK: "Mă înroșesc dacă mă apropii prea tare. Paleta de culori se schimbă."
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Acesta este un ecran exemplu cu derulare orizontală"
+  TRASH_LOOK: "E plin de deșeuri."
+  TRASH_OPEN: "Pfiu! Ce miros."
+  TRASH_CLOSE: "Mai bine închis."
+  NPC_GARBA_LOOK: "Ce te uiți? Am maimuțe pe față?"
+  GARBA_GIVE_FLASHLIGHT: "Ia, Garba, ține-o tu."
+  BIRD_LOOK: "Oh, uiți, păsărele!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Nu are baterii."
+  FLASHLIGHT_EMPTY_PICK: "O iau."
+  BATTERIES_LOOK: "Baterii alcaline."
+  BATTERIES_PICK: "În buzunar cu ele."
+  FLASHLIGHT_FULL_LOOK: "Acum da, luminează puternic."
+  FLASHLIGHT_FULL_USE: "Mai bine o folosesc într-un loc întunecat."
+  FLASHLIGHT_FULL_OPEN: "Mai bine nu scot bateriile acum."
+  
+  SHOVEL_BART_PICK: "Humpf! Cântărește o tonă, dar mă descurc eu."
+  SHOVEL_GILO_FAIL: "E prea greu. Am nevoie de Bart."
+  SHOVEL_LOOK_BART: "O lopată robustă. Ideală pentru mușchii mei."
+  SHOVEL_LOOK_GILO: "Este din fier masiv. Am nevoie de Bart."
+  SHOVEL_USE: "Nu pot s-o folosesc aici."
+  SHOVEL_PUSH: "E foarte bine fixată."
+
+  NPC_BART_LOOK: "Iată-l pe tovarășul meu Bart. Pare puternic."
+  NPC_BART_TALK: "Hei, Bart. Ce faci?"
+  NPC_BART_PUSH: "Hei! Fără împins!"
+  
+  NPC_GILO_LOOK: "Acela e Gilo, pierdut în gânduri."
+  NPC_GILO_TALK: "Domnule Gilo, ați găsit ceva?"
+  NPC_GILO_PUSH: "Hei! Ai grijă cu biciul."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "Nu văd nimic! Am nevoie de lumină."
+  MAP_LOOK: "O hartă turistică."
+  MAP_PICK: "O iau."
+  MAP_FAIL: "Nu pot folosi asta lăsat acolo. Mai bine îl iau întâi."
+
+   # Escena 5
+  MARK_LOOK: "Un X uriaș pictat pe pământ. Ca pe hărțile piraților."
+  MARK_DIG_START: "Aici e ceva! O să sap..."
+  MARK_HIT_OBJ: "Crac! Am dat de ceva solid."
+  SCENE5_INTRO_MSG: "ACESTA ESTE ECRANUL FINAL"
+  MARK_USE_FAIL: "Am nevoie de ceva pentru a săpa."
+  MARK_PUSH_FAIL: "Pământul e foarte tare."
+
+# ====================================================================================
+#  CINEMATICI (Intro și Final)
+# ====================================================================================
+cinematics:
+  # Escena . Început
+  INTRO_1: "Anul 2001. Orașul părea liniștit..."
+  INTRO_2: "Dar la Primărie se țesea ceva întunecat."
+  INTRO_3: "Doar un erou (sau doi) ar fi putut opri asta."
+  
+  # Escena 2 . Primărie
+  AYUN_1: "Am fost aici acum 25 de ani..."
+  AYUN_2: "...nimic nu s-a schimbat."
+  
+  # Escena . Final
+  ENDING_1: "Și astfel, după ce am descoperit secretul..."
+  ENDING_2: "Orașul s-a întors la normalitate."
+  THANKS: "MULTUMESC PENTRU JOC"
+
+  # ====================================================================================
+#  DIALOGURI
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panoramic - Dialog Garba vs NPC principal, Gilo
+    # Nod: start
+  GARBA_START_OPT1: "Uite! Am reușit să pun baterii la lanternă."
+  GARBA_START_ANS1: "Groaznic! Știam că ești priceput."
+  
+  GARBA_START_OPT2: "Salut Garba, ce cauți aici?"
+  GARBA_START_ANS2: "Nimic, mă uit pe acolo. Vreau o lanternă cu baterii."
+  
+  GARBA_START_OPT3: "Ai văzut ceva suspect?"
+  GARBA_START_ANS3: "Doar pe tine alergând dintr-o parte în alta."
+  
+  GARBA_START_OPT4: "Vorbeștem mai târziu."
+  GARBA_START_ANS4: "Bine, pe curând."
+  
+    # Nod: quiero_una_linterna
+  GARBA_WANT_OPT1: "De ce vrei o lanternă cu baterii?"
+  GARBA_WANT_ANS1: "Ca să poți lua două obiecte și să le unești într-unul singur."
+  
+  GARBA_WANT_OPT2: "Am o lanternă, e bună?"
+  GARBA_WANT_ANS2: "Sigur, dă-o și va dispărea din inventarul tău."
+  
+  GARBA_WANT_OPT3: "Să schimbăm subiectul."
+  GARBA_WANT_ANS3: "Ok, spune."
+
+    # Nod: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Ia: o lanternă care funcționează."
+  GARBA_HAVE_ANS1: "Da, încearcă să folosești comanda DA asupra mea."

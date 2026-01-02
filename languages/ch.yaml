@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRADUCCIÓN: ESTILO INSPIRADO EN CHIQUITO DE LA CALZADA (ch.yaml)
+#  Nota: versión inspirada, de la voz del mejor humorista de todos los tiempos
+# ====================================================================================
+
+language_name: "Chiquitistaní"
+
+# ====================================================================================
+#  SISTEMA DE VERBOS - CAJA DE VERBOS
+# ====================================================================================
+verbs:
+  WALK: "IR A"        # <--- CLAVE EN MAYÚSCULAS, ¡no me des luz que no puedo!
+  OPEN: "ABRIR"       # ¡Al ataque, fistro!
+  CLOSE: "CERRAR"
+  PUSH: "EMPUJAR"     # Dale un empujoncito, jarl
+  PULL: "TIRAR"
+  PICK UP: "COGER"    # Agárralo, que no se te escape, no puedor
+  USE: "USAR"
+  TALK TO: "HABLAR A" # <--- CLAVE EN MAYÚSCULAS, ¡habla con él, pecador!
+  GIVE: "DAR"
+  LOOK AT: "MIRAR"
+  WITH: "con"         # con... ¡oye!
+
+# ====================================================================================
+#  MENÚ PRINCIPAL - ACTIVO CON F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "ARCHIVO"           # Título del menú de archivos, ¡qué arte!
+  SAVE_CMD: "GUARDAR"
+  LOAD_CMD: "CARGAR"
+  HELP_TITLE: "AYUDA"
+  NO_OPT: "NO"
+  GAME_HELP_OPT: "AYUDA JUEGO"    # Ayuda del juego, pa' no perderse
+  DEBUG_OPT: "MODO DEBUG"
+  SOUND_TITLE: "SONIDO"
+  YES_OPT: "SÍ"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLÁSICO"
+  CURSOR_MODERN: "MODERNO"
+  TEXT_TITLE: "TEXTOS"
+  VEL_LABEL: "VEL >"              # Etiqueta velocidad
+  SIZE_LABEL: "TAMAÑO >"          # Etiqueta tamaño
+  # Listas simples
+  VEL_OPTS: ["LENTO", "MEDIO", "RÁPIDO"]   # Opciones de velocidad, no te acelere que revienta
+  SIZE_OPTS: ["PEQUEÑO", "MEDIANO", "GRANDE"]
+  LANG_TITLE: "IDIOMA"
+  CLOSE_CMD: "CERRAR"
+
+# ====================================================================================
+#  TÍTULOS - PANTALLA DE INICIO
+# ====================================================================================
+titles:
+  NEW_GAME: "NUEVA PARTIDA"       # Empezar otra aventura, ¡uy uy!
+  LOAD_GAME: "CARGAR PARTIDA"
+  LANGUAGE: "IDIOMA"
+  CREDITS: "CRÉDITOS"
+  EXIT: "SALIR"  
+
+# ====================================================================================
+#  MENSAJES DEL SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "No puedo hacer eso, ¡no puedor!"   # Acción imposible
+  CANNOT_REACH: "No puedo llegar ahí, me quedo corto."  # No alcanza, jarl
+  DOES_NOT_WORK: "Eso no funciona, ¡fistro!"     # No sirve, nada
+  MAKES_NO_SENSE: "No tiene sentido, pecador."   # No cuadra
+  DEFAULT_LOOK: "Es "                            # Inicio de descripción
+  PICKED_UP: "He cogido "                        # Al recoger algo
+  SENTENCE_TO: " a "                             # Dejar vacio si es español (Ir a + destino)
+  SENTENCE_WITH: " CON "
+  PREP_WITH: " con..."                           # Preposición con...
+  VERB_WALK: "IR A"                              # Verbo caminar; usar "IR A" + destino
+  SAVE_SUCCESS: "Partida guardada correctamente. ¡Olé!"   # Guardado ok
+  SAVE_ERROR: "Error al guardar archivo. ¡Córcholis!"    # Error guardando
+  LOAD_SUCCESS: "Partida cargada. ¡Aleluya!"             # Carga ok
+  LOAD_CORRUPT: "Archivo corrupto. ¡Hostia!"             # Archivo corrupto
+  MSG_SPEED: "Velocidad: "
+  MSG_SIZE: "Tamaño: "
+  CRAFTING_DONE: "He combinado {0} con {1}, ¡ta luego!"  # Resultado de combinar
+  CHAR_SWAP: "¡Ahora controlo a {0}, qué gozada!"        # Cambio personaje
+  CREDITS_TITLE: "CRÉDITOS"
+  DEBUG_TITLE: "CONSOLA DEBUG (Arrástrame, que me duele)"
+
+  #  sistema de guardado estilo clásico
+  SLOT_EMPTY: "--- Vacío ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Desconocido"         # EN: "Unknown"
+  SLOT_CORRUPT: "Archivo Corrupto"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "No hay partida ahí."  # EN: "No save game here."
+  BTN_CANCEL: "CANCELAR"              # EN: "CANCEL"
+
+# ====================================================================================
+#  NOMBRES DE ESCENAS (Para debug, saves y mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida de la Paz"      # Nombre de la calle, con su arte
+  TOWN_HALL: "Ayuntamiento"
+  PANORAMIC: "Panorámica"
+  DARK_ROOM: "Escena sin luz"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - NOMBRES DE OBJETOS (Labels que aparecen al pasar el ratón)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Campana"                     # ¡Ding dong!
+  HAMMER: "Martillo"                  # Golpe a la vista
+  
+  # Escena 2 - Ayuntamiento
+  WINDOW_OLD: "Ventana Vieja"         # Ventana de siempre
+  LANTERN_OLD: "Un farol antiguo"     # Farolillo de los de antes
+  MACHINE_STRANGE: "Máquina Extraña"  # ¿Qué será eso?
+  BONFIRE: "Hoguera"                  # Fuego, calorcito
+  
+  # Escena 3 - Panorámica
+  STONE: "Piedra"
+  SHOVEL: "Pala Pesada"
+  TRASHCAN: "Cubo de Basura"
+  FLASHLIGHT_EMPTY: "Una linterna sin pilas"   # Sin pilas, ¡ay!
+  BATTERIES: "Pilas para la linterna"
+  FLASHLIGHT_FULL: "Una Linterna Encendida"    # Brilla que alumbra
+  BIRD: "Pájarraco"                            # Ave grandota
+  
+  # Escena 4
+  MAP: "Mapa Viejo"
+
+  # Escena 5
+  MARK_X: "Marca en el suelo"         # La X marca el sitio (¡ole!)
+
+  # Personajes (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  ESCENAS : DESCRIPCIONES Y REACCIONES (Look At, Pick Up, Push...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "ESTO ES UN TEXTO DEMO PARA EL USUARIO, ¡fistro!"  # Mensaje de introducción
+  BELL_HINT: "¡Usa el martillo aquí, no seas lento!"                   # Pista: usar martillo
+  BELL_MAGIC_USE: "¡El sonido resuena el doble con la magia, jarl!"   # Uso mágico
+  BELL_LOOK: "Es una campana realmente grande, no puedor."            # Mirada a la campana
+  BELL_OPEN: "Es de bronce macizo."                                   # Abrirla
+  BELL_PUSH: "¡Ding!"                                                  # Empujar sonido
+  BELL_PULL: "¡Dooooooonng! Menudo badajo."                            # Tirar sonido
+  HAMMER_LOOK: "Martillo de carpintero, pa dar fuertes golpes."        # Mirada martillo
+  HAMMER_PICK: "Vale, me lo llevo."                                    # Recoger martillo
+  
+  # Escena 2
+  WINDOW_LOOK: "Es la ventana del Pecador  de la Pradera."                    # Mirar ventana
+  WINDOW_OPEN: "Está atascada, lleva años pintada."                    # Intentar abrir
+  WINDOW_STONE: "Mejor no rompo nada hoy, que luego me llaman."        # No romper
+  LANTERN_LOOK: "Un farol de Aliexpress."                             # Mirar farol
+  LANTERN_PICK: "Me lo llevo."                                        # Recoger farol
+  MACHINE_LOOK: "Parece una maquinaria compleja."                      # Mirar máquina
+  MACHINE_USE: "¡Funciona!"                                           # Usar máquina
+  MACHINE_PUSH: "Le doy un empujoncito..."                            # Empujar máquina
+  BONFIRE_LOOK: "Me pongo colorado si me acerco mucho. Cambio de paleta."  # Acercarse al fuego
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Esto es un ejemplo de pantalla con SCROLL horizontal, ¡qué marcha!"  # Intro scroll
+  TRASH_LOOK: "Está lleno de desperdicios, qué asco."                   # Mirar basura
+  TRASH_OPEN: "¡Puaj! Qué peste."                                      # Abrir basura
+  TRASH_CLOSE: "Mejor cerrado."                                        # Cerrar basura
+  NPC_GARBA_LOOK: "¿Qué miras? ¿Tengo monos en la cara?"               # Garba responde
+  GARBA_GIVE_FLASHLIGHT: "Toma Garba, quédatela tú."                   # Dar linterna
+  BIRD_LOOK: "Oh, mira, pajarillos ¡ay!"                               # Mirar pájaro
+  
+  FLASHLIGHT_EMPTY_LOOK: "No tiene pilas, está pa' reponer."          # Linterna sin pilas
+  FLASHLIGHT_EMPTY_PICK: "Me la llevo."                              # Recoger linterna
+  BATTERIES_LOOK: "Pilas alcalinas, las de toda la vida."            # Mirar pilas
+  BATTERIES_PICK: "Pa la saca."                                      # Recoger pilas
+  FLASHLIGHT_FULL_LOOK: "Ahora sí, brilla con fuerza, ¡alumbra!"     # Linterna encendida
+  FLASHLIGHT_FULL_USE: "Mejor la uso en un sitio oscuro."            # Usar linterna
+  FLASHLIGHT_FULL_OPEN: "Mejor no le saco las pilas ahora."          # No desmontar
+  
+  SHOVEL_BART_PICK: "¡Humpf! Pesa un quintal, pero yo puedo con todo."  # Recoger pala (para Bart)
+  SHOVEL_GILO_FAIL: "Pesa demasiado. Necesito a Bart."                   # No puede Gilo
+  SHOVEL_LOOK_BART: "Una pala robusta. Ideal para mis músculos."        # Mirar pala (Bart)
+  SHOVEL_LOOK_GILO: "Es de hierro macizo. Necesito a Bart."            # Mirar pala (Gilo)
+  SHOVEL_USE: "No puedo usarla aquí."                                 # Usar pala
+  SHOVEL_PUSH: "Está muy firme."                                       # Empujar pala
+
+  NPC_BART_LOOK: "Es mi colega Bart. Parece fuerte."                   # Mirar Bart
+  NPC_BART_TALK: "Eh, Bart. ¿Qué pasa?"                                 # Hablar con Bart
+  NPC_BART_PUSH: "¡Eh! ¡Sin empujar!"                                  # Empujar Bart
+  
+  NPC_GILO_LOOK: "Ahí está Gilo, pensando en sus cosas."                # Mirar Gilo
+  NPC_GILO_TALK: "Sr Gilo ¿ha encontrado algo?"                         # Hablar con Gilo
+  NPC_GILO_PUSH: "¡Oye! Cuidado con el látigo."                         # Empujar Gilo
+
+  # Escena 4
+  DARK_ROOM_ENTER: "¡No veo un pimiento! Necesito luz, no puedor."       # Entrar cuarto oscuro
+  MAP_LOOK: "Un mapa turístico."                                       # Mirar mapa
+  MAP_PICK: "Me lo llevo."                                             # Recoger mapa
+  MAP_FAIL: "No puedo usarlo ahí tirado. Mejor lo cojo primero."       # Intentar usar mapa
+
+   # Escena 5
+  MARK_LOOK: "Una X gigante pintada en el suelo. Como en los mapas piratas, ¡olé!"  # Mirar marca
+  MARK_DIG_START: "¡Aquí hay algo! Voy a cavar..."                      # Empezar a cavar
+  MARK_HIT_OBJ: "¡Crac! He dado con algo sólido."                      # Golpear objeto
+  SCENE5_INTRO_MSG: "ESTA ES LA PANTALLA FINAL"                        # Mensaje final
+  MARK_USE_FAIL: "Necesito algo para cavar, no con las uñas."         # Fallo usar
+  MARK_PUSH_FAIL: "La tierra está muy dura, jarl."                    # Fallo empujar
+
+# ====================================================================================
+#  CINEMÁTICAS (Intro y Final) - UN TOQUE DRAMÁTICO PERO CON HUMOR
+# ====================================================================================
+cinematics:
+  # Escena . Inicio
+  INTRO_1: "Año 2001. La ciudad parecía tranquila...  quietaaarr."  # Sintonía inicial
+  INTRO_2: "Pero en el Ayuntamiento se tramaba algo oscuro, ¡Por la gloria de mi madre!"   # Giro dramático
+  INTRO_3: "Solo un héroe (o dos, si hay oferta) podrían detenerlo."          # Héroes al rescate
+  
+  # Escena 2 . Ayuntamiento
+  AYUN_1: "Estuve aquí hace 25 años... y no cambió ni la silla del alcalde."  # Recuerdo
+  AYUN_2: "...los mismos fistros."                                             # Resumen
+  
+  # Escena . Final
+  ENDING_1: "Y así, tras desenterrar el secreto..."                           # Final del misterio
+  ENDING_2: "La ciudad volvió a la normalidad, y el pan se siguió vendiendo."  # Vuelta a la rutina
+  THANKS: "¡GRACIAS POR JUGAR, FISTRO!"
+
+# ====================================================================================
+#  DIÁLOGOS
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panorámica - Diálogo Garba vs Principal NPC, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "¡Mira! Ya he conseguido ponerle pilas a la linterna."  # Opción jugador
+  GARBA_START_ANS1: "¡Genial! Sabía que eras un manitas, que no te falta salero."  # Respuesta NPC
+  
+  GARBA_START_OPT2: "Hola Garba, ¿qué haces aquí?"                          # Opc2
+  GARBA_START_ANS2: "Nada, tronco, viendo pasar el tiempo. Quiero una linterna con pilas."  # Resp2
+  
+  GARBA_START_OPT3: "¿Has visto algo sospechoso?"                            # Opc3
+  GARBA_START_ANS3: "Solo a ti corriendo de un lado a otro, ¡como pollo sin cabeza!"  # Resp3
+  
+  GARBA_START_OPT4: "Luego hablamos."                                       # Opc4
+  GARBA_START_ANS4: "Venga, hasta luego, ¡no te me pierdas!"                 # Resp4
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "¿Para qué quieres una linterna con pilas?"               # Pregunta intención
+  GARBA_WANT_ANS1: "Para que cojas dos objetos y los unas en uno solo, como quien mezcla aceite con aceituna."  # Explicación
+  
+  GARBA_WANT_OPT2: "Yo tengo una linterna, ¿sirve?"                         # Ofrecimiento
+  GARBA_WANT_ANS2: "Claro, dámela y desaparecerá de tu inventario, ¡como por arte de magia!"  # Acepta
+  
+  GARBA_WANT_OPT3: "Cambiemos de tema."                                     # Cambio tema
+  GARBA_WANT_ANS3: "Vale, dime."                                            # Respuesta breve
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Aquí tienes: una linterna que funciona."                # Dar linterna
+  GARBA_HAVE_ANS1: "Sí, prueba a usar el comando DAR con ella sobre mí, y que no se te caiga."  # Instrucción final

@@ -1,0 +1,255 @@
+# ====================================================================================
+#  ÜBERSETZUNG: (de.yaml)
+# ====================================================================================
+
+language_name: "Deutsch"
+
+# ====================================================================================
+#  VERB-SYSTEM - VERBBOX
+# ====================================================================================
+verbs:
+  WALK: "GEHEN zu"        # <--- SCHLÜSSEL IN GROSSBUCHSTABEN
+  OPEN: "ÖFFNEN"
+  CLOSE: "SCHLIESSEN"
+  PUSH: "SCHIEBEN"
+  PULL: "ZIEHEN"
+  PICK UP: "AUFNEHMEN"
+  USE: "BENUTZEN"
+  TALK TO: "SPRECHEN MIT" # <--- SCHLÜSSEL IN GROSSBUCHSTABEN
+  GIVE: "GEBEN"
+  LOOK AT: "BETRACHTEN"
+  WITH: "mit"
+
+# ====================================================================================
+#  HAUPTMENÜ - AKTIVIEREN MIT F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "DATEI"
+  SAVE_CMD: "SPEICHERN"
+  LOAD_CMD: "LADEN"
+  HELP_TITLE: "HILFE"
+  NO_OPT: "NEIN"
+  GAME_HELP_OPT: "SPIELHILFE"
+  DEBUG_OPT: "DEBUG-MODUS"
+  SOUND_TITLE: "TON"
+  YES_OPT: "JA"
+  CURSOR_TITLE: "MAUSZEIGER"
+  CURSOR_CLASSIC: "KLASSISCH"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEXT"
+  VEL_LABEL: "GES >"
+  SIZE_LABEL: "GRÖSSE >"
+  # Einfache Listen
+  VEL_OPTS: ["LANGSAM", "MITTEL", "SCHNELL"]
+  SIZE_OPTS: ["KLEIN", "MITTEL", "GROSS"]
+  LANG_TITLE: "SPRACHE"
+  CLOSE_CMD: "SCHLIESSEN"
+
+# ====================================================================================
+#  TITEL - STARTBILD
+# ====================================================================================
+titles:
+  NEW_GAME: "NEUES SPIEL"
+  LOAD_GAME: "SPIEL LADEN"
+  LANGUAGE: "SPRACHE"
+  CREDITS: "CREDITS"
+  EXIT: "BEENDEN"  
+
+# ====================================================================================
+#  SYSTEMNACHRICHTEN
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Das kann ich nicht tun."
+  CANNOT_REACH: "Dorthin kann ich nicht gelangen."
+  DOES_NOT_WORK: "Das funktioniert nicht."
+  MAKES_NO_SENSE: "Das ergibt keinen Sinn."
+  DEFAULT_LOOK: "Es "
+  PICKED_UP: "Ich habe " 
+  SENTENCE_TO: " zu "                                   # Leer lassen für Spanisch (Ir a + Ziel)
+  SENTENCE_WITH: " MIT "
+  PREP_WITH: " mit..."
+  VERB_WALK: "GEHEN ZU"                                 # Bei der Übersetzung können wir "GEHEN ZU" oder nur "GEHEN" wählen und dann den Satz "zu" anhängen
+  SAVE_SUCCESS: "Spielstand erfolgreich gespeichert."
+  SAVE_ERROR: "Fehler beim Speichern der Datei."
+  LOAD_SUCCESS: "Spielstand geladen."
+  LOAD_CORRUPT: "Datei beschädigt."
+  MSG_SPEED: "Geschwindigkeit: "
+  MSG_SIZE: "Größe: "
+  CRAFTING_DONE: "Ich habe {0} mit {1} kombiniert."
+  CHAR_SWAP: "Ich übernehme jetzt {0}!"
+  CREDITS_TITLE: "CREDITS"
+  DEBUG_TITLE: "DEBUG-KONSOLE (Zieh mich)"
+
+  # klassisches Speichersystem
+  SLOT_EMPTY: "--- Lesen ---"         # DE: "--- Leer ---"
+  SLOT_UNKNOWN: "Unbekannt"         # DE: "Unbekannt"
+  SLOT_CORRUPT: "Beschädigte Datei"    # DE: "Beschädigte Datei"
+  MSG_NO_SAVE: "Kein Spielstand vorhanden."  # DE: "Kein Spielstand vorhanden."
+  BTN_CANCEL: "ABBRECHEN"              # DE: "ABBRECHEN"
+
+# ====================================================================================
+#  SZENENNAMEN (Für Debug, Saves und Karte)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Friedensallee"
+  TOWN_HALL: "Rathaus"
+  PANORAMIC: "Panorama"
+  DARK_ROOM: "Dunkler Raum"
+  PARALLAX: "Parallax-Demo"
+
+# ====================================================================================
+#  HOTSPOTS - OBJEKTNAMEN (Bezeichnungen, die beim Überfahren mit der Maus erscheinen)
+# ====================================================================================
+items:
+  # Szene 1
+  BELL: "Glocke"
+  HAMMER: "Hammer"  
+  
+  # Szene 2 - Rathaus
+  WINDOW_OLD: "Altes Fenster"
+  LANTERN_OLD: "Eine alte Laterne"
+  MACHINE_STRANGE: "Seltsame Maschine"
+  BONFIRE: "Lagerfeuer"
+  
+   
+  # Szene 3 - Panorama
+  STONE: "Stein"
+  SHOVEL: "Schwere Schaufel"
+  TRASHCAN: "Mülleimer"
+  FLASHLIGHT_EMPTY: "Eine Taschenlampe ohne Batterien"
+  BATTERIES: "Batterien für die Taschenlampe"
+  FLASHLIGHT_FULL: "Eine eingeschaltete Taschenlampe"
+  BIRD: "Vogel"
+  
+  # Szene 4
+  MAP: "Alte Karte"
+
+  # Szene 5
+  MARK_X: "Markierung auf dem Boden"
+
+  # Charaktere (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SZENEN: BESCHREIBUNGEN UND REAKTIONEN (Ansehen, Aufheben, Schieben...)
+# ====================================================================================
+descriptions:
+  # Szene 1
+  SCENE1_INTRO_MSG: "DIES IST EIN DEMOTEXT FÜR DEN BENUTZER"
+  BELL_HINT: "Benutze hier den Hammer!"
+  BELL_MAGIC_USE: "Der Klang hallt dank der Magie doppelt wider!"
+  BELL_LOOK: "Das ist eine wirklich große Glocke."
+  BELL_OPEN: "Sie ist aus massivem Bronze."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Was für ein Klöppel."
+  HAMMER_LOOK: "Zimmermannshammer."
+  HAMMER_PICK: "Okay, ich nehme ihn mit."
+  
+  # Szene 2
+  WINDOW_LOOK: "Das ist das Fenster von Frau Fletcher."
+  WINDOW_OPEN: "Es ist verklemmt, seit Jahren übermalt."
+  WINDOW_STONE: "Besser, ich zerstöre heute nichts."
+  LANTERN_LOOK: "Eine Laterne von Aliexpress."
+  LANTERN_PICK: "Ich nehme sie mit."  
+  MACHINE_LOOK: "Sieht nach komplexer Mechanik aus."
+  MACHINE_USE: "Es funktioniert!"
+  MACHINE_PUSH: "Ich gebe ihm einen kleinen Schubs..."
+  BONFIRE_LOOK: "Ich werde rot, wenn ich mich zu nah hinstelle. Farbwechsel."  
+  
+  # Szene 3
+  SCENE3_INTRO_MSG: "Das ist ein Beispielbildschirm mit horizontalem SCROLL"
+  TRASH_LOOK: "Er ist voller Abfall."
+  TRASH_OPEN: "Igitt! Was für ein Gestank."
+  TRASH_CLOSE: "Besser geschlossen."
+  NPC_GARBA_LOOK: "Was glotzt du? Habe ich Affen im Gesicht?"
+  GARBA_GIVE_FLASHLIGHT: "Nimm sie, Garba, behalt sie."  
+  BIRD_LOOK: "Oh, schau, Vögel!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Sie hat keine Batterien."
+  FLASHLIGHT_EMPTY_PICK: "Ich nehme sie mit."
+  BATTERIES_LOOK: "Alkalibatterien."
+  BATTERIES_PICK: "Ab in die Tasche."
+  FLASHLIGHT_FULL_LOOK: "Jetzt ja, sie leuchtet kräftig."
+  FLASHLIGHT_FULL_USE: "Ich benutze sie lieber an einem dunklen Ort."
+  FLASHLIGHT_FULL_OPEN: "Ich nehme ihr jetzt besser nicht die Batterien heraus."
+  
+  SHOVEL_BART_PICK: "Hmpf! Sie wiegt ein Vermögen, aber ich schaffe das."
+  SHOVEL_GILO_FAIL: "Zu schwer. Ich brauche Bart."
+  SHOVEL_LOOK_BART: "Eine robuste Schaufel. Ideal für meine Muskeln."
+  SHOVEL_LOOK_GILO: "Sie ist aus massivem Eisen. Ich brauche Bart."
+  SHOVEL_USE: "Ich kann sie hier nicht benutzen."
+  SHOVEL_PUSH: "Sie sitzt sehr fest."
+
+  NPC_BART_LOOK: "Das ist mein Kumpel Bart. Er sieht stark aus."
+  NPC_BART_TALK: "Hey, Bart. Was gibt's?"
+  NPC_BART_PUSH: "Hey! Nicht schubsen!"
+
+  NPC_GILO_LOOK: "Da ist Gilo, in seine Gedanken vertieft."
+  NPC_GILO_TALK: "Herr Gilo, haben Sie etwas gefunden?"
+  NPC_GILO_PUSH: "Hey! Vorsicht mit der Peitsche."
+
+  # Szene 4
+  DARK_ROOM_ENTER: "Ich sehe gar nichts! Ich brauche Licht."
+  MAP_LOOK: "Eine touristische Karte."
+  MAP_PICK: "Ich nehme sie mit."
+  MAP_FAIL: "Ich kann sie dort nicht benutzen. Besser zuerst aufheben."
+
+   # Szene 5
+  MARK_LOOK: "Ein riesiges X auf dem Boden gemalt. Wie auf Piratenkarten."
+  MARK_DIG_START: "Hier ist etwas! Ich werde graben..."
+  MARK_HIT_OBJ: "Krach! Ich habe etwas Festes getroffen."
+  SCENE5_INTRO_MSG: "DAS IST DER ENDBILDSCHIRM"
+  MARK_USE_FAIL: "Ich brauche etwas zum Graben."
+  MARK_PUSH_FAIL: "Der Boden ist zu hart."
+
+# ====================================================================================
+#  CINEMATICS (Intro und Ende)
+# ====================================================================================
+cinematics:
+  # Szene . Anfang
+  INTRO_1: "Jahr 2001. Die Stadt schien ruhig..."
+  INTRO_2: "Doch im Rathaus wurde etwas Dunkles geplant."
+  INTRO_3: "Nur ein Held (oder zwei) konnten es aufhalten."
+  
+  # Szene 2 . Rathaus
+  AYUN_1: "Ich war vor 25 Jahren schon einmal hier..."
+  AYUN_2: "...nichts hat sich verändert."
+  
+  # Szene . Ende
+  ENDING_1: "Und so, nachdem das Geheimnis ausgegraben war..."
+  ENDING_2: "kehrte die Stadt zur Normalität zurück."
+  THANKS: "DANKE FÜR'S SPIELEN"
+
+  # ====================================================================================
+#  DIALOGE
+# ====================================================================================
+dialogues:
+  # Szene 2 - Panorama - Dialog Garba vs Haup NPC, Gilo
+    # Knoten: start
+  GARBA_START_OPT1: "Schau! Ich habe es geschafft, Batterien in die Taschenlampe zu stecken."
+  GARBA_START_ANS1: "Super! Ich wusste, du bist handwerklich geschickt."
+  
+  GARBA_START_OPT2: "Hallo Garba, was machst du hier?"
+  GARBA_START_ANS2: "Nichts, Kumpel, ich schaue der Zeit beim Vorbeigehen zu. Ich will eine Taschenlampe mit Batterien."
+  
+  GARBA_START_OPT3: "Hast du etwas Verdächtiges gesehen?"
+  GARBA_START_ANS3: "Nur dich, wie du von einer Ecke zur anderen rennst."
+  
+  GARBA_START_OPT4: "Wir reden später."
+  GARBA_START_ANS4: "Okay, bis dann."
+  
+    # Knoten: ich_will_eine_taschenlampe
+  GARBA_WANT_OPT1: "Wofür willst du eine Taschenlampe mit Batterien?"
+  GARBA_WANT_ANS1: "Damit du zwei Gegenstände nimmst und zu einem vereinst."
+  
+  GARBA_WANT_OPT2: "Ich habe eine Taschenlampe, taugt die?"
+  GARBA_WANT_ANS2: "Klar, gib sie mir und sie verschwindet aus deinem Inventar."
+  
+  GARBA_WANT_OPT3: "Lass uns das Thema wechseln."
+  GARBA_WANT_ANS3: "Okay, sag an."
+
+    # Knoten: ich_habe_die_taschenlampe
+  GARBA_HAVE_OPT1: "Hier: eine funktionierende Taschenlampe."
+  GARBA_HAVE_ANS1: "Ja, versuche, den GEBEN-Befehl mit ihr an mir zu benutzen."

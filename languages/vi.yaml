@@ -1,0 +1,255 @@
+# ====================================================================================
+#  BẢN DỊCH: TIẾNG TÂY BAN NHA (vi.yaml)
+# ====================================================================================
+
+language_name: "Tiếng Việt"
+
+# ====================================================================================
+#  HỆ THỐNG ĐỘNG TỪ - HỘP ĐỘNG TỪ
+# ====================================================================================
+verbs:
+  WALK: "ĐI ĐẾN"        # <--- KHÓA VIẾT HOA
+  OPEN: "MỞ"
+  CLOSE: "ĐÓNG"
+  PUSH: "ĐẨY"
+  PULL: "KÉO"
+  PICK UP: "NHẶT"
+  USE: "DÙNG"
+  TALK TO: "NÓI CHUYỆN VỚI" # <--- KHÓA VIẾT HOA
+  GIVE: "ĐƯA"
+  LOOK AT: "NHÌN"
+  WITH: "với"
+
+# ====================================================================================
+#  MENU CHÍNH - KÍCH HOẠT BẰNG F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "TỆP"
+  SAVE_CMD: "LƯU"
+  LOAD_CMD: "TẢI"
+  HELP_TITLE: "TRỢ GIÚP"
+  NO_OPT: "KHÔNG"
+  GAME_HELP_OPT: "TRỢ GIÚP TRÒ CHƠI"
+  DEBUG_OPT: "CHẾ ĐỘ DEBUG"
+  SOUND_TITLE: "ÂM THANH"
+  YES_OPT: "CÓ"
+  CURSOR_TITLE: "CON TRỎ"
+  CURSOR_CLASSIC: "CỔ ĐIỂN"
+  CURSOR_MODERN: "HIỆN ĐẠI"
+  TEXT_TITLE: "VĂN BẢN"
+  VEL_LABEL: "TỐC ĐỘ >"
+  SIZE_LABEL: "CỠ >"
+  # Danh sách đơn
+  VEL_OPTS: ["CHẬM", "VỪA", "NHANH"]
+  SIZE_OPTS: ["NHỎ", "TRUNG BÌNH", "LỚN"]
+  LANG_TITLE: "NGÔN NGỮ"
+  CLOSE_CMD: "ĐÓNG"
+
+# ====================================================================================
+#  TIÊU ĐỀ - MÀN HÌNH BẮT ĐẦU
+# ====================================================================================
+titles:
+  NEW_GAME: "TRÒ CHƠI MỚI"
+  LOAD_GAME: "TẢI TRÒ CHƠI"
+  LANGUAGE: "NGÔN NGỮ"
+  CREDITS: "GHI CÔNG"
+  EXIT: "THOÁT"
+
+# ====================================================================================
+#  THÔNG BÁO HỆ THỐNG
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Tôi không làm được."
+  CANNOT_REACH: "Tôi không tới đó được."
+  DOES_NOT_WORK: "Không hoạt động."
+  MAKES_NO_SENSE: "Không hợp lý."
+  DEFAULT_LOOK: "Đó là "
+  PICKED_UP: "Tôi đã nhặt "
+  SENTENCE_TO: " đến "                                   # Tiếng Việt dùng “đi đến + nơi chốn”
+  SENTENCE_WITH: " VỚI "
+  PREP_WITH: " với..."
+  VERB_WALK: "ĐI ĐẾN"                                 # Có thể dùng “ĐI” rồi thêm “đến”
+  SAVE_SUCCESS: "Lưu trò chơi thành công."
+  SAVE_ERROR: "Lỗi khi lưu tệp."
+  LOAD_SUCCESS: "Đã tải trò chơi."
+  LOAD_CORRUPT: "Tệp bị hỏng."
+  MSG_SPEED: "Tốc độ: "
+  MSG_SIZE: "Cỡ: "
+  CRAFTING_DONE: "Tôi đã kết hợp {0} với {1}."
+  CHAR_SWAP: "Bây giờ tôi điều khiển {0}!"
+  CREDITS_TITLE: "GHI CÔNG"
+  DEBUG_TITLE: "BẢNG ĐIỀU KHIỂN DEBUG (Kéo tôi)"
+
+  #  hệ thống lưu kiểu cổ điển
+  SLOT_EMPTY: "--- Trống ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Không rõ"           # EN: "Unknown"
+  SLOT_CORRUPT: "Tệp bị hỏng"        # EN: "Corrupt File"
+  MSG_NO_SAVE: "Không có dữ liệu lưu ở đây."  # EN: "No save game here."
+  BTN_CANCEL: "HỦY"                  # EN: "CANCEL"
+
+# ====================================================================================
+#  TÊN CẢNH (Dùng cho debug, lưu và bản đồ)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Đại lộ Hòa Bình"
+  TOWN_HALL: "Tòa Thị Chính"
+  PANORAMIC: "Toàn Cảnh"
+  DARK_ROOM: "Cảnh Không Ánh Sáng"
+  PARALLAX: "Bản Demo Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - TÊN VẬT THỂ (Hiện khi rê chuột)
+# ====================================================================================
+items:
+  # Cảnh 1
+  BELL: "Chuông"
+  HAMMER: "Búa"
+  
+  # Cảnh 2 - Tòa Thị Chính
+  WINDOW_OLD: "Cửa sổ cũ"
+  LANTERN_OLD: "Đèn lồng cũ"
+  MACHINE_STRANGE: "Cỗ máy kỳ lạ"
+  BONFIRE: "Đống lửa"
+  
+   
+  # Cảnh 3 - Toàn cảnh
+  STONE: "Hòn đá"
+  SHOVEL: "Xẻng nặng"
+  TRASHCAN: "Thùng rác"
+  FLASHLIGHT_EMPTY: "Đèn pin không có pin"
+  BATTERIES: "Pin cho đèn pin"
+  FLASHLIGHT_FULL: "Đèn pin đang sáng"
+  BIRD: "Con chim to"
+  
+  # Cảnh 4
+  MAP: "Bản đồ cũ"
+
+  # Cảnh 5
+  MARK_X: "Dấu X trên mặt đất"
+
+  # Nhân vật (Nhãn) NPC
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  CẢNH: MÔ TẢ VÀ PHẢN ỨNG (Nhìn, Nhặt, Đẩy...)
+# ====================================================================================
+descriptions:
+  # Cảnh 1
+  SCENE1_INTRO_MSG: "ĐÂY LÀ ĐOẠN VĂN BẢN DEMO CHO NGƯỜI CHƠI"
+  BELL_HINT: "Hãy dùng búa ở đây!"
+  BELL_MAGIC_USE: "Nhờ có phép thuật, âm thanh vang dội gấp đôi!"
+  BELL_LOOK: "Đó là một cái chuông rất lớn."
+  BELL_OPEN: "Nó được làm từ đồng nguyên khối."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Đooooong! Cái lưỡi chuông thật to."
+  HAMMER_LOOK: "Búa thợ mộc."
+  HAMMER_PICK: "Được rồi, mang theo."
+
+  # Cảnh 2
+  WINDOW_LOOK: "Đây là cửa sổ của bà Fletcher."
+  WINDOW_OPEN: "Nó bị kẹt, đã bị sơn đè suốt nhiều năm."
+  WINDOW_STONE: "Hôm nay tốt hơn là không nên phá hoại."
+  LANTERN_LOOK: "Một chiếc đèn mua online giá rẻ."
+  LANTERN_PICK: "Tôi mang theo."
+  MACHINE_LOOK: "Trông như một cỗ máy phức tạp."
+  MACHINE_USE: "Hoạt động rồi!"
+  MACHINE_PUSH: "Tôi đẩy nhẹ một cái..."
+  BONFIRE_LOOK: "Đến gần quá là thấy nóng ran, bảng màu thay đổi."
+
+  # Cảnh 3
+  SCENE3_INTRO_MSG: "Đây là ví dụ màn hình có cuộn ngang"
+  TRASH_LOOK: "Nó đầy rác."
+  TRASH_OPEN: "Kinh thật! Hôi quá."
+  TRASH_CLOSE: "Tốt hơn là đóng lại."
+  NPC_GARBA_LOOK: "Nhìn gì? Mặt tôi có khỉ à?"
+  GARBA_GIVE_FLASHLIGHT: "Này Garba, cậu giữ lấy."
+  BIRD_LOOK: "Ồ, nhìn kìa, chim chóc!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Không có pin."
+  FLASHLIGHT_EMPTY_PICK: "Nhặt lên."
+  BATTERIES_LOOK: "Pin kiềm."
+  BATTERIES_PICK: "Bỏ túi."
+  FLASHLIGHT_FULL_LOOK: "Giờ thì sáng mạnh rồi."
+  FLASHLIGHT_FULL_USE: "Tốt hơn dùng ở nơi tối."
+  FLASHLIGHT_FULL_OPEN: "Giờ chưa nên tháo pin ra."
+
+  SHOVEL_BART_PICK: "Hừm! Nặng kinh khủng, nhưng tôi làm được."
+  SHOVEL_GILO_FAIL: "Nặng quá. Tôi cần Bart."
+  SHOVEL_LOOK_BART: "Một cái xẻng chắc chắn. Rất hợp với cơ bắp của tôi."
+  SHOVEL_LOOK_GILO: "Nó làm bằng sắt đặc. Tôi cần Bart."
+  SHOVEL_USE: "Không dùng được ở đây."
+  SHOVEL_PUSH: "Nó rất chắc, không nhúc nhích."
+
+  NPC_BART_LOOK: "Đó là Bart, bạn tôi. Trông rất khỏe."
+  NPC_BART_TALK: "Này Bart, có chuyện gì vậy?"
+  NPC_BART_PUSH: "Này! Đừng có đẩy!"
+
+  NPC_GILO_LOOK: "Đó là Gilo, đang suy nghĩ vẩn vơ."
+  NPC_GILO_TALK: "Ngài Gilo, ông có tìm được gì không?"
+  NPC_GILO_PUSH: "Này! Cẩn thận cái roi."
+
+  # Cảnh 4
+  DARK_ROOM_ENTER: "Tôi chẳng thấy gì cả! Cần có ánh sáng."
+  MAP_LOOK: "Một bản đồ du lịch."
+  MAP_PICK: "Mang theo."
+  MAP_FAIL: "Không dùng được khi để dưới đất. Phải nhặt lên trước."
+
+  # Cảnh 5
+  MARK_LOOK: "Một dấu X khổng lồ vẽ trên mặt đất, như bản đồ hải tặc."
+  MARK_DIG_START: "Có gì đó ở đây! Tôi đào thử xem..."
+  MARK_HIT_OBJ: "Rắc! Đụng phải vật cứng."
+  SCENE5_INTRO_MSG: "ĐÂY LÀ MÀN HÌNH KẾT THÚC"
+  MARK_USE_FAIL: "Tôi cần thứ gì đó để đào."
+  MARK_PUSH_FAIL: "Đất cứng quá."
+
+# ====================================================================================
+#  ĐOẠN PHIM (Mở đầu và Kết thúc)
+# ====================================================================================
+cinematics:
+  # Cảnh . Mở đầu
+  INTRO_1: "Năm 2001. Thành phố trông có vẻ yên bình..."
+  INTRO_2: "Nhưng tại Tòa Thị Chính, có điều gì đó mờ ám đang diễn ra."
+  INTRO_3: "Chỉ một người hùng (hoặc hai) mới có thể ngăn chặn nó."
+
+  # Cảnh 2 . Tòa Thị Chính
+  AYUN_1: "Tôi đã từng ở đây 25 năm trước..."
+  AYUN_2: "...không có gì thay đổi."
+
+  # Cảnh . Kết thúc
+  ENDING_1: "Và thế là, sau khi khai quật bí mật..."
+  ENDING_2: "Thành phố trở lại bình thường."
+  THANKS: "CẢM ƠN BẠN ĐÃ CHƠI"
+
+# ====================================================================================
+#  HỘI THOẠI
+# ====================================================================================
+dialogues:
+  # Cảnh 2 - Toàn cảnh - Đối thoại Garba với NPC chính, Gilo
+    # Nút: start
+  GARBA_START_OPT1: "Nhìn này! Tôi đã lắp pin vào đèn pin rồi."
+  GARBA_START_ANS1: "Tuyệt thật! Tôi biết mà, cậu khéo tay lắm."
+
+  GARBA_START_OPT2: "Chào Garba, cậu làm gì ở đây?"
+  GARBA_START_ANS2: "Không làm gì cả, chỉ đứng ngắm thôi. Tôi muốn một cái đèn pin có pin."
+
+  GARBA_START_OPT3: "Cậu có thấy gì đáng ngờ không?"
+  GARBA_START_ANS3: "Chỉ thấy cậu chạy qua chạy lại."
+
+  GARBA_START_OPT4: "Để nói chuyện sau nhé."
+  GARBA_START_ANS4: "Ừ, hẹn gặp lại."
+
+    # Nút: quiero_una_linterna
+  GARBA_WANT_OPT1: "Sao cậu lại muốn một cái đèn pin có pin?"
+  GARBA_WANT_ANS1: "Để cậu có thể lấy hai món đồ và ghép chúng thành một."
+
+  GARBA_WANT_OPT2: "Tôi có một cái đèn pin, dùng được không?"
+  GARBA_WANT_ANS2: "Được chứ, đưa tôi là nó sẽ biến mất khỏi hành trang của cậu."
+
+  GARBA_WANT_OPT3: "Đổi chủ đề khác đi."
+  GARBA_WANT_ANS3: "Được, nói đi."
+
+    # Nút: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Đây, một cái đèn pin đang hoạt động."
+  GARBA_HAVE_ANS1: "Đúng rồi, thử dùng lệnh ĐƯA nó cho tôi xem."

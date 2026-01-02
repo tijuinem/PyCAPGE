@@ -1,0 +1,255 @@
+# ====================================================================================
+#  ÌTÚMỌ̀: SÍPÁNÌṢÌ (yb.yaml → Yorùbá)
+# ====================================================================================
+
+language_name: "Sípáníìsì"
+
+# ====================================================================================
+#  Ẹ̀SÌ ÌṢẸ́ - ÀPÓ àwọn Ọ̀rọ̀ ÌṢẸ́
+# ====================================================================================
+verbs:
+  WALK: "Lọ sí"        # <--- KÓKÓ NÍ ÀWỌN ỌRỌ̀ NLA (UPPERCASE KEY)
+  OPEN: "Ṣí"
+  CLOSE: "Dí"
+  PUSH: "Titari"
+  PULL: "Fa"
+  PICK UP: "Gba"
+  USE: "Lọ́"
+  TALK TO: "Sọ̀rọ̀ sí" # <--- KÓKÓ NÍ ÀWỌN ỌRỌ̀ NLA
+  GIVE: "Fún"
+  LOOK AT: "Wò"
+  WITH: "pẹlu"
+
+# ====================================================================================
+#  ÀKÓKỌ́ ÀKÓỌlẹ̀ - MẸ́NÙ TI F2 ṢÍ
+# ====================================================================================
+menus:
+  FILE_TITLE: "Fáìlì"
+  SAVE_CMD: "Fipamọ́"
+  LOAD_CMD: "Gbé wọlé"
+  HELP_TITLE: "Iranlọwọ"
+  NO_OPT: "Rárá"
+  GAME_HELP_OPT: "Iranlọwọ Ere"
+  DEBUG_OPT: "IPO ÌTÚNṢẸ̀ (DEBUG)"
+  SOUND_TITLE: "Ohùn"
+  YES_OPT: "Bẹ́ẹ̀ni"
+  CURSOR_TITLE: "Kúrsọ̀"
+  CURSOR_CLASSIC: "Klasiki"
+  CURSOR_MODERN: "Àtúnṣe Tuntun"
+  TEXT_TITLE: "Àwọn Ọ̀rọ̀"
+  VEL_LABEL: "Iyara >"
+  SIZE_LABEL: "Iwọn >"
+  # Àkójọ́ rọrùn
+  VEL_OPTS: ["DÉDÉ", "ÀÁRÍN", "YÁRÀ"]
+  SIZE_OPTS: ["KÉKÈ", "ÀÁRÍN", "NLA"]
+  LANG_TITLE: "Èdè"
+  CLOSE_CMD: "Dí"
+
+# ====================================================================================
+#  AKỌ́SẸ̀ - IBÈRẸ̀ (SCREEN TITLES)
+# ====================================================================================
+titles:
+  NEW_GAME: "ERE TITUN"
+  LOAD_GAME: "Gbé Ere Wọlé"
+  LANGUAGE: "ÈDÈ"
+  CREDITS: "ỌPẸ́"
+  EXIT: "Jade"  
+
+# ====================================================================================
+#  IRIṢẸ̀ SỌ́FÚN - ÌRỌ̀RỌ̀ SÍSẸ́
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Mi ò lè ṣe èyí."
+  CANNOT_REACH: "Mi ò lè dé ibẹ̀."
+  DOES_NOT_WORK: "Èyí kò ṣiṣẹ́."
+  MAKES_NO_SENSE: "Kò ní ìtumọ̀."
+  DEFAULT_LOOK: "Ó jẹ́ "
+  PICKED_UP: "Mo ti gba "
+  SENTENCE_TO: " sí "                                   # Fi ṣofo tí ó bá jẹ́ Sípáníìsì (Lọ sí + ibi)
+  SENTENCE_WITH: " PẸ̀LÚ "
+  PREP_WITH: " pẹ̀lú..."
+  VERB_WALK: "LỌ SÍ"                                 # Nínú ìtúmọ̀ a lè yan "LỌ SÍ" tàbí "LỌ" kí a sì fi gbolohun "sí" kun
+  SAVE_SUCCESS: "A ti fipamọ́ ere náà ní ṣọ́ọ̀ṣì."
+  SAVE_ERROR: "Àṣìṣe ní fífipamọ́ fáìlì."
+  LOAD_SUCCESS: "A ti gbe ere wọlé."
+  LOAD_CORRUPT: "Fáìlì ti bajẹ́."
+  MSG_SPEED: "Iyara: "
+  MSG_SIZE: "Iwọn: "
+  CRAFTING_DONE: "Mo ti darapọ̀ {0} pẹlu {1}."
+  CHAR_SWAP: "Bayi mo ń ṣàkóso {0}!"
+  CREDITS_TITLE: "ỌPẸ́"
+  DEBUG_TITLE: "KỌ̀NSỌLÙ ÌTÚNṢẸ̀ (Fa mi)"
+
+  #  eto fipamọ ní àṣà atijọ
+  SLOT_EMPTY: "--- Òfo ---"         # EN: "--- Empty ---" (Àtúnṣe: Òfo)
+  SLOT_UNKNOWN: "Aìmọ̀"             # EN: "Unknown"
+  SLOT_CORRUPT: "Fáìlì ti bajẹ́"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "Kò sí ere níbẹ̀."   # EN: "No save game here."
+  BTN_CANCEL: "Fàgbà"              # EN: "CANCEL"
+
+# ====================================================================================
+#  ORÚKỌ́ AWỌN IBẸ̀ (Fun debug, fipamọ́ ati maapu)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Opopona Aláfọ̀"
+  TOWN_HALL: "Ilé ìgbimọ̀ ìlú"
+  PANORAMIC: "Wiwo Gbogbogbo"
+  DARK_ROOM: "Yara tí kò ní ìmọ́lẹ̀"
+  PARALLAX: "Àpẹrẹ Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - ORÚKỌ́ AWỌN NÌSẸ̀ (Àkọlé tí ó han nígbà tí kúrsọ̀ bá kọjá)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Agogo"
+  HAMMER: "Amọ́r̀ì"  
+  
+  # Escena 2 - Ayuntamiento
+  WINDOW_OLD: "Ferese Atijọ́"
+  LANTERN_OLD: "Fitilá Atijọ́"
+  MACHINE_STRANGE: "Ẹ̀rọ Ajeji"
+  BONFIRE: "Ina Igbona"
+  
+   
+  # Escena 3 - Panoramica
+  STONE: "Okuta"
+  SHOVEL: "Ìbọn Ilẹ̀ (Pala Púpọ̀)"
+  TRASHCAN: "Agolo Idọ̀tí"
+  FLASHLIGHT_EMPTY: "Fitilá tí kò ní bátírì"
+  BATTERIES: "Bátírì fún Fitilá"
+  FLASHLIGHT_FULL: "Fitilá Tí ń Tan"
+  BIRD: "Ẹyẹ Nlá"
+  
+  # Escena 4
+  MAP: "Maapu Atijọ́"
+
+  # Escena 5
+  MARK_X: "Amọ̀ X lórí Ilẹ̀"
+
+  # Personajes (Àkọlé) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  AWỌN IBÈ: APEJUWE ATI IDÁHÚN (Wò, Gba, Titari...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "ÈYÍ NI ÀPẸ̀RẸ Ọ̀RỌ̀ FUN OLÚFẸ́"
+  BELL_HINT: "Lo àmórì níbí!"  # "¡Usa el martillo aquí!"
+  BELL_MAGIC_USE: "Ohùn náà ń lu pọ̀ pẹlu àṣẹ! "
+  BELL_LOOK: "Agogo ńlá gan-an ni."
+  BELL_OPEN: "Ó jẹ́ ti bàròńsì kíkún."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Tóbi gan ni."
+  HAMMER_LOOK: "Àmórì oníṣè ọ̀ṣọ́."
+  HAMMER_PICK: "O dára, mà a gbà a."
+  
+  # Escena 2
+  WINDOW_LOOK: "Ó jẹ́ ferese ìyàwó Mrs. Fletcher."
+  WINDOW_OPEN: "Ó di mọ́, ó ti ní ìkan nínú rẹ́ fún ọdún."
+  WINDOW_STONE: "Ó dára kí n má jẹ́wọ̀ ẹ̀sùn lónìí."
+  LANTERN_LOOK: "Fitilá kan tó jọ ti alágbèéká."
+  LANTERN_PICK: "Mo máa gbà á."  
+  MACHINE_LOOK: "Ó dàbí ẹrọ onírúurú."
+  MACHINE_USE: "Ó ṣiṣẹ́!"
+  MACHINE_PUSH: "Mo fún un ní ìfagilé díẹ̀..."
+  BONFIRE_LOOK: "Bí mo ṣe sún mọ́, mo máa pupa. Àtúnṣe awọ."
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Èyí jẹ́ àpẹẹrẹ iboju pẹ̀lú SÌKỌ́Ọ̀LÙ alapapọ̀"
+  TRASH_LOOK: "Ó kún fún idọ̀tí."
+  TRASH_OPEN: "¡Puaj! Ìrun tútù."
+  TRASH_CLOSE: "Ó dára kí ó pa mọ́."
+  NPC_GARBA_LOOK: "Kí ni o ń wo? Ṣe mo ní ejò lórí oju mi?"  # "¿Qué miras? ¿Tengo monos en la cara?"
+  GARBA_GIVE_FLASHLIGHT: "Ẹ̀rẹ́ Garba, gbà á fún ara rẹ."  
+  BIRD_LOOK: "Oh, wo, àwọn ẹyẹ!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Kò ní bátírì."
+  FLASHLIGHT_EMPTY_PICK: "Mo máa gbà á."
+  BATTERIES_LOOK: "Àwọn bátírì alkalini."
+  BATTERIES_PICK: "Mo kó wọ́ apò."
+  FLASHLIGHT_FULL_LOOK: "Báyìí ó ń tan gan-an."
+  FLASHLIGHT_FULL_USE: "Ó dára kí n lò ó ní ibì kan tí kò ní ìmọ́lẹ̀."
+  FLASHLIGHT_FULL_OPEN: "Kò tọ́ láti yọ bátírì rẹ̀ nísinsin yìí."
+  
+  SHOVEL_BART_PICK: "¡Humpf! Ó rún ìwọn, ṣùgbọ́n mo lè mu un."
+  SHOVEL_GILO_FAIL: "Ó wu mi gan-an. Mo nílò Bart."
+  SHOVEL_LOOK_BART: "Pala tó lagbara. Dára fún agbára mi."
+  SHOVEL_LOOK_GILO: "Ó ní irin tí ó lágà. Mo nílò Bart."
+  SHOVEL_USE: "Mi ò lè lò ó níbí."
+  SHOVEL_PUSH: "Ilẹ̀ rẹ̀ dùn gan."
+
+  NPC_BART_LOOK: "Ó jẹ́ ọ̀rẹ́ mi Bart. Ó dàbí ẹni tí ó lágbára."
+  NPC_BART_TALK: "Ẹ̀, Bart. Kí ló ṣẹlẹ̀?"
+  NPC_BART_PUSH: "Ẹ̀! Má ṣe titari!"
+  
+  NPC_GILO_LOOK: "Ìwọ náà Gilo, ń ronú ní ti tirẹ̀."
+  NPC_GILO_TALK: "Ọ̀gbẹ́ni Gilo ṣe o rí ohun kan?"
+  NPC_GILO_PUSH: "Ẹ̀! Ṣọra pẹ̀lú ọpọ̀rọ̀."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "Mi ò rí ohunkóhun! Mo nílò ìmọ́lẹ̀."
+  MAP_LOOK: "Maapu ìrìnàjò kan."
+  MAP_PICK: "Mo gbà a."
+  MAP_FAIL: "Mi ò lè lò ó níbẹ̀ bí ó ti wà. Kó dára kí n gba a kó tó."
+
+   # Escena 5
+  MARK_LOOK: "X ńlá tí a yà lórí ilẹ̀. Bíi maapu àwọn ọmọ olóko omi."
+  MARK_DIG_START: "Níbí ni nkan wà! Máa kó ilẹ̀..."
+  MARK_HIT_OBJ: "¡Crac! Mo kọlu nkan tí ó nira."
+  SCENE5_INTRO_MSG: "ÈYÍ NI IBOJU IPARÍ"
+  MARK_USE_FAIL: "Mo nílò nkan láti kó ilẹ̀."
+  MARK_PUSH_FAIL: "Ilẹ̀ rẹ̀ jẹ́ púpọ̀."
+
+# ====================================================================================
+#  AGBARÀ (Intro àti Ipari)
+# ====================================================================================
+cinematics:
+  # Escena . Ibẹrẹ
+  INTRO_1: "Ọdún 2001. Ilú naa dàbí ẹni pé ó ní ìbágbépọ̀..."
+  INTRO_2: "Ṣùgbọ́n ní ilé ìgbimọ̀ ìlú, ìkọ̀lù kan ń rọ."
+  INTRO_3: "Olùgbàjọ kan (tàbí méjì) ló lè dá a dúró."
+  
+  # Escena 2 . Ayuntamiento
+  AYUN_1: "Mo wà níbí ní ọdún 25 seyin..."
+  AYUN_2: "...kò sí ohun tí yípadà."
+  
+  # Escena . Ipari
+  ENDING_1: "Bẹ́ẹ̀ ni, lẹ́yìn tí a ṣàwárí ìkọ̀kọ̀..."
+  ENDING_2: "Ilú padà sí bí ó ti wà tẹ́lẹ̀."
+  THANKS: "Ẹ ṢE PÚPỌ̀ FUN ÌṢERẸ́"
+
+  # ====================================================================================
+#  ÌJÍNÍLẸ̀ ÌBÁṢỌ̀RỌ̀
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panoramica - Ìjíròrò Garba vs NPC àkọ́kọ́, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Wo! Mo ti lè fi bátírì sí fitilá."
+  GARBA_START_ANS1: "O dára! Mo mọ̀ pé o mọ́ iṣẹ́ ọwọ́."
+  
+  GARBA_START_OPT2: "Báwo ni Garba, kí lo ń ṣe níbí?"
+  GARBA_START_ANS2: "Kò sí ohun pàtàkì, mo ń wo asiko. Mo fẹ́ fitilá tí ó ní bátírì."
+  
+  GARBA_START_OPT3: "Ṣé o rí ohun ìyàlẹ́nu kankan?"
+  GARBA_START_ANS3: "Kò sí, àpẹẹrẹ ni ìwọ nikan ni mo rí tí ń sare kiri."
+  
+  GARBA_START_OPT4: "A ò ní sọ̀rọ̀ báyìí."
+  GARBA_START_ANS4: "Dájú, má a rí ọ lẹ́yìn."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Kí nìdí tí o fi fẹ́ fitilá tí ó ní bátírì?"
+  GARBA_WANT_ANS1: "Kí o lè mú àwọn nkan méjì jọ kí o sí darapọ̀ wọn sí ọkan."
+  
+  GARBA_WANT_OPT2: "Mo ní fitilá kan, ṣe ó wúlò?"
+  GARBA_WANT_ANS2: "Dájú, fún mi, ó ó parí kúrò ní àpò rẹ."
+  
+  GARBA_WANT_OPT3: "Ẹ jẹ́ kí a yí ọ̀rọ̀ padà."
+  GARBA_WANT_ANS3: "Ó dára, sọ fún mi."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Ẹ wò: fitilá tí ń ṣiṣẹ́ ni."
+  GARBA_HAVE_ANS1: "Bẹ́ẹ̀ni, gbìmọ̀ lo pẹ̀lú àṣẹ 'FÚN' lórí mi."

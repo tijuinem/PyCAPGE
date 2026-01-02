@@ -1,0 +1,254 @@
+# ====================================================================================
+#  TRADUCCIÓN: ESPAÑOL (es.yaml)
+# ====================================================================================
+
+language_name: "العربية المصرية"
+
+# ====================================================================================
+#  SISTEMA DE VERBOS - CAJA DE VERBOS
+# ====================================================================================
+verbs:
+  WALK: "روح لـ"        # ‎<--- المفتاح بالأحرف الكبيرة
+  OPEN: "افتح"
+  CLOSE: "اقفل"
+  PUSH: "ادفع"
+  PULL: "اسحب"
+  PICK UP: "اخد"
+  USE: "استخدم"
+  TALK TO: "كلم"        # ‎<--- المفتاح بالأحرف الكبيرة
+  GIVE: "ادّي"
+  LOOK AT: "بص على"
+  WITH: "مع"
+
+# ====================================================================================
+#  MENU PrINCICPAL - ACTIVO CON F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "الملف"
+  SAVE_CMD: "حفظ"
+  LOAD_CMD: "تحميل"
+  HELP_TITLE: "المساعدة"
+  NO_OPT: "لا"
+  GAME_HELP_OPT: "مساعدة اللعبة"
+  DEBUG_OPT: "وضع التصحيح"
+  SOUND_TITLE: "الصوت"
+  YES_OPT: "نعم"
+  CURSOR_TITLE: "المؤشر"
+  CURSOR_CLASSIC: "كلاسيكي"
+  CURSOR_MODERN: "حديث"
+  TEXT_TITLE: "النصوص"
+  VEL_LABEL: "السرعة >"
+  SIZE_LABEL: "الحجم >"
+  # ‎Listas simples
+  VEL_OPTS: ["بطيء", "متوسط", "سريع"]
+  SIZE_OPTS: ["صغير", "متوسط", "كبير"]
+  LANG_TITLE: "اللغة"
+  CLOSE_CMD: "إغلاق"
+
+# ====================================================================================
+#  TÍTULOS - PANTALLA DE INICIO
+# ====================================================================================
+titles:
+  NEW_GAME: "لعبة جديدة"
+  LOAD_GAME: "تحميل لعبة"
+  LANGUAGE: "اللغة"
+  CREDITS: "الاعتمادات"
+  EXIT: "خروج"
+
+# ====================================================================================
+#  MENSAJES DEL SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "مش قادر أعمل كده."
+  CANNOT_REACH: "مش قادر أوصل هناك."
+  DOES_NOT_WORK: "ده مش شغال."
+  MAKES_NO_SENSE: "ده مالوش معنى."
+  DEFAULT_LOOK: "هو "
+  PICKED_UP: "خدت "
+  SENTENCE_TO: " لـ "                                   # ‎اتركها فاضية لو اللغة بتستخدم تركيب مختلف
+  SENTENCE_WITH: " مع "
+  PREP_WITH: " مع..."
+  VERB_WALK: "روح لـ"                                 # ‎ممكن تكون روح أو امشي حسب التركيب
+  SAVE_SUCCESS: "تم حفظ اللعبة بنجاح."
+  SAVE_ERROR: "حصل خطأ أثناء حفظ الملف."
+  LOAD_SUCCESS: "تم تحميل اللعبة."
+  LOAD_CORRUPT: "الملف تالف."
+  MSG_SPEED: "السرعة: "
+  MSG_SIZE: "الحجم: "
+  CRAFTING_DONE: "جمّعت {0} مع {1}."
+  CHAR_SWAP: "دلوقتي بتتحكم في {0}!"
+  CREDITS_TITLE: "الاعتمادات"
+  DEBUG_TITLE: "كونسول التصحيح (اسحبني)"
+
+  # ‎نظام الحفظ الكلاسيكي
+  SLOT_EMPTY: "--- فاضي ---"         # ‎EN: "--- Empty ---"
+  SLOT_UNKNOWN: "غير معروف"         # ‎EN: "Unknown"
+  SLOT_CORRUPT: "ملف تالف"           # ‎EN: "Corrupt File"
+  MSG_NO_SAVE: "مافيش لعبة محفوظة هنا."  # ‎EN: "No save game here."
+  BTN_CANCEL: "إلغاء"                # ‎EN: "CANCEL"
+
+# ====================================================================================
+#  NOMBRES DE ESCENAS (Para debug, saves y mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "شارع السلام"
+  TOWN_HALL: "مبنى البلدية"
+  PANORAMIC: "بانوراما"
+  DARK_ROOM: "مشهد من غير نور"
+  PARALLAX: "عرض Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NOMBRES DE OBJETOS (Labels que aparecen al pasar el ratón)
+# ====================================================================================
+items:
+  # ‎المشهد 1
+  BELL: "جرس"
+  HAMMER: "مطرقة"
+
+  # ‎المشهد 2 - البلدية
+  WINDOW_OLD: "شباك قديم"
+  LANTERN_OLD: "فانوس قديم"
+  MACHINE_STRANGE: "ماكينة غريبة"
+  BONFIRE: "نار مشتعلة"
+
+  # ‎المشهد 3 - بانوراما
+  STONE: "حجر"
+  SHOVEL: "جاروف تقيل"
+  TRASHCAN: "سلة زبالة"
+  FLASHLIGHT_EMPTY: "كشاف من غير بطاريات"
+  BATTERIES: "بطاريات للكشاف"
+  FLASHLIGHT_FULL: "كشاف شغال"
+  BIRD: "طير كبير"
+
+  # ‎المشهد 4
+  MAP: "خريطة قديمة"
+
+  # ‎المشهد 5
+  MARK_X: "علامة على الأرض"
+
+  # ‎الشخصيات (NPCs)
+  NPC_GARBA: "Garba"
+  NPC_BART: "Bart"
+  NPC_GILO: "Gilo"
+
+# ====================================================================================
+#  ESCENAS : DESCRIPCIONES Y REACCIONES (Look At, Pick Up, Push...)
+# ====================================================================================
+descriptions:
+  # ‎المشهد 1
+  SCENE1_INTRO_MSG: "ده نص تجريبي للمستخدم"
+  BELL_HINT: "استخدم المطرقة هنا!"
+  BELL_MAGIC_USE: "الصوت بيرن مرتين مع السحر!"
+  BELL_LOOK: "ده جرس كبير فعلًا."
+  BELL_OPEN: "مصنوع من برونز صلب."
+  BELL_PUSH: "دينج!"
+  BELL_PULL: "دوووونج! صوت تقيل."
+  HAMMER_LOOK: "مطرقة نجّار."
+  HAMMER_PICK: "تمام، هاخدها."
+
+  # ‎المشهد 2
+  WINDOW_LOOK: "ده شباك الست فليتشر."
+  WINDOW_OPEN: "مقفول ومتدهون من سنين."
+  WINDOW_STONE: "الأحسن ما أكسرش حاجة النهارده."
+  LANTERN_LOOK: "فانوس رخيص."
+  LANTERN_PICK: "هاخده."
+  MACHINE_LOOK: "شكلها ماكينة معقّدة."
+  MACHINE_USE: "اشتغلت!"
+  MACHINE_PUSH: "دفشة صغيرة..."
+  BONFIRE_LOOK: "لو قربت أكتر هتحرق."
+
+  # ‎المشهد 3
+  SCENE3_INTRO_MSG: "مثال لشاشة بتمرير أفقي"
+  TRASH_LOOK: "مليانة زبالة."
+  TRASH_OPEN: "ريحته وحشة!"
+  TRASH_CLOSE: "أقفلها أحسن."
+  NPC_GARBA_LOOK: "بتبص على إيه؟"
+  GARBA_GIVE_FLASHLIGHT: "خد يا Garba."
+  BIRD_LOOK: "بص الطيور!"
+
+  FLASHLIGHT_EMPTY_LOOK: "مفيش بطاريات."
+  FLASHLIGHT_EMPTY_PICK: "هاخده."
+  BATTERIES_LOOK: "بطاريات قلوية."
+  BATTERIES_PICK: "تمام."
+  FLASHLIGHT_FULL_LOOK: "بينور كويس."
+  FLASHLIGHT_FULL_USE: "ينفع في مكان مضلم."
+  FLASHLIGHT_FULL_OPEN: "مش هفك البطاريات."
+
+  SHOVEL_BART_PICK: "تقيل بس أقدر عليه."
+  SHOVEL_GILO_FAIL: "تقيل قوي."
+  SHOVEL_LOOK_BART: "جاروف متين."
+  SHOVEL_LOOK_GILO: "محتاج Bart."
+  SHOVEL_USE: "مش هنا."
+  SHOVEL_PUSH: "ثابت."
+
+  NPC_BART_LOOK: "Bart شكله قوي."
+  NPC_BART_TALK: "إزيك يا Bart؟"
+  NPC_BART_PUSH: "إيه ده!"
+
+  NPC_GILO_LOOK: "Gilo سرحان."
+  NPC_GILO_TALK: "لقيت حاجة؟"
+  NPC_GILO_PUSH: "خد بالك!"
+
+  # ‎المشهد 4
+  DARK_ROOM_ENTER: "مش شايف حاجة."
+  MAP_LOOK: "خريطة سياحية."
+  MAP_PICK: "هاخدها."
+  MAP_FAIL: "لازم آخدها الأول."
+
+  # ‎المشهد 5
+  MARK_LOOK: "علامة X كبيرة."
+  MARK_DIG_START: "في حاجة هنا..."
+  MARK_HIT_OBJ: "خبطت في حاجة."
+  SCENE5_INTRO_MSG: "دي الشاشة الأخيرة"
+  MARK_USE_FAIL: "محتاج أداة."
+  MARK_PUSH_FAIL: "الأرض ناشفة."
+
+# ====================================================================================
+#  CINEMÁTICAS (Intro y Final)
+# ====================================================================================
+cinematics:
+  # ‎مشهد البداية
+  INTRO_1: "سنة 2001. المدينة كانت هادية..."
+  INTRO_2: "بس في البلدية كان في سر."
+  INTRO_3: "بس أبطال يقدروا يوقفوه."
+
+  # ‎مشهد البلدية
+  AYUN_1: "كنت هنا من 25 سنة..."
+  AYUN_2: "ولا حاجة اتغيرت."
+
+  # ‎مشهد النهاية
+  ENDING_1: "بعد ما السر اتكشف..."
+  ENDING_2: "المدينة رجعت طبيعية."
+  THANKS: "شكرًا للعبك"
+
+# ====================================================================================
+#  DIÁLOGOS
+# ====================================================================================
+dialogues:
+  # ‎مشهد 2 - بانوراما - حوار Garba
+    # ‎العقدة: start
+  GARBA_START_OPT1: "ركبت بطاريات للكشاف."
+  GARBA_START_ANS1: "عاش!"
+
+  GARBA_START_OPT2: "بتعمل إيه هنا؟"
+  GARBA_START_ANS2: "بقتل الوقت."
+
+  GARBA_START_OPT3: "شفت حاجة؟"
+  GARBA_START_ANS3: "غيرك."
+
+  GARBA_START_OPT4: "نتكلم بعدين."
+  GARBA_START_ANS4: "ماشي."
+
+    # ‎العقدة: quiero_una_linterna
+  GARBA_WANT_OPT1: "ليه محتاج كشاف؟"
+  GARBA_WANT_ANS1: "عشان تدمج حاجتين."
+
+  GARBA_WANT_OPT2: "عندي كشاف."
+  GARBA_WANT_ANS2: "إدّهولي."
+
+  GARBA_WANT_OPT3: "نغير الموضوع."
+  GARBA_WANT_ANS3: "تمام."
+
+    # ‎العقدة: tengo_la_linterna
+  GARBA_HAVE_OPT1: "اتفضل."
+  GARBA_HAVE_ANS1: "استخدم أمر ادّي."

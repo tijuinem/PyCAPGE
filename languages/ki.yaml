@@ -1,0 +1,254 @@
+# ====================================================================================
+#  TAFSIRI: KIHISPANIA (ki.yaml)
+# ====================================================================================
+language_name: "Kiswahili"
+
+# ====================================================================================
+#  MFUMO WA VIBWENI - SANDUKU LA VIBWENI
+# ====================================================================================
+verbs:
+  WALK: "ENDA KWA"        # <--- UFUNGULO KATIKA HERUFI KUBWA
+  OPEN: "FUNGUA"
+  CLOSE: "FUNGA"
+  PUSH: "SUKUMA"
+  PULL: "VUTA"
+  PICK UP: "CHUKUA"
+  USE: "TUMIA"
+  TALK TO: "ZUNGUMZA NA"  # <--- UFUNGULO KATIKA HERUFI KUBWA
+  GIVE: "TOA"
+  LOOK AT: "TAZAMA"
+  WITH: "na"
+
+# ====================================================================================
+#  MENYU KUU - INAFUNGULIWA NA F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FAILI"
+  SAVE_CMD: "HIFADHI"
+  LOAD_CMD: "PAKIA"
+  HELP_TITLE: "USAIDIAJI"
+  NO_OPT: "HAPANA"
+  GAME_HELP_OPT: "USAIDIZI WA MCHEZO"
+  DEBUG_OPT: "MODE YA DEBUG"
+  SOUND_TITLE: "SAUTI"
+  YES_OPT: "NDIO"
+  CURSOR_TITLE: "KURSOR"
+  CURSOR_CLASSIC: "KLASIKI"
+  CURSOR_MODERN: "MZAMANI"
+  TEXT_TITLE: "MAANDISHI"
+  VEL_LABEL: "MWENDO >"
+  SIZE_LABEL: "UKUBWA >"
+  # Orodha rahisi
+  VEL_OPTS: ["POA", "KATI", "HARAKA"]
+  SIZE_OPTS: ["NDOGO", "KATI", "KUBWA"]
+  LANG_TITLE: "LUGHA"
+  CLOSE_CMD: "FUNGA"
+
+# ====================================================================================
+#  VICHWA - SKREENI YA MWANZO
+# ====================================================================================
+titles:
+  NEW_GAME: "Mchezo Mpya"
+  LOAD_GAME: "Pakia Mchezo"
+  LANGUAGE: "Lugha"
+  CREDITS: "Mikopo"
+  EXIT: "Toka"
+
+# ====================================================================================
+#  UJUMBE WA MFUMO
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Siwezi kufanya hivyo."
+  CANNOT_REACH: "Siwezi kufika hapo."
+  DOES_NOT_WORK: "Hiyo haifanyi kazi."
+  MAKES_NO_SENSE: "Haina maana."
+  DEFAULT_LOOK: "Ni "
+  PICKED_UP: "Nimechukua "
+  SENTENCE_TO: " kwa "                                   # Acha tupu ikiwa lugha inatumia muundo tofauti (Nenda kwa + njia)
+  SENTENCE_WITH: " na "
+  PREP_WITH: " na..."
+  VERB_WALK: "ENDA KWA"                                 # Katika tafsiri tunaweza kuchagua "ENDA KWA" au "ENDA" kisha kuongeza kiunganisho "kwa"
+  SAVE_SUCCESS: "Mchezo umehifadhiwa kwa mafanikio."
+  SAVE_ERROR: "Hitilafu wakati wa kuhifadhi faili."
+  LOAD_SUCCESS: "Mchezo umepakiwa."
+  LOAD_CORRUPT: "Faili imeharibika."
+  MSG_SPEED: "Mwendo: "
+  MSG_SIZE: "Ukubwa: "
+  CRAFTING_DONE: "Umeunganishia {0} na {1}."
+  CHAR_SWAP: "Sasa unadhibiti {0}!"
+  CREDITS_TITLE: "Mikopo"
+  DEBUG_TITLE: "KONSOLI YA DEBUG (Nichezeshe)"
+
+  #  mfumo wa kuhifadhi wa kifahari
+  SLOT_EMPTY: "--- Tupu ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Haijulikani"       # EN: "Unknown"
+  SLOT_CORRUPT: "Faili Imeharibika"  # EN: "Corrupt File"
+  MSG_NO_SAVE: "Hakuna mchezo ulihifadhiwa hapa."  # EN: "No save game here."
+  BTN_CANCEL: "GHARIMU"              # EN: "CANCEL"
+
+# ====================================================================================
+#  MAJINA YA MANDHARI (Kwa debug, save na ramani)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida ya Amani"
+  TOWN_HALL: "Jumba la Halmashauri"
+  PANORAMIC: "Panorama"
+  DARK_ROOM: "Sehemu Bila Nuru"
+  PARALLAX: "Onyesho la Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - MAJINA YA VITU (Leibeli zinazoonekana wakati wa kuvinjari)
+# ====================================================================================
+items:
+  # Sehemu 1
+  BELL: "Kengele"
+  HAMMER: "Nyundo"  
+  
+  # Sehemu 2 - Jumba la Halmashauri
+  WINDOW_OLD: "Dirisha la Kale"
+  LANTERN_OLD: "Taa ya Kale"
+  MACHINE_STRANGE: "Mashine Ya Ajabu"
+  BONFIRE: "Moto wa Kambi"
+  
+   
+  # Sehemu 3 - Panorama
+  STONE: "Jiwe"
+  SHOVEL: "Shoveli Nzito"
+  TRASHCAN: "Bini la Taka"
+  FLASHLIGHT_EMPTY: "Taa Bila Betri"
+  BATTERIES: "Betri za Taa"
+  FLASHLIGHT_FULL: "Taa Inayofanya Kazi"
+  BIRD: "Ndege Mkubwa"
+  
+  # Sehemu 4
+  MAP: "Ramani Ya Kale"
+
+  # Sehemu 5
+  MARK_X: "Alama X Kwenye Ardhi"
+
+  # Wahusika (Leibeli) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  MANDHARI : MAELEZO NA MWITIKIO (Tazama, Chukua, Sukuma...)
+# ====================================================================================
+descriptions:
+  # Sehemu 1
+  SCENE1_INTRO_MSG: "HII NI NUSU YA MAANDISHI YA ONGEA KWA MTUMIAJI"
+  BELL_HINT: "Tumia nyundo hapa!"
+  BELL_MAGIC_USE: "Sauti inatamba mara mbili kwa uchawi!"
+  BELL_LOOK: "Ni kengele kubwa sana."
+  BELL_OPEN: "Imetengenezwa kwa shaba imara."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Doooooong! Punda wa kengele ni mkubwa."
+  HAMMER_LOOK: "Nyundo ya mfundi."
+  HAMMER_PICK: "Sawa, nitachukua."
+
+  # Sehemu 2
+  WINDOW_LOOK: "Hiyo ni dirisha la Bi. Fletcher."
+  WINDOW_OPEN: "Imekwama, imepakwa rangi kwa miaka."
+  WINDOW_STONE: "Ni bora nisivunjike kitu leo."
+  LANTERN_LOOK: "Taa ya bei nafuu."
+  LANTERN_PICK: "Nitachukua."  
+  MACHINE_LOOK: "Inaonekana mashine tata."
+  MACHINE_USE: "Inafanya kazi!"
+  MACHINE_PUSH: "Ninaipeleka msukumo mdogo..."
+  BONFIRE_LOOK: "Uso wangu unakuwa mwekundu nikikaribia sana. Rangi za palette zinabadilika."  
+  
+  # Sehemu 3
+  SCENE3_INTRO_MSG: "Hii ni mfano wa skrini yenye kuteleza wima (horizontal scroll)"
+  TRASH_LOOK: "Imejaa takataka."
+  TRASH_OPEN: "Ugh! Harufu mbaya."
+  TRASH_CLOSE: "Bora ifungwe."
+  NPC_GARBA_LOOK: "Unaangalia nini? Nina tumbili uso wangu?"
+  GARBA_GIVE_FLASHLIGHT: "Chukua Garba, ikatekee."  
+  BIRD_LOOK: "Oooh, angalia ndege!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Hakuna betri ndani."
+  FLASHLIGHT_EMPTY_PICK: "Nitachukua."
+  BATTERIES_LOOK: "Betri za alkaline."
+  BATTERIES_PICK: "Nitachukua."
+  FLASHLIGHT_FULL_LOOK: "Sasa inawaka kwa nguvu."
+  FLASHLIGHT_FULL_USE: "Ninatumia mahali penye giza."
+  FLASHLIGHT_FULL_OPEN: "Siwezi kutoa betri sasa."
+
+  SHOVEL_BART_PICK: "Hmph! Inabeba uzito, lakini ninaweza kushughulikia."
+  SHOVEL_GILO_FAIL: "Ni nzito sana. Nahitaji Bart."
+  SHOVEL_LOOK_BART: "Shoveli imara. Inafaa kwa misuli yangu."
+  SHOVEL_LOOK_GILO: "Imetengenezwa kwa chuma imara. Nahitaji Bart."
+  SHOVEL_USE: "Siwezi kuitumia hapa."
+  SHOVEL_PUSH: "Imefungwa kabisa."
+
+  NPC_BART_LOOK: "Huyo ni rafiki yangu Bart. Anaonekana mwenye nguvu."
+  NPC_BART_TALK: "Hey, Bart. Nini kinatokea?"
+  NPC_BART_PUSH: "Hey! Usinisukume!"
+  
+  NPC_GILO_LOOK: "Hapo ni Gilo, akitafakari vitu vyake."
+  NPC_GILO_TALK: "Bwana Gilo, umepata kitu?"
+  NPC_GILO_PUSH: "Hey! Angalia fimbo."
+
+  # Sehemu 4
+  DARK_ROOM_ENTER: "Siwezi kuona chochote! Nahitaji mwanga."
+  MAP_LOOK: "Ramani ya watalii."
+  MAP_PICK: "Nitachukua."
+  MAP_FAIL: "Siwezi kuitumia ikitupwa hapo. Ni bora nikichukue kwanza."
+
+   # Sehemu 5
+  MARK_LOOK: "X kubwa imechorwa ardhini. Kama kwenye ramani za maharamia."
+  MARK_DIG_START: "Kuna kitu hapa! Nitaanza kuchimba..."
+  MARK_HIT_OBJ: "Crac! Nimegonga kitu imara."
+  SCENE5_INTRO_MSG: "HII NI SKRENI YA MWISHO"
+  MARK_USE_FAIL: "Nahitajia kitu cha kuchimba."
+  MARK_PUSH_FAIL: "Ardhi iko ngumu mno."
+
+# ====================================================================================
+#  CINEMATICS (Utangulizi na Mwisho)
+# ====================================================================================
+cinematics:
+  # Sehemu . Utangulizi
+  INTRO_1: "Mwaka 2001. Mji ulionekana mtulivu..."
+  INTRO_2: "Lakini kilikuwa kipo kitu jeusi kinachopangwa ndani ya Jumba la Halmashauri."
+  INTRO_3: "Ni shujaa mmoja (au wawili) pekee walioweza kuzuia."
+  
+  # Sehemu 2 . Jumba la Halmashauri
+  AYUN_1: "Nilikuwa hapa miaka 25 iliyopita..."
+  AYUN_2: "...hakuna kilichobadilika."
+  
+  # Sehemu . Mwisho
+  ENDING_1: "Na hivyo, baada ya kufunua siri..."
+  ENDING_2: "Mji ulirudi katika hali ya kawaida."
+  THANKS: "ASANTE KWA KUCHEZA"
+
+  # ====================================================================================
+#  DIALOGUES
+# ====================================================================================
+dialogues:
+  # Sehemu 2 - Panorama - Mazungumzo Garba vs NPC Mkuu, Gilo
+    # Nod: start
+  GARBA_START_OPT1: "Tazama! Nimeweza kuweka betri kwenye taa."
+  GARBA_START_ANS1: "Nzuri! Nilijua uko mjuzi."
+  
+  GARBA_START_OPT2: "Hujambo Garba, unafanya nini hapa?"
+  GARBA_START_ANS2: "Hakuna, nacheza wakati. Nataka taa yenye betri."
+  
+  GARBA_START_OPT3: "Umekiona kitu cha kutatanisha?"
+  GARBA_START_ANS3: "Ni wewe tu ukikimbia hapa na pale."
+  
+  GARBA_START_OPT4: "Tutaongea baadaye."
+  GARBA_START_ANS4: "Sawa, kwa heri."
+  
+    # Nod: quiero_una_linterna
+  GARBA_WANT_OPT1: "Kwa nini unataka taa yenye betri?"
+  GARBA_WANT_ANS1: "Ili uchukue vitu viwili na kuviunganisha kuwa kimoja."
+  
+  GARBA_WANT_OPT2: "Nina taa, itatosha?"
+  GARBA_WANT_ANS2: "Ndiyo, nitoe na itaondoka kwenye mfuko wako."
+  
+  GARBA_WANT_OPT3: "Tubahushe mada nyingine."
+  GARBA_WANT_ANS3: "Sawa, nikuulize."
+
+    # Nod: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Hapa unayo: taa inayofanya kazi."
+  GARBA_HAVE_ANS1: "Ndiyo, jaribu kutumia amri 'PA' juu yake."

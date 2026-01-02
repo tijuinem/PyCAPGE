@@ -1,0 +1,255 @@
+# ====================================================================================
+#  ITZULPENA: EUSKARA (eu.yaml)
+# ====================================================================================
+
+language_name: "Euskara"
+
+# ====================================================================================
+#  ADITZEN SISTEMA - ADITZ KUTXA
+# ====================================================================================
+verbs:
+  WALK: "JOAN"        # <--- MAIUSKULAZKO GAKOA
+  OPEN: "IREKI"
+  CLOSE: "ITXI"
+  PUSH: "BULTZATU"
+  PULL: "TIRATU"
+  PICK UP: "JASO"
+  USE: "ERABIL"
+  TALK TO: "HITZ EGIN" # <--- MAIUSKULAZKO GAKOA
+  GIVE: "EMAN"
+  LOOK AT: "BEHATU"
+  WITH: "rekin"
+
+# ====================================================================================
+#  MENUA NAGUSIA - F2REKIN AKTIBOA
+# ====================================================================================
+menus:
+  FILE_TITLE: "FITXATEGIA"
+  SAVE_CMD: "GORDE"
+  LOAD_CMD: "KARGATU"
+  HELP_TITLE: "LAGUNTZA"
+  NO_OPT: "EZ"
+  GAME_HELP_OPT: "JOKO LAGUNTZA"
+  DEBUG_OPT: "DEBUG MODUA"
+  SOUND_TITLE: "SOINU"
+  YES_OPT: "BAI"
+  CURSOR_TITLE: "KURTSOREA"
+  CURSOR_CLASSIC: "KLASIKOA"
+  CURSOR_MODERN: "MODERNOA"
+  TEXT_TITLE: "TESTUAK"
+  VEL_LABEL: "ABIA >"
+  SIZE_LABEL: "TAMAINA >"
+  # Zerrenda soilak
+  VEL_OPTS: ["POLIKI", "ERDI", "AZKAR"]
+  SIZE_OPTS: ["TXIKIA", "ERDI", "HANDIA"]
+  LANG_TITLE: "HIZKUNTZA"
+  CLOSE_CMD: "ITXI"
+
+# ====================================================================================
+#  TITULUAK - HASIERAKO PANTAILA
+# ====================================================================================
+titles:
+  NEW_GAME: "PARTIDA BERRIA"
+  LOAD_GAME: "PARTIDA KARGATU"
+  LANGUAGE: "HIZKUNTZA"
+  CREDITS: "KREDITUAK"
+  EXIT: "IRTETSI"  
+
+# ====================================================================================
+#  SISTEMA MEZUAK
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Ezin dut hori egin."
+  CANNOT_REACH: "Ezin naiz han iritsi."
+  DOES_NOT_WORK: "Hori ez dabil."
+  MAKES_NO_SENSE: "Ez du zentzurik."
+  DEFAULT_LOOK: "Da "
+  PICKED_UP: "Jaso dut "
+  SENTENCE_TO: " ra "                                   # Hutsik utzi euskaraz ez badago egokia (Joan + helmuga)
+  SENTENCE_WITH: " REKIN "
+  PREP_WITH: "rekin..."
+  VERB_WALK: "JOAN"                                 # Itzulpenan "JOAN" edo "JOAN -ra" aukeratu daiteke eta ondoren esaldia gehitu
+  SAVE_SUCCESS: "Partida ondo gorde da."
+  SAVE_ERROR: "Fitxategia gordetzean errorea."
+  LOAD_SUCCESS: "Partida kargatuta."
+  LOAD_CORRUPT: "Fitxategi korruptua."
+  MSG_SPEED: "Abiadura: "
+  MSG_SIZE: "Tamaina: "
+  CRAFTING_DONE: "{0} eta {1} elkartu ditut."
+  CHAR_SWAP: "Orain {0} n kontrolatzen dut!"
+  CREDITS_TITLE: "KREDITUAK"
+  DEBUG_TITLE: "DEBUG KONSOLA (Arrastatu niri)"
+
+  #  klasiko estiloeko gordetze sistema
+  SLOT_EMPTY: "--- Hutsik ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Ezezaguna"            # EN: "Unknown"
+  SLOT_CORRUPT: "Fitxategi Korruptua" # EN: "Corrupt File"
+  MSG_NO_SAVE: "Ez dago partida hemen."# EN: "No save game here."
+  BTN_CANCEL: "UTZI"                   # EN: "CANCEL"
+
+# ====================================================================================
+#  ESZENEEN IZENAK (Debug, save eta maparako)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Bakearen Bulebarra"
+  TOWN_HALL: "Udala"
+  PANORAMIC: "Panoramika"
+  DARK_ROOM: "Argirik gabeko eszena"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - OBJECTUEN IZENAK (Laburpenak arrastatzean agertzen diren etiketak)
+# ====================================================================================
+items:
+  # Eszena 1
+  BELL: "Kanpai"
+  HAMMER: "Mailu"  
+  
+  # Eszena 2 - Udala
+  WINDOW_OLD: "Leiho zaharra"
+  LANTERN_OLD: "Farola zaharra"
+  MACHINE_STRANGE: "Makinatxo bitxia"
+  BONFIRE: "Sua"
+  
+   
+  # Eszena 3 - Panoramika
+  STONE: "Harria"
+  SHOVEL: "Pala astuna"
+  TRASHCAN: "Zaborrontzia"
+  FLASHLIGHT_EMPTY: "Pilarik gabeko torxa"
+  BATTERIES: "Torxarako pilak"
+  FLASHLIGHT_FULL: "Piztutako torxa"
+  BIRD: "Txori erraldoia"
+  
+  # Eszena 4
+  MAP: "Mapa zaharra"
+
+  # Eszena 5
+  MARK_X: "Lurreko marka"
+
+  # Pertsonaiak (Etiketak) NPCak
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  ESZENAK : DESKRIPZIOAK ETA ERREAKZIOAK (Begiratu, Jaso, Bultza...)
+# ====================================================================================
+descriptions:
+  # Eszena 1
+  SCENE1_INTRO_MSG: "HAU ERABILTZAILEENTZAKO DEMO TESTUA DA"
+  BELL_HINT: "Erabili hemen mailua!"
+  BELL_MAGIC_USE: "Soinua magiarekin bikoizten da!"
+  BELL_LOOK: "Benetan handia den kanpai bat da."
+  BELL_OPEN: "Brontzezkoa da."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Nola bada horrelako garganta."
+  HAMMER_LOOK: "Egongintzako mailua."
+  HAMMER_PICK: "Ondo, eramango dut."
+  
+  # Eszena 2
+  WINDOW_LOOK: "Fletcher andrearen leihoa da."
+  WINDOW_OPEN: "Itsututa dago, urtetan margotuta egon da."
+  WINDOW_STONE: "Hobeto ez dut gaur ezer apurtzen."
+  LANTERN_LOOK: "Aliexpress-eko farola bat."
+  LANTERN_PICK: "Eramango dut."  
+  MACHINE_LOOK: "Mecanismo konplexu bat dirudi."
+  MACHINE_USE: "Funtzionatzen du!"
+  MACHINE_PUSH: "Apur bat bultzatzen diot..."
+  BONFIRE_LOOK: "Uki egiten badut gorritu egiten naiz. Paleta aldatu."
+  
+  # Eszena 3
+  SCENE3_INTRO_MSG: "Hau SCROLL horizontaldun pantailaren adibidea da"
+  TRASH_LOOK: "Hondakinz beteta dago."
+  TRASH_OPEN: "Iiiii! Ze usaina."
+  TRASH_CLOSE: "Hobe itxita."
+  NPC_GARBA_LOOK: "Zer begiratzen duzu? Mankomunekoak ditut aurpegian?"
+  GARBA_GIVE_FLASHLIGHT: "Hartu Garba, gelditu ezazu zuk."
+  BIRD_LOOK: "Oho, begira txoriak!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Pilak gabe dago."
+  FLASHLIGHT_EMPTY_PICK: "Eramango dut."
+  BATTERIES_LOOK: "Alkalinoak diren pilak."
+  BATTERIES_PICK: "Poltsikora."
+  FLASHLIGHT_FULL_LOOK: "Orain bai, indartsu distiratzen du."
+  FLASHLIGHT_FULL_USE: "Hobe leku ilun batean erabili."
+  FLASHLIGHT_FULL_OPEN: "Hobe ez dit pilak atera orain."
+  
+  SHOVEL_BART_PICK: "¡Humpf! Pesa asko, baina nik ahal dut."
+  SHOVEL_GILO_FAIL: "Oso astuna da. Bart behar dut."
+  SHOVEL_LOOK_BART: "Pala sendoa. Nire muskuluentzat aproposa."
+  SHOVEL_LOOK_GILO: "Burdin macizoz egin da. Bart behar dut."
+  SHOVEL_USE: "Hemen ezin dut erabili."
+  SHOVEL_PUSH: "Oso lotuta dago."
+
+  NPC_BART_LOOK: "Nire lagun Bart da. Indartsua dirudi."
+  NPC_BART_TALK: "Eh, Bart. Zer moduz?"
+  NPC_BART_PUSH: "¡Eh! Ez tira!"
+  
+  NPC_GILO_LOOK: "Hori Gilo da, bere pentsamenduetan."
+  NPC_GILO_TALK: "Gilo jaun, ezer aurkitu duzu?"
+  NPC_GILO_PUSH: "¡Ei! Kontuz jarrarekin."
+
+  # Eszena 4
+  DARK_ROOM_ENTER: "Ez dut ezer ikusten! Argia behar dut."
+  MAP_LOOK: "Turismo mapa bat."
+  MAP_PICK: "Eramango dut."
+  MAP_FAIL: "Hori lurrean dagoen bitartean ezin dut erabili. Hobe lehenago jasotzea."
+
+   # Eszena 5
+  MARK_LOOK: "Lurrean pintatutako X erraldoi bat. Piraten mapetan bezala."
+  MARK_DIG_START: "Hemen zerbait dago! Zulatzen hasiko naiz..."
+  MARK_HIT_OBJ: "¡Krac! Zerbait gogorra ukitu dut."
+  SCENE5_INTRO_MSG: "HAU DA AZKEN PANTAILA"
+  MARK_USE_FAIL: "Zulatzeko ezer behar dut."
+  MARK_PUSH_FAIL: "Lurra oso gogorra dago."
+
+# ====================================================================================
+#  ZINEMATOGRAFIAK (Sarrera eta Amaiera)
+# ====================================================================================
+cinematics:
+  # Eszena . Hasiera
+  INTRO_1: "2001. Urtea. Hiria lasaia zirudien..."
+  INTRO_2: "Baina Udaletxean zerbait ilun prestatzen ari zen."
+  INTRO_3: "Heroe bat (edo bi) bakarrik gelditu zitezkeen hori geldiarazteko."
+  
+  # Eszena 2 . Udala
+  AYUN_1: "Hemengoa nintzen 25 urte lehenago..."
+  AYUN_2: "...ezer ez da aldatu."
+  
+  # Eszena . Amaiera
+  ENDING_1: "Eta horrela, sekretua lurraz ahaztu ondoren..."
+  ENDING_2: "Hiria normaltasunera itzuli zen."
+  THANKS: "MILA ESKER JOKATZEAGATIK"
+
+  # ====================================================================================
+#  DIALOGOAK
+# ====================================================================================
+dialogues:
+  # Eszena 2 - Panoramika - Garba vs Nagusia, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Begira! Torxari pilak jartzea lortu dut."
+  GARBA_START_ANS1: "Zorionak! Eskulan ona zarela jakin nuen."
+  
+  GARBA_START_OPT2: "Kaixo Garba, zer egiten duzu hemen?"
+  GARBA_START_ANS2: "Ezer berezirik, denbora ikusten. Piladun torxa nahi dut."
+  
+  GARBA_START_OPT3: "Zerbait susmagarririk ikusi duzu?"
+  GARBA_START_ANS3: "Zu besterik ez, alde batetik bestera korrika."
+  
+  GARBA_START_OPT4: "Gero hitz egingo dugu."
+  GARBA_START_ANS4: "Ondo, geroko arte."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Zergatik nahi duzu piladun torxa bat?"
+  GARBA_WANT_ANS1: "Bi objektu hartu eta bat bakarrean batu ahal izateko."
+  
+  GARBA_WANT_OPT2: "Nik torxa bat daukat, balioko du?"
+  GARBA_WANT_ANS2: "Noski, eman eta zure inbentariotik desagertuko da."
+  
+  GARBA_WANT_OPT3: "Gaia aldatzen dugu."
+  GARBA_WANT_ANS3: "Ondo, esan zer nahi duzu."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Hau duzu: funtzionatzen duen torxa bat."
+  GARBA_HAVE_ANS1: "Bai, saiatu 'EMAN' komandoarekin niregan erabiltzen."

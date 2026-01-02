@@ -1,0 +1,254 @@
+# ====================================================================================
+#  TRANSLATION: ENGLISH (en.yaml)
+# ====================================================================================
+
+language_name: "English"
+
+# ====================================================================================
+#  VERB SYSTEM - VERB BOX
+# ====================================================================================
+verbs:
+  WALK: "GO"             # <--- KEY IN UPPERCASE
+  OPEN: "OPEN"
+  CLOSE: "CLOSE"
+  PUSH: "PUSH"
+  PULL: "PULL"
+  PICK UP: "PICK UP"
+  USE: "USE"
+  TALK TO: "TALK TO"     # <--- KEY IN UPPERCASE
+  GIVE: "GIVE"
+  LOOK AT: "LOOK AT"
+  WITH: "with"
+
+# ====================================================================================
+#  MAIN MENU - ACTIVE WITH F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FILE"
+  SAVE_CMD: "SAVE"
+  LOAD_CMD: "LOAD"
+  HELP_TITLE: "HELP"
+  NO_OPT: "NO"
+  GAME_HELP_OPT: "GAME HELP"
+  DEBUG_OPT: "DEBUG MODE"
+  SOUND_TITLE: "SOUND"
+  YES_OPT: "YES"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLASSIC"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEXT"
+  VEL_LABEL: "SPEED >"
+  SIZE_LABEL: "SIZE >"
+  # Simple lists
+  VEL_OPTS: ["SLOW", "MEDIUM", "FAST"]
+  SIZE_OPTS: ["SMALL", "MEDIUM", "LARGE"]
+  LANG_TITLE: "LANGUAGE"
+  CLOSE_CMD: "CLOSE"
+
+# ====================================================================================
+#  TITLES - START SCREEN
+# ====================================================================================
+titles:
+  NEW_GAME: "NEW GAME"
+  LOAD_GAME: "LOAD GAME"
+  LANGUAGE: "LANGUAGE"
+  CREDITS: "CREDITS"
+  EXIT: "EXIT"
+
+# ====================================================================================
+#  SYSTEM MESSAGES
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "I can't do that."
+  CANNOT_REACH: "I can't reach that."
+  DOES_NOT_WORK: "That doesn't work."
+  MAKES_NO_SENSE: "That doesn't make sense."
+  DEFAULT_LOOK: "It is "
+  PICKED_UP: "Picked up "
+  SENTENCE_TO: " to "                                   # Leave empty for Spanish (Go + destination)
+  SENTENCE_WITH: " with "
+  PREP_WITH: " with..."
+  VERB_WALK: "GO"                                      # We can use "GO" and append "to" as needed
+  SAVE_SUCCESS: "Game saved successfully."
+  SAVE_ERROR: "Error saving file."
+  LOAD_SUCCESS: "Game loaded."
+  LOAD_CORRUPT: "Corrupt file."
+  MSG_SPEED: "Speed: "
+  MSG_SIZE: "Size: "
+  CRAFTING_DONE: "I combined {0} with {1}."
+  CHAR_SWAP: "Now controlling {0}!"
+  CREDITS_TITLE: "CREDITS"
+  DEBUG_TITLE: "DEBUG CONSOLE (Drag me)"
+
+  # classic-style save slots
+  SLOT_EMPTY: "--- Empty ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Unknown"             # EN: "Unknown"
+  SLOT_CORRUPT: "Corrupt File"        # EN: "Corrupt File"
+  MSG_NO_SAVE: "No save game here."   # EN: "No save game here."
+  BTN_CANCEL: "CANCEL"                # EN: "CANCEL"
+
+# ====================================================================================
+#  SCENE NAMES (For debug, saves and map)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Peace Avenue"
+  TOWN_HALL: "Town Hall"
+  PANORAMIC: "Panoramic View"
+  DARK_ROOM: "Dark Room"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - ITEM NAMES (Labels that appear on mouseover)
+# ====================================================================================
+items:
+  # Scene 1
+  BELL: "Bell"
+  HAMMER: "Hammer"
+
+  # Scene 2 - Town Hall
+  WINDOW_OLD: "Old Window"
+  LANTERN_OLD: "Old Lantern"
+  MACHINE_STRANGE: "Strange Machine"
+  BONFIRE: "Bonfire"
+
+  # Scene 3 - Panoramic
+  STONE: "Stone"
+  SHOVEL: "Heavy Shovel"
+  TRASHCAN: "Trash Can"
+  FLASHLIGHT_EMPTY: "Flashlight (no batteries)"
+  BATTERIES: "Flashlight Batteries"
+  FLASHLIGHT_FULL: "Flashlight (on)"
+  BIRD: "Large Bird"
+
+  # Scene 4
+  MAP: "Old Map"
+
+  # Scene 5
+  MARK_X: "Mark on the ground"
+
+  # Characters (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCENES: DESCRIPTIONS AND REACTIONS (Look At, Pick Up, Push...)
+# ====================================================================================
+descriptions:
+  # Scene 1
+  SCENE1_INTRO_MSG: "THIS IS A DEMO TEXT FOR THE PLAYER"
+  BELL_HINT: "Use the hammer here!"
+  BELL_MAGIC_USE: "The sound doubles with magic!"
+  BELL_LOOK: "It's a really big bell."
+  BELL_OPEN: "It's solid bronze."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooonng! What a clapper."
+  HAMMER_LOOK: "Carpenter's hammer."
+  HAMMER_PICK: "Okay, I'll take it."
+
+  # Scene 2
+  WINDOW_LOOK: "It's Mrs. Fletcher's window."
+  WINDOW_OPEN: "It's stuck — it's been painted shut for years."
+  WINDOW_STONE: "Better not break anything today."
+  LANTERN_LOOK: "A cheap lantern from an online store."
+  LANTERN_PICK: "I'll take it."
+  MACHINE_LOOK: "It looks like a complex machine."
+  MACHINE_USE: "It works!"
+  MACHINE_PUSH: "I give it a little push..."
+  BONFIRE_LOOK: "I flush if I get too close. Palette change."
+
+  # Scene 3
+  SCENE3_INTRO_MSG: "This is an example of a screen with horizontal SCROLL"
+  TRASH_LOOK: "It's full of junk."
+  TRASH_OPEN: "Yuck! What a stink."
+  TRASH_CLOSE: "Better keep it closed."
+  NPC_GARBA_LOOK: "What are you staring at? Do I have monkeys on my face?"
+  GARBA_GIVE_FLASHLIGHT: "Here, Garba — keep it."
+  BIRD_LOOK: "Oh, look — little birds!"
+
+  FLASHLIGHT_EMPTY_LOOK: "It has no batteries."
+  FLASHLIGHT_EMPTY_PICK: "I'll take it."
+  BATTERIES_LOOK: "Alkaline batteries."
+  BATTERIES_PICK: "Into my pocket."
+  FLASHLIGHT_FULL_LOOK: "Now it really shines."
+  FLASHLIGHT_FULL_USE: "Better to use it in a dark place."
+  FLASHLIGHT_FULL_OPEN: "Better not pull the batteries out now."
+
+  SHOVEL_BART_PICK: "Ugh! It weighs a ton, but I can handle it."
+  SHOVEL_GILO_FAIL: "It's too heavy. I need Bart."
+  SHOVEL_LOOK_BART: "A sturdy shovel. Perfect for my muscles."
+  SHOVEL_LOOK_GILO: "It's solid iron. I need Bart."
+  SHOVEL_USE: "I can't use it here."
+  SHOVEL_PUSH: "It's jammed in tight."
+
+  NPC_BART_LOOK: "That's my buddy Bart. He looks strong."
+  NPC_BART_TALK: "Hey, Bart. What's up?"
+  NPC_BART_PUSH: "Hey! No pushing!"
+
+  NPC_GILO_LOOK: "There's Gilo, lost in thought."
+  NPC_GILO_TALK: "Mr. Gilo — have you found anything?"
+  NPC_GILO_PUSH: "Hey! Watch that whip."
+
+  # Scene 4
+  DARK_ROOM_ENTER: "I can't see a thing! I need light."
+  MAP_LOOK: "A tourist map."
+  MAP_PICK: "I'll take it."
+  MAP_FAIL: "I can't use it while it's on the ground. Better pick it up first."
+
+  # Scene 5
+  MARK_LOOK: "A giant X painted on the ground — like on pirate maps."
+  MARK_DIG_START: "There's something here! I'm going to dig..."
+  MARK_HIT_OBJ: "Crack! I hit something solid."
+  SCENE5_INTRO_MSG: "THIS IS THE FINAL SCENE"
+  MARK_USE_FAIL: "I need something to dig with."
+  MARK_PUSH_FAIL: "The ground is too hard."
+
+# ====================================================================================
+#  CINEMATICS (Intro and Ending)
+# ====================================================================================
+cinematics:
+  # Scene . Start
+  INTRO_1: "Year 2001. The city seemed peaceful..."
+  INTRO_2: "But something dark was brewing in the Town Hall."
+  INTRO_3: "Only a hero (or two) could stop it."
+
+  # Scene 2 . Town Hall
+  AYUN_1: "I was here 25 years ago..."
+  AYUN_2: "...nothing has changed."
+
+  # Scene . Ending
+  ENDING_1: "And so, after unearthing the secret..."
+  ENDING_2: "The city returned to normal."
+  THANKS: "THANK YOU FOR PLAYING"
+
+# ====================================================================================
+#  DIALOGUES
+# ====================================================================================
+dialogues:
+  # Scene 2 - Panoramic - Garba vs main NPC, Gilo
+    # Node: start
+  GARBA_START_OPT1: "Look — I managed to put batteries in the flashlight."
+  GARBA_START_ANS1: "Great! I knew you were handy."
+
+  GARBA_START_OPT2: "Hey Garba, what are you doing here?"
+  GARBA_START_ANS2: "Nothing much — just killing time. I want a flashlight with batteries."
+
+  GARBA_START_OPT3: "Have you seen anything suspicious?"
+  GARBA_START_ANS3: "Only you running around from place to place."
+
+  GARBA_START_OPT4: "We'll talk later."
+  GARBA_START_ANS4: "Alright, see you."
+
+    # Node: want_a_flashlight
+  GARBA_WANT_OPT1: "Why do you want a flashlight with batteries?"
+  GARBA_WANT_ANS1: "So you can take two items and combine them into one."
+
+  GARBA_WANT_OPT2: "I have a flashlight — will that do?"
+  GARBA_WANT_ANS2: "Sure, give it to me and it'll disappear from your inventory."
+
+  GARBA_WANT_OPT3: "Let's change the subject."
+  GARBA_WANT_ANS3: "Okay, tell me."
+
+    # Node: i_have_the_flashlight
+  GARBA_HAVE_OPT1: "Here you go — a working flashlight."
+  GARBA_HAVE_ANS1: "Yeah — try using the GIVE command on me with it."

@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRANSLATION: SPANISH -> NIGERIAN PIDGIN (ni.yaml)
+# ====================================================================================
+
+language_name: "Nigerian Pidgin"
+
+# ====================================================================================
+#  VERB SYSTEM - VERB BOX
+# ====================================================================================
+verbs:
+  WALK: "GO TO"           # <--- KEY FOR BIG LETTERS
+  OPEN: "OPEN"
+  CLOSE: "SHUT"
+  PUSH: "PUSH"
+  PULL: "PULL"
+  PICK UP: "PICK UP"
+  USE: "USE"
+  TALK TO: "TALK TO"     # <--- KEY FOR BIG LETTERS
+  GIVE: "GIVE"
+  LOOK AT: "LOOK AT"
+  WITH: "wit"
+
+# ====================================================================================
+#  MAIN MENU - PRESS F2 TO OPEN
+# ====================================================================================
+menus:
+  FILE_TITLE: "FILE"
+  SAVE_CMD: "SAVE"
+  LOAD_CMD: "LOAD"
+  HELP_TITLE: "HELP"
+  NO_OPT: "NO"
+  GAME_HELP_OPT: "GAME HELP"
+  DEBUG_OPT: "DEBUG MODE"
+  SOUND_TITLE: "SOUND"
+  YES_OPT: "YES"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLASSIC"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEXTS"
+  VEL_LABEL: "SPEED >"
+  SIZE_LABEL: "SIZE >"
+  # Simple lists
+  VEL_OPTS: ["SLOW", "MEDIUM", "FAST"]
+  SIZE_OPTS: ["SMALL", "MEDIUM", "LARGE"]
+  LANG_TITLE: "LANGUAGE"
+  CLOSE_CMD: "CLOSE"
+
+# ====================================================================================
+#  TITLES - START SCREEN
+# ====================================================================================
+titles:
+  NEW_GAME: "NEW GAME"
+  LOAD_GAME: "LOAD GAME"
+  LANGUAGE: "LANGUAGE"
+  CREDITS: "CREDITS"
+  EXIT: "EXIT"  
+
+# ====================================================================================
+#  SYSTEM MESSAGES
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "I no fit do dat."
+  CANNOT_REACH: "I no fit reach there."
+  DOES_NOT_WORK: "E no dey work."
+  MAKES_NO_SENSE: "E no make sense."
+  DEFAULT_LOOK: "Na "
+  PICKED_UP: "I don pick "                                 # keep trailing space for concatenation
+  SENTENCE_TO: " to "                                     # Leave empty if original Spanish uses "Ir a + destination"
+  SENTENCE_WITH: " WIT "
+  PREP_WITH: " wit..."
+  VERB_WALK: "GO TO"                                      # For translation we fit use "GO TO" or just "GO" and add "to" later
+  SAVE_SUCCESS: "Game don save well."
+  SAVE_ERROR: "Error when dem dey save file."
+  LOAD_SUCCESS: "Game don load."
+  LOAD_CORRUPT: "File don corrupt."
+  MSG_SPEED: "Speed: "
+  MSG_SIZE: "Size: "
+  CRAFTING_DONE: "I don combine {0} wit {1}."
+  CHAR_SWAP: "Now I dey control {0}!"
+  CREDITS_TITLE: "CREDITS"
+  DEBUG_TITLE: "DEBUG CONSOLE (Drag me)"
+
+  # classic save system
+  SLOT_EMPTY: "--- Empty ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "No sabi"            # EN: "Unknown"
+  SLOT_CORRUPT: "Corrupt File"       # EN: "Corrupt File"
+  MSG_NO_SAVE: "No save dey here."   # EN: "No save game here."
+  BTN_CANCEL: "CANCEL"               # EN: "CANCEL"
+
+# ====================================================================================
+#  SCENE NAMES (For debug, saves and map)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Peace Avenue"
+  TOWN_HALL: "Town Hall"
+  PANORAMIC: "Panorama"
+  DARK_ROOM: "Dark Room"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - ITEM NAMES (Labels wey show when you hover mouse)
+# ====================================================================================
+items:
+  # Scene 1
+  BELL: "Bell"
+  HAMMER: "Hammer"  
+  
+  # Scene 2 - Town Hall
+  WINDOW_OLD: "Old Window"
+  LANTERN_OLD: "Old Lantern"
+  MACHINE_STRANGE: "Strange Machine"
+  BONFIRE: "Bonfire"
+  
+   
+  # Scene 3 - Panorama
+  STONE: "Stone"
+  SHOVEL: "Heavy Shovel"
+  TRASHCAN: "Trash Can"
+  FLASHLIGHT_EMPTY: "Torch wey no get battery"
+  BATTERIES: "Batteries for torch"
+  FLASHLIGHT_FULL: "Torch wey dey light"
+  BIRD: "Bird"
+  
+  # Scene 4
+  MAP: "Old Map"
+
+  # Scene 5
+  MARK_X: "Mark for ground"
+
+  # Characters (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCENES: DESCRIPTIONS AND REACTIONS (Look At, Pick Up, Push...)
+# ====================================================================================
+descriptions:
+  # Scene 1
+  SCENE1_INTRO_MSG: "DIS NA DEMO TEXT FOR THE USER"
+  BELL_HINT: "Use hammer for here!"
+  BELL_MAGIC_USE: "Sound go double because magic!"
+  BELL_LOOK: "Na one correct big bell."
+  BELL_OPEN: "E make for solid bronze."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooonng! Wetin big clapper."
+  HAMMER_LOOK: "Carpenter hammer."
+  HAMMER_PICK: "Alright, I go carry am."
+  
+  # Scene 2
+  WINDOW_LOOK: "Na Mrs. Fletcher window dis be."
+  WINDOW_OPEN: "E jam for, dem don paint am for years."
+  WINDOW_STONE: "Better make I no break anything today."
+  LANTERN_LOOK: "One lantern wey dem buy for Aliexpress."
+  LANTERN_PICK: "I go carry am."  
+  MACHINE_LOOK: "E dey look like complex machine."
+  MACHINE_USE: "E dey work!"
+  MACHINE_PUSH: "I give am small push..."
+  BONFIRE_LOOK: "If I near well, I go turn red. Color change."  
+  
+  # Scene 3
+  SCENE3_INTRO_MSG: "Dis na example screen wey get horizontal SCROLL"
+  TRASH_LOOK: "E full of rubbish."
+  TRASH_OPEN: "Choi! Which kind smell be dis."
+  TRASH_CLOSE: "Better make e close."
+  NPC_GARBA_LOOK: "Wet you dey look? I get monkey for face?"
+  GARBA_GIVE_FLASHLIGHT: "Take am Garba, keep am."  
+  BIRD_LOOK: "Ah, see, small birds!"
+
+  FLASHLIGHT_EMPTY_LOOK: "E no get battery."
+  FLASHLIGHT_EMPTY_PICK: "I go carry am."
+  BATTERIES_LOOK: "Na alkaline batteries dem be."
+  BATTERIES_PICK: "Put am for pocket."
+  FLASHLIGHT_FULL_LOOK: "Now e dey shine well."
+  FLASHLIGHT_FULL_USE: "Better make I use am for dark place."
+  FLASHLIGHT_FULL_OPEN: "No make I remove battery now."
+  
+  SHOVEL_BART_PICK: "Hmpf! E heavy die, but I fit handle am."
+  SHOVEL_GILO_FAIL: "E too heavy. I need Bart."
+  SHOVEL_LOOK_BART: "Stout shovel. Good for my muscles."
+  SHOVEL_LOOK_GILO: "E be solid iron. I need Bart."
+  SHOVEL_USE: "I no fit use am here."
+  SHOVEL_PUSH: "E tight well."
+
+  NPC_BART_LOOK: "Na my guy Bart. E dey look strong."
+  NPC_BART_TALK: "Hey Bart. Wet dey happen?"
+  NPC_BART_PUSH: "Hey! No dey push!"
+  
+  NPC_GILO_LOOK: "There na Gilo, just dey reason."
+  NPC_GILO_TALK: "Mr Gilo, you don find anything?"
+  NPC_GILO_PUSH: "Hey! Watch the whip."
+
+  # Scene 4
+  DARK_ROOM_ENTER: "I no fit see anything! I need light."
+  MAP_LOOK: "Tourist map."
+  MAP_PICK: "I go carry am."
+  MAP_FAIL: "I no fit use am for ground like dat. Better pick am first."
+
+   # Scene 5
+  MARK_LOOK: "One big X paint for ground. Like pirate map."
+  MARK_DIG_START: "Here something dey! I go dig..."
+  MARK_HIT_OBJ: "Crack! I don hit something hard."
+  SCENE5_INTRO_MSG: "DIS NA FINAL SCREEN"
+  MARK_USE_FAIL: "I need something to dig with."
+  MARK_PUSH_FAIL: "Ground tight well."
+
+# ====================================================================================
+#  CINEMATICS (Intro and Ending)
+# ====================================================================================
+cinematics:
+  # Scene . Start
+  INTRO_1: "Year 2001. City dey look calm..."
+  INTRO_2: "But for Town Hall dem dey plan something dark."
+  INTRO_3: "Only one hero (or two) fit stop am."
+  
+  # Scene 2 . Town Hall
+  AYUN_1: "I bin dey here 25 years ago..."
+  AYUN_2: "...nothing don change."
+  
+  # Scene . End
+  ENDING_1: "And so, after we dig out the secret..."
+  ENDING_2: "The city kon return to normal."
+  THANKS: "THANK YOU FOR PLAYING"
+
+# ====================================================================================
+#  DIALOGUES
+# ====================================================================================
+dialogues:
+  # Scene 2 - Panorama - Garba vs Main NPC, Gilo
+    # Node: start
+  GARBA_START_OPT1: "See! I don manage put batteries for the torch."
+  GARBA_START_ANS1: "Correct! I sabi say you sabi handle things."
+  
+  GARBA_START_OPT2: "Hi Garba, wet you dey do here?"
+  GARBA_START_ANS2: "Nothing much, I dey watch time pass. I want torch wey get battery."
+  
+  GARBA_START_OPT3: "You see anything wey suspicious?"
+  GARBA_START_ANS3: "Na only you I see dey run anyhow."
+  
+  GARBA_START_OPT4: "We go talk later."
+  GARBA_START_ANS4: "Okay, see you later."
+  
+    # Node: I_want_a_torch
+  GARBA_WANT_OPT1: "Which kind tin you wan use torch for?"
+  GARBA_WANT_ANS1: "Make you fit pick two items and join dem into one."
+  
+  GARBA_WANT_OPT2: "I get torch, e go work?"
+  GARBA_WANT_ANS2: "Sure, give am to me and e go comot from your inventory."
+  
+  GARBA_WANT_OPT3: "Make we change topic."
+  GARBA_WANT_ANS3: "Okay, yarn me."
+
+    # Node: I_have_the_torch
+  GARBA_HAVE_OPT1: "Here: one working torch."
+  GARBA_HAVE_ANS1: "Yes, try use the GIVE command give am to me."

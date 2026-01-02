@@ -1,0 +1,254 @@
+# ====================================================================================
+#  ÇEVİRİ: İSPANYOLCA (tu.yaml)
+# ====================================================================================
+
+language_name: "Türkçe"
+
+# ====================================================================================
+#  FİİL SİSTEMİ - FİİL KUTUSU
+# ====================================================================================
+verbs:
+  WALK: "GİT"        # <--- BÜYÜK HARFLİ ANAHTAR
+  OPEN: "AÇ"
+  CLOSE: "KAPAT"
+  PUSH: "İT"
+  PULL: "ÇEK"
+  PICK UP: "AL"
+  USE: "KULLAN"
+  TALK TO: "KONUŞ" # <--- BÜYÜK HARFLİ ANAHTAR
+  GIVE: "VER"
+  LOOK AT: "İNCELE"
+  WITH: "ile"
+
+# ====================================================================================
+#  ANA MENÜ - F2 İLE ETKİN
+# ====================================================================================
+menus:
+  FILE_TITLE: "DOSYA"
+  SAVE_CMD: "KAYDET"
+  LOAD_CMD: "YÜKLE"
+  HELP_TITLE: "YARDIM"
+  NO_OPT: "HAYIR"
+  GAME_HELP_OPT: "OYUN YARDIMI"
+  DEBUG_OPT: "HATA AYIKLAMA MODU"
+  SOUND_TITLE: "SES"
+  YES_OPT: "EVET"
+  CURSOR_TITLE: "İMLEÇ"
+  CURSOR_CLASSIC: "KLASİK"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "METİNLER"
+  VEL_LABEL: "HIZ >"
+  SIZE_LABEL: "BOYUT >"
+  # Basit listeler
+  VEL_OPTS: ["YAVAŞ", "ORTA", "HIZLI"]
+  SIZE_OPTS: ["KÜÇÜK", "ORTA", "BÜYÜK"]
+  LANG_TITLE: "DİL"
+  CLOSE_CMD: "KAPAT"
+
+# ====================================================================================
+#  BAŞLIKLAR - BAŞLANGIÇ EKRANI
+# ====================================================================================
+titles:
+  NEW_GAME: "YENİ OYUN"
+  LOAD_GAME: "OYUN YÜKLE"
+  LANGUAGE: "DİL"
+  CREDITS: "KREDİLER"
+  EXIT: "ÇIKIŞ"
+
+# ====================================================================================
+#  SİSTEM MESAJLARI
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Bunu yapamam."
+  CANNOT_REACH: "Oraya ulaşamıyorum."
+  DOES_NOT_WORK: "Bu işe yaramıyor."
+  MAKES_NO_SENSE: "Anlamsız."
+  DEFAULT_LOOK: "Bu "
+  PICKED_UP: "Aldım "
+  SENTENCE_TO: " -e "                                   # Türkçede genelde "gitmek + hedef" şeklinde kullanılır (örn. "git -e hedef")
+  SENTENCE_WITH: " İLE "
+  PREP_WITH: " ile..."
+  VERB_WALK: "GİT"                                 # Çeviride "GİT" veya "GİTMEK" tercih edilebilir, sonrasında cümle eklenir
+  SAVE_SUCCESS: "Oyun başarıyla kaydedildi."
+  SAVE_ERROR: "Dosya kaydedilirken hata oluştu."
+  LOAD_SUCCESS: "Oyun yüklendi."
+  LOAD_CORRUPT: "Dosya bozuk."
+  MSG_SPEED: "Hız: "
+  MSG_SIZE: "Boyut: "
+  CRAFTING_DONE: "{0} ile {1}'i birleştirdim."
+  CHAR_SWAP: "Şimdi {0} kontrolündeyim!"
+  CREDITS_TITLE: "KREDİLER"
+  DEBUG_TITLE: "HATA AYIKLAMA KONSOLU (Sürükleyin)"
+
+  #  klasik kayıt sistemi
+  SLOT_EMPTY: "--- Boş ---"         # İng: "--- Empty ---"
+  SLOT_UNKNOWN: "Bilinmiyor"         # İng: "Unknown"
+  SLOT_CORRUPT: "Bozuk dosya"    # İng: "Corrupt File"
+  MSG_NO_SAVE: "Burada kayıtlı oyun yok."  # İng: "No save game here."
+  BTN_CANCEL: "İPTAL"              # İng: "CANCEL"
+
+# ====================================================================================
+#  SAHNE İSİMLERİ (Hata ayıklama, kayıtlar ve harita için)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Barış Caddesi"
+  TOWN_HALL: "Belediye Binası"
+  PANORAMIC: "Panoramik"
+  DARK_ROOM: "Işıksız Sahne"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTLAR - NESNE İSİMLERİ (Fareyle üzerine gelince görünen etiketler)
+# ====================================================================================
+items:
+  # Sahne 1
+  BELL: "Çan"
+  HAMMER: "Çekiç"  
+  
+  # Sahne 2 - Belediye
+  WINDOW_OLD: "Eski Pencere"
+  LANTERN_OLD: "Eski Fener"
+  MACHINE_STRANGE: "Tuhaf Makine"
+  BONFIRE: "Ateş"
+
+  # Sahne 3 - Panoramik
+  STONE: "Taş"
+  SHOVEL: "Ağır Kürek"
+  TRASHCAN: "Çöp Kutusu"
+  FLASHLIGHT_EMPTY: "Pilleri olmayan bir el feneri"
+  BATTERIES: "El feneri pilleri"
+  FLASHLIGHT_FULL: "Çalışan bir el feneri"
+  BIRD: "Büyük kuş"
+  
+  # Sahne 4
+  MAP: "Eski Harita"
+
+  # Sahne 5
+  MARK_X: "Zemindeki İşaret"
+
+  # Karakterler (Etiketler) NPC'ler
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SAHNELER: AÇIKLAMALAR VE TEPKİLER (Bak, Al, İt...)
+# ====================================================================================
+descriptions:
+  # Sahne 1
+  SCENE1_INTRO_MSG: "BU OYUNCU İÇİN BİR DEMO METNİDİR"
+  BELL_HINT: "Burada çekici kullan!"
+  BELL_MAGIC_USE: "Sihirle ses iki kat yankılanıyor!"
+  BELL_LOOK: "Gerçekten büyük bir çan."
+  BELL_OPEN: "Masif bronzdan yapılmış."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooong! Ne çan tokmağı."
+  HAMMER_LOOK: "Marangoz çekiçi."
+  HAMMER_PICK: "Tamam, alıyorum."
+  
+  # Sahne 2
+  WINDOW_LOOK: "Bu Bayan Fletcher'ın penceresi."
+  WINDOW_OPEN: "Sıkışmış, yıllardır boyalı."
+  WINDOW_STONE: "Bugün bir şey kırmayayım."
+  LANTERN_LOOK: "Ucuz bir çevrimiçi pazar feneri gibi."
+  LANTERN_PICK: "Alıyorum."
+  MACHINE_LOOK: "Karmaşık bir makine gibi görünüyor."
+  MACHINE_USE: "Çalışıyor!"
+  MACHINE_PUSH: "Biraz itiyorum..."
+  BONFIRE_LOOK: "Çok yaklaşırsam yüzüm kızarıyor. Renk paleti değişiyor."
+  
+  # Sahne 3
+  SCENE3_INTRO_MSG: "Bu yatay KAYDIRMA örnek ekranıdır"
+  TRASH_LOOK: "Atıklarla dolu."
+  TRASH_OPEN: "Iyk! Ne pis koku."
+  TRASH_CLOSE: "Kapatmak daha iyi."
+  NPC_GARBA_LOOK: "Ne bakıyorsun? Yüzümde maymun mu var?"
+  GARBA_GIVE_FLASHLIGHT: "Al Garba, sen sakla."
+  BIRD_LOOK: "Ah, bak kuşlar!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "İçinde pil yok."
+  FLASHLIGHT_EMPTY_PICK: "Alıyorum."
+  BATTERIES_LOOK: "Alkali piller."
+  BATTERIES_PICK: "Cebe at."
+  FLASHLIGHT_FULL_LOOK: "Şimdi gerçekten güçlü bir şekilde parlıyor."
+  FLASHLIGHT_FULL_USE: "Karanlık bir yerde kullanmak daha iyi."
+  FLASHLIGHT_FULL_OPEN: "Şimdi pilleri çıkarmayayım."
+  
+  SHOVEL_BART_PICK: "Hmph! Tonlarca ağırlıkta ama hallederim."
+  SHOVEL_GILO_FAIL: "Çok ağır. Bart'a ihtiyacım var."
+  SHOVEL_LOOK_BART: "Sağlam bir kürek. Kaslarıma uygun."
+  SHOVEL_LOOK_GILO: "Masif demirden yapılmış. Bart lazım."
+  SHOVEL_USE: "Bunu burada kullanamam."
+  SHOVEL_PUSH: "Çok sağlam."
+
+  NPC_BART_LOOK: "Bu arkadaşım Bart. Güçlü görünüyor."
+  NPC_BART_TALK: "Hey, Bart. Ne var ne yok?"
+  NPC_BART_PUSH: "Hey! Itme!"
+  
+  NPC_GILO_LOOK: "İşte Gilo, düşüncelere dalmış."
+  NPC_GILO_TALK: "Bay Gilo, bir şey buldunuz mu?"
+  NPC_GILO_PUSH: "Hey! Kırbaçla dikkatli ol."
+
+  # Sahne 4
+  DARK_ROOM_ENTER: "Hiçbir şey göremiyorum! Işığa ihtiyacım var."
+  MAP_LOOK: "Bir turistik harita."
+  MAP_PICK: "Alıyorum."
+  MAP_FAIL: "Orada yerdeyken kullanamam. Önce alayım."
+
+   # Sahne 5
+  MARK_LOOK: "Yerde devasa bir X işareti. Korsan haritalarındaki gibi."
+  MARK_DIG_START: "Burada bir şey var! Kazacağım..."
+  MARK_HIT_OBJ: "Crac! Sert bir şeye vurmuşum."
+  SCENE5_INTRO_MSG: "BU SON EKRAN"
+  MARK_USE_FAIL: "Kazmak için bir şeye ihtiyacım var."
+  MARK_PUSH_FAIL: "Toprak çok sert."
+
+# ====================================================================================
+#  SİNEMATİKLER (Giriş ve Bitiş)
+# ====================================================================================
+cinematics:
+  # Sahne . Başlangıç
+  INTRO_1: "2001 yılı. Şehir sakin görünüyordu..."
+  INTRO_2: "Ama Belediye'de karanlık bir şeyler dönüyordu."
+  INTRO_3: "Sadece bir kahraman (veya iki) bunu durdurabilirdi."
+  
+  # Sahne 2 . Belediye
+  AYUN_1: "25 yıl önce buradaydım..."
+  AYUN_2: "...hiçbir şey değişmemiş."
+  
+  # Sahne . Final
+  ENDING_1: "Ve böylece, sırrı ortaya çıkardıktan sonra..."
+  ENDING_2: "Şehir normale döndü."
+  THANKS: "OYUN İÇİN TEŞEKKÜRLER"
+
+# ====================================================================================
+#  DİYALOGLAR
+# ====================================================================================
+dialogues:
+  # Sahne 2 - Panoramik - Garba vs Ana NPC, Gilo
+    # Düğüm: start
+  GARBA_START_OPT1: "Bak! El fenerine pil koymayı başardım."
+  GARBA_START_ANS1: "Harika! Usta olduğunu biliyordum."
+  
+  GARBA_START_OPT2: "Merhaba Garba, burada ne yapıyorsun?"
+  GARBA_START_ANS2: "Hiçbir şey, zaman geçiriyorum. Pil takılı bir el feneri istiyorum."
+  
+  GARBA_START_OPT3: "Şüpheli bir şey gördün mü?"
+  GARBA_START_ANS3: "Sadece bir yerden bir yere koştuğunu gördüm."
+  
+  GARBA_START_OPT4: "Sonra konuşuruz."
+  GARBA_START_ANS4: "Tamam, görüşürüz."
+  
+    # Düğüm: quiero_una_linterna
+  GARBA_WANT_OPT1: "Neden pil takılı bir el feneri istiyorsun?"
+  GARBA_WANT_ANS1: "İki eşyayı alıp birleştirebilmen için."
+  
+  GARBA_WANT_OPT2: "Benim bir el fenerim var, iş görür mü?"
+  GARBA_WANT_ANS2: "Tabii, ver bana; envanterinden kaybolacak."
+  
+  GARBA_WANT_OPT3: "Konu değiştirelim."
+  GARBA_WANT_ANS3: "Tamam, söyle bakalım."
+
+    # Düğüm: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Al işte: çalışan bir el feneri."
+  GARBA_HAVE_ANS1: "Evet, bana VER komutunu dene."

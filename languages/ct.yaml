@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRADUCCIÓ: CATALÀ (ct.yaml)
+# ====================================================================================
+
+language_name: "Català"
+
+# ====================================================================================
+#  SISTEMA DE VERBS - CAIXA DE VERBS
+# ====================================================================================
+verbs:
+  WALK: "ANAR A"        # <--- CLAU EN MAJÚSCULES
+  OPEN: "OBRIR"
+  CLOSE: "TANCAR"
+  PUSH: "EMPÈNYER"
+  PULL: "TIRAR"
+  PICK UP: "AGAFAR"
+  USE: "UTILITZAR"
+  TALK TO: "PARLAR AMB" # <--- CLAU EN MAJÚSCULES
+  GIVE: "DONAR"
+  LOOK AT: "MIRAR"
+  WITH: "amb"
+
+# ====================================================================================
+#  MENÚ PRINCIPAL - ACTIU AMB F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "ARXIU"
+  SAVE_CMD: "GUARDAR"
+  LOAD_CMD: "CARREGAR"
+  HELP_TITLE: "AJUDA"
+  NO_OPT: "NO"
+  GAME_HELP_OPT: "AJUDA JOC"
+  DEBUG_OPT: "MODE DEBUG"
+  SOUND_TITLE: "SÓ"
+  YES_OPT: "SÍ"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLÀSSIC"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEXTOS"
+  VEL_LABEL: "VELOCITAT >"
+  SIZE_LABEL: "MIDA >"
+  # Llistes simples
+  VEL_OPTS: ["LENT", "MITJÀ", "RÀPID"]
+  SIZE_OPTS: ["PETIT", "MITJÀ", "GRAN"]
+  LANG_TITLE: "IDIOMA"
+  CLOSE_CMD: "TANCAR"
+
+# ====================================================================================
+#  TÍTOLS - PANTALLA D'INICI
+# ====================================================================================
+titles:
+  NEW_GAME: "NOVA PARTIDA"
+  LOAD_GAME: "CARREGAR PARTIDA"
+  LANGUAGE: "IDIOMA"
+  CREDITS: "CRÈDITS"
+  EXIT: "SORTIR"  
+
+# ====================================================================================
+#  MISSATGES DEL SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "No puc fer això."
+  CANNOT_REACH: "No puc arribar-hi."
+  DOES_NOT_WORK: "Això no funciona."
+  MAKES_NO_SENSE: "No té sentit."
+  DEFAULT_LOOK: "És "
+  PICKED_UP: "He agafat "
+  SENTENCE_TO: " a "                                   # Deixa buit si en català no cal (Anar a + destinació)
+  SENTENCE_WITH: " AMB "
+  PREP_WITH: "amb..."
+  VERB_WALK: "ANAR A"                                 # A la traducció es pot triar "ANAR A" o només "ANAR" i després afegir la frase
+  SAVE_SUCCESS: "Partida guardada correctament."
+  SAVE_ERROR: "Error en guardar l'arxiu."
+  LOAD_SUCCESS: "Partida carregada."
+  LOAD_CORRUPT: "Arxiu corrupte."
+  MSG_SPEED: "Velocitat: "
+  MSG_SIZE: "Mida: "
+  CRAFTING_DONE: "He combinat {0} amb {1}."
+  CHAR_SWAP: "Ara controlo {0}!"
+  CREDITS_TITLE: "CRÈDITS"
+  DEBUG_TITLE: "CONSOLE DEBUG (Arrossega'm)"
+
+  #  sistema de desament d'estil clàssic
+  SLOT_EMPTY: "--- Buit ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Desconegut"        # EN: "Unknown"
+  SLOT_CORRUPT: "Arxiu corrupta"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "No hi ha partida aquí."  # EN: "No save game here."
+  BTN_CANCEL: "CANCEL·LAR"              # EN: "CANCEL"
+
+# ====================================================================================
+#  NOMS D'ESCENES (Per a debug, desaments i mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avinguda de la Pau"
+  TOWN_HALL: "Ajuntament"
+  PANORAMIC: "Panoràmica"
+  DARK_ROOM: "Escena sense llum"
+  PARALLAX: "Demostració Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NOMS D'OBJECTES (Etiquetes que apareixen al passar el ratolí)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Campana"
+  HAMMER: "Mall"  
+  
+  # Escena 2 - Ajuntament
+  WINDOW_OLD: "Finestra antiga"
+  LANTERN_OLD: "Una fanal antic"
+  MACHINE_STRANGE: "Màquina estranya"
+  BONFIRE: "Foguera"
+  
+   
+  # Escena 3 - Panoràmica
+  STONE: "Roca"
+  SHOVEL: "Pala pesada"
+  TRASHCAN: "Cubell de les escombraries"
+  FLASHLIGHT_EMPTY: "Una llanterna sense piles"
+  BATTERIES: "Piles per la llanterna"
+  FLASHLIGHT_FULL: "Una llanterna encesa"
+  BIRD: "Ocàs gran"
+  
+  # Escena 4
+  MAP: "Mapa antic"
+
+  # Escena 5
+  MARK_X: "Marca a terra"
+
+  # Personatges (Etiquetes) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  ESCENES : DESCRIPCIONS I REACCIONS (Mirar, Agafar, Empènyer...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "AIXÒ ÉS UN TEXT D'EXEMPLE PER A L'USUARI"
+  BELL_HINT: "Fes servir el mall aquí!"
+  BELL_MAGIC_USE: "El so ressona el doble amb la màgia!"
+  BELL_LOOK: "És una campana realment gran."
+  BELL_OPEN: "És de bronze massís."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooonng! Quin batall!"
+  HAMMER_LOOK: "Mall d'enfusta."
+  HAMMER_PICK: "D'acord, me l'emporto."
+  
+  # Escena 2
+  WINDOW_LOOK: "És la finestra de la Sra. Fletcher."
+  WINDOW_OPEN: "Està encallada, fa anys que està pintada."
+  WINDOW_STONE: "Millor no trencar res avui."
+  LANTERN_LOOK: "Un fanal d'Aliexpress."
+  LANTERN_PICK: "Me la quedo."  
+  MACHINE_LOOK: "Sembla una maquinària complexa."
+  MACHINE_USE: "Funciona!"
+  MACHINE_PUSH: "Li dono un petit empentó..."
+  BONFIRE_LOOK: "Em poso vermell si m'apropo massa. Canvi de paleta."  
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Això és un exemple de pantalla amb DESPLAÇAMENT horitzontal"
+  TRASH_LOOK: "Està ple de deixalles."
+  TRASH_OPEN: "Puaj! Quin pudor."
+  TRASH_CLOSE: "Millor tancat."
+  NPC_GARBA_LOOK: "Què mires? Tinc micos a la cara?"
+  GARBA_GIVE_FLASHLIGHT: "Prèn, Garba, queda-te-la."
+  BIRD_LOOK: "Oh, mira, ocells!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "No té piles."
+  FLASHLIGHT_EMPTY_PICK: "Me la quedo."
+  BATTERIES_LOOK: "Piles alcalines."
+  BATTERIES_PICK: "A la butxaca."
+  FLASHLIGHT_FULL_LOOK: "Ara sí, brilla amb força."
+  FLASHLIGHT_FULL_USE: "Millor l'uso en un lloc fosc."
+  FLASHLIGHT_FULL_OPEN: "Millor no treure-li les piles ara."
+  
+  SHOVEL_BART_PICK: "Uf! Pesa molt, però jo puc amb això."
+  SHOVEL_GILO_FAIL: "Pesa massa. Necessito en Bart."
+  SHOVEL_LOOK_BART: "Una pala robusta. Ideal per als meus músculs."
+  SHOVEL_LOOK_GILO: "És de ferro macís. Necessito en Bart."
+  SHOVEL_USE: "No la puc utilitzar aquí."
+  SHOVEL_PUSH: "Està molt clavada."
+
+  NPC_BART_LOOK: "És el meu col·lega Bart. Sembla fort."
+  NPC_BART_TALK: "Eh, Bart. Què passa?"
+  NPC_BART_PUSH: "Eh! No empenyis!"
+  
+  NPC_GILO_LOOK: "Allà està en Gilo, pensant en les seves coses."
+  NPC_GILO_TALK: "Senyor Gilo, ha trobat res?"
+  NPC_GILO_PUSH: "Ei! Vigila amb el fuet."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "No hi veig res! Necessito llum."
+  MAP_LOOK: "Un mapa turístic."
+  MAP_PICK: "Me l'emporto."
+  MAP_FAIL: "No el puc usar estès a terra. Millor agafar-lo primer."
+
+   # Escena 5
+  MARK_LOOK: "Una X gegant pintada a terra. Com en mapes de pirates."
+  MARK_DIG_START: "Aquí hi ha alguna cosa! Vaig a cavar..."
+  MARK_HIT_OBJ: "Crac! He tocat alguna cosa sòlida."
+  SCENE5_INTRO_MSG: "AIXA ÉS LA PANTALLA FINAL"
+  MARK_USE_FAIL: "Necessito alguna cosa per cavar."
+  MARK_PUSH_FAIL: "La terra està molt dura."
+
+# ====================================================================================
+#  CINEMÀTIQUES (Intro i Final)
+# ====================================================================================
+cinematics:
+  # Escena . Inici
+  INTRO_1: "L'any 2001. La ciutat semblava tranquil·la..."
+  INTRO_2: "Però a l'Ajuntament s'hi coïa alguna cosa fosca."
+  INTRO_3: "Només un heroi (o dos) hi podrien posar remei."
+  
+  # Escena 2 . Ajuntament
+  AYUN_1: "Vaig estar aquí fa 25 anys..."
+  AYUN_2: "...res no ha canviat."
+  
+  # Escena . Final
+  ENDING_1: "I així, després d'extreure el secret..."
+  ENDING_2: "La ciutat va tornar a la normalitat."
+  THANKS: "GRÀCIES PER JUGAR"
+
+  # ====================================================================================
+#  DIÀLEGS
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panoràmica - Diàleg Garba vs NPC principal, Gilo
+    # Node: start
+  GARBA_START_OPT1: "Mira! Ja he aconseguit posar piles a la llanterna."
+  GARBA_START_ANS1: "Genial! Ja sabia que eres molt manetes."
+  
+  GARBA_START_OPT2: "Hola Garba, què fas aquí?"
+  GARBA_START_ANS2: "Res, company, mirant passar el temps. Vull una llanterna amb piles."
+  
+  GARBA_START_OPT3: "Has vist alguna cosa sospitosa?"
+  GARBA_START_ANS3: "Només tu corrent d'un costat a l'altre."
+  
+  GARBA_START_OPT4: "Parlem més tard."
+  GARBA_START_ANS4: "Vale, fins després."
+  
+    # Node: quiero_una_linterna
+  GARBA_WANT_OPT1: "Per què vols una llanterna amb piles?"
+  GARBA_WANT_ANS1: "Per poder agafar dos objectes i unir-los en un de sol."
+  
+  GARBA_WANT_OPT2: "Jo tinc una llanterna, serveix?"
+  GARBA_WANT_ANS2: "Clar, dóna-m'la i desapareixerà del teu inventari."
+  
+  GARBA_WANT_OPT3: "Canviem de tema."
+  GARBA_WANT_ANS3: "D'acord, digues."
+  
+    # Node: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Aquí tens: una llanterna que funciona."
+  GARBA_HAVE_ANS1: "Sí, prova d'utilitzar el comandament 'DONAR' sobre mi."

@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TERJEMAHAN : BAHASA INDONESIA (id.yaml)
+# ====================================================================================
+
+language_name: "Bahasa Indonesia"
+
+# ====================================================================================
+#  SISTEM KATA KERJA - KOTAK KATA KERJA
+# ====================================================================================
+verbs:
+  WALK: "PERGI KE"        # <--- KUNCI DALAM HURUF BESAR
+  OPEN: "BUKA"
+  CLOSE: "TUTUP"
+  PUSH: "DORONG"
+  PULL: "TARIK"
+  PICK UP: "AMBIL"
+  USE: "GUNAKAN"
+  TALK TO: "BERBICARA DENGAN" # <--- KUNCI DALAM HURUF BESAR
+  GIVE: "BERI"
+  LOOK AT: "LIHAT"
+  WITH: "DENGAN"
+
+# ====================================================================================
+#  MENU UTAMA - AKTIF DENGAN F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "BERKAS"
+  SAVE_CMD: "SIMPAN"
+  LOAD_CMD: "MUAT"
+  HELP_TITLE: "BANTUAN"
+  NO_OPT: "TIDAK"
+  GAME_HELP_OPT: "BANTUAN PERMAINAN"
+  DEBUG_OPT: "MODE DEBUG"
+  SOUND_TITLE: "SUARA"
+  YES_OPT: "YA"
+  CURSOR_TITLE: "KURSOR"
+  CURSOR_CLASSIC: "KLASIK"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEKS"
+  VEL_LABEL: "KEC >"
+  SIZE_LABEL: "UKURAN >"
+  # Daftar sederhana
+  VEL_OPTS: ["LAMBAT", "SEDANG", "CEPAT"]
+  SIZE_OPTS: ["KECIL", "SEDANG", "BESAR"]
+  LANG_TITLE: "BAHASA"
+  CLOSE_CMD: "TUTUP"
+
+# ====================================================================================
+#  JUDUL - LAYAR AWAL
+# ====================================================================================
+titles:
+  NEW_GAME: "PERMAINAN BARU"
+  LOAD_GAME: "MUAT PERMAINAN"
+  LANGUAGE: "BAHASA"
+  CREDITS: "KREDIT"
+  EXIT: "KELUAR"
+
+# ====================================================================================
+#  PESAN SISTEM
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Saya tidak bisa melakukan itu."
+  CANNOT_REACH: "Saya tidak bisa mencapai tempat itu."
+  DOES_NOT_WORK: "Itu tidak berfungsi."
+  MAKES_NO_SENSE: "Itu tidak masuk akal."
+  DEFAULT_LOOK: "Ini "
+  PICKED_UP: "Saya mengambil "
+  SENTENCE_TO: " ke "                                   # Biarkan kosong jika bahasa Spanyol (Ir a + tujuan)
+  SENTENCE_WITH: " DENGAN "
+  PREP_WITH: " dengan..."
+  VERB_WALK: "PERGI KE"                                 # Dalam terjemahan kita bisa memilih "PERGI KE" atau hanya "PERGI" lalu menambahkan frasa "ke"
+  SAVE_SUCCESS: "Permainan berhasil disimpan."
+  SAVE_ERROR: "Kesalahan saat menyimpan berkas."
+  LOAD_SUCCESS: "Permainan dimuat."
+  LOAD_CORRUPT: "Berkas rusak."
+  MSG_SPEED: "Kecepatan: "
+  MSG_SIZE: "Ukuran: "
+  CRAFTING_DONE: "Saya telah menggabungkan {0} dengan {1}."
+  CHAR_SWAP: "Sekarang saya mengendalikan {0}!"
+  CREDITS_TITLE: "KREDIT"
+  DEBUG_TITLE: "KONSOL DEBUG (Seret saya)"
+
+  #  sistem penyimpanan gaya klasik
+  SLOT_EMPTY: "--- Kosong ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Tidak diketahui"      # EN: "Unknown"
+  SLOT_CORRUPT: "Berkas rusak"        # EN: "Corrupt File"
+  MSG_NO_SAVE: "Tidak ada permainan tersimpan di sini."  # EN: "No save game here."
+  BTN_CANCEL: "BATAL"                 # EN: "CANCEL"
+
+# ====================================================================================
+#  NAMA SCENE (Untuk debug, save dan peta)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Jalan Perdamaian"
+  TOWN_HALL: "Balai Kota"
+  PANORAMIC: "Panoramik"
+  DARK_ROOM: "Scene tanpa cahaya"
+  PARALLAX: "Demo Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NAMA ITEM (Label yang muncul saat hover)
+# ====================================================================================
+items:
+  # Scene 1
+  BELL: "Lonceng"
+  HAMMER: "Palu"  
+  
+  # Scene 2 - Balai Kota
+  WINDOW_OLD: "Jendela Tua"
+  LANTERN_OLD: "Sebuah lentera kuno"
+  MACHINE_STRANGE: "Mesin Aneh"
+  BONFIRE: "Api Unggun"
+  
+   
+  # Scene 3 - Panoramik
+  STONE: "Batu"
+  SHOVEL: "Sekop Berat"
+  TRASHCAN: "Tempat Sampah"
+  FLASHLIGHT_EMPTY: "Senter tanpa baterai"
+  BATTERIES: "Baterai untuk senter"
+  FLASHLIGHT_FULL: "Senter Menyala"
+  BIRD: "Burung Besar"
+  
+  # Scene 4
+  MAP: "Peta Tua"
+
+  # Scene 5
+  MARK_X: "Tanda di tanah"
+
+  # Karakter (Label) NPC
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCENES : DESKRIPSI DAN REAKSI (Lihat, Ambil, Dorong...)
+# ====================================================================================
+descriptions:
+  # Scene 1
+  SCENE1_INTRO_MSG: "INI ADALAH TEKS DEMO UNTUK PENGGUNA"
+  BELL_HINT: "Gunakan palu di sini!"
+  BELL_MAGIC_USE: "Suara bergema dua kali dengan sihir!"
+  BELL_LOOK: "Ini benar-benar lonceng yang besar."
+  BELL_OPEN: "Terbuat dari perunggu padat."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooonng! Betapa belnya."
+  HAMMER_LOOK: "Palu tukang kayu."
+  HAMMER_PICK: "Oke, saya bawa."
+
+  # Scene 2
+  WINDOW_LOOK: "Ini jendela Nyonya Fletcher."
+  WINDOW_OPEN: "Terjepit, dicat bertahun-tahun."
+  WINDOW_STONE: "Lebih baik tidak memecahkan apapun hari ini."
+  LANTERN_LOOK: "Sebuah lentera dari Aliexpress."
+  LANTERN_PICK: "Saya ambil."
+  MACHINE_LOOK: "Tampak seperti mesin yang kompleks."
+  MACHINE_USE: "Berfungsi!"
+  MACHINE_PUSH: "Saya dorong sedikit..."
+  BONFIRE_LOOK: "Saya memerah jika mendekat terlalu dekat. Ganti palet."
+
+  # Scene 3
+  SCENE3_INTRO_MSG: "Ini contoh layar dengan SCROLL horizontal"
+  TRASH_LOOK: "Penuh dengan sampah."
+  TRASH_OPEN: "Huh! Bau sekali."
+  TRASH_CLOSE: "Lebih baik ditutup."
+  NPC_GARBA_LOOK: "Kau melihat apa? Apakah aku punya monyet di wajah?"
+  GARBA_GIVE_FLASHLIGHT: "Ambil Garba, simpan saja."
+  BIRD_LOOK: "Oh, lihat, burung-burung!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Tidak ada baterai."
+  FLASHLIGHT_EMPTY_PICK: "Saya ambil."
+  BATTERIES_LOOK: "Baterai alkaline."
+  BATTERIES_PICK: "Masuk saku."
+  FLASHLIGHT_FULL_LOOK: "Sekarang ya, bersinar terang."
+  FLASHLIGHT_FULL_USE: "Lebih baik pakai di tempat gelap."
+  FLASHLIGHT_FULL_OPEN: "Lebih baik jangan melepas baterai sekarang."
+
+  SHOVEL_BART_PICK: "Humpf! Berat sekali, tapi saya bisa mengatasinya."
+  SHOVEL_GILO_FAIL: "Terlalu berat. Saya butuh Bart."
+  SHOVEL_LOOK_BART: "Sekop yang kuat. Ideal untuk ototku."
+  SHOVEL_LOOK_GILO: "Terbuat dari besi padat. Saya butuh Bart."
+  SHOVEL_USE: "Saya tidak bisa menggunakannya di sini."
+  SHOVEL_PUSH: "Sangat padat."
+
+  NPC_BART_LOOK: "Itu teman saya Bart. Terlihat kuat."
+  NPC_BART_TALK: "Hei, Bart. Ada apa?"
+  NPC_BART_PUSH: "Hei! Jangan dorong!"
+
+  NPC_GILO_LOOK: "Itu Gilo, sedang memikirkan urusannya."
+  NPC_GILO_TALK: "Tuan Gilo, apakah Anda menemukan sesuatu?"
+  NPC_GILO_PUSH: "Hei! Hati-hati dengan cambuk."
+
+  # Scene 4
+  DARK_ROOM_ENTER: "Saya tidak melihat apa-apa! Saya butuh cahaya."
+  MAP_LOOK: "Sebuah peta wisata."
+  MAP_PICK: "Saya ambil."
+  MAP_FAIL: "Saya tidak bisa menggunakannya terlentang di situ. Lebih baik saya ambil dulu."
+
+   # Scene 5
+  MARK_LOOK: "Sebuah X raksasa dicat di tanah. Seperti di peta bajak laut."
+  MARK_DIG_START: "Ada sesuatu di sini! Saya akan menggali..."
+  MARK_HIT_OBJ: "Krak! Saya mengenai sesuatu yang keras."
+  SCENE5_INTRO_MSG: "INI ADALAH LAYAR FINAL"
+  MARK_USE_FAIL: "Saya butuh sesuatu untuk menggali."
+  MARK_PUSH_FAIL: "Tanahnya sangat keras."
+
+# ====================================================================================
+#  SINEMATIK (Intro dan Akhir)
+# ====================================================================================
+cinematics:
+  # Scene . Awal
+  INTRO_1: "Tahun 2001. Kota tampak tenang..."
+  INTRO_2: "Tetapi di Balai Kota ada sesuatu yang gelap sedang direncanakan."
+  INTRO_3: "Hanya satu pahlawan (atau dua) yang bisa menghentikannya."
+
+  # Scene 2 . Balai Kota
+  AYUN_1: "Saya datang ke sini 25 tahun yang lalu..."
+  AYUN_2: "...tidak ada yang berubah."
+
+  # Scene . Akhir
+  ENDING_1: "Dan begitu, setelah menggali rahasia..."
+  ENDING_2: "Kota kembali normal."
+  THANKS: "TERIMA KASIH TELAH BERMAIN"
+
+# ====================================================================================
+#  DIALOG
+# ====================================================================================
+dialogues:
+  # Scene 2 - Panoramik - Dialog Garba vs NPC utama, Gilo
+    # Node: start
+  GARBA_START_OPT1: "Lihat! Aku berhasil memasang baterai di senter."
+  GARBA_START_ANS1: "Bagus! Aku tahu kau handal."
+
+  GARBA_START_OPT2: "Hai Garba, apa yang kau lakukan di sini?"
+  GARBA_START_ANS2: "Tidak ada, kawan, hanya melihat waktu berlalu. Aku ingin senter dengan baterai."
+
+  GARBA_START_OPT3: "Apakah kamu melihat sesuatu yang mencurigakan?"
+  GARBA_START_ANS3: "Hanya kamu yang lari ke sana kemari."
+
+  GARBA_START_OPT4: "Kita bicarakan nanti."
+  GARBA_START_ANS4: "Oke, sampai nanti."
+
+    # Node: quiero_una_linterna
+  GARBA_WANT_OPT1: "Kenapa kau ingin senter dengan baterai?"
+  GARBA_WANT_ANS1: "Agar kau bisa mengambil dua objek dan menggabungkannya menjadi satu."
+
+  GARBA_WANT_OPT2: "Aku punya senter, cukup?"
+  GARBA_WANT_ANS2: "Tentu, berikan padaku dan itu akan hilang dari inventarismu."
+
+  GARBA_WANT_OPT3: "Mari ubah topik."
+  GARBA_WANT_ANS3: "Baik, katakan."
+
+    # Node: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Ini untukmu: sebuah senter yang berfungsi."
+  GARBA_HAVE_ANS1: "Ya, coba gunakan perintah BERI dengan itu padaku."

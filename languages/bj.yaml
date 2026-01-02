@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TERJEMAHAN: BASA JAWA (bj.yaml)
+# ====================================================================================
+
+language_name: "Basa Jawa"
+
+# ====================================================================================
+#  SISTEM KRAMA KATA KERJA - KOTAK KATA KERJA
+# ====================================================================================
+verbs:
+  WALK: "MLAKU menyang"        # <--- KUNCI ING HURUF GEDHE
+  OPEN: "MBUKA"
+  CLOSE: "NUTUP"
+  PUSH: "NYURUNG"
+  PULL: "NARIK"
+  PICK UP: "NJUPUK"
+  USE: "NGGUNAKAKE"
+  TALK TO: "NGOMONG KARO"     # <--- KUNCI ING HURUF GEDHE
+  GIVE: "MARINGI"
+  LOOK AT: "NDELENG"
+  WITH: "karo"
+
+# ====================================================================================
+#  MENU UTAMA - DI-AKTIFKE KARO F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "BERKAS"
+  SAVE_CMD: "NYIMPAN"
+  LOAD_CMD: "MBUKA"
+  HELP_TITLE: "BANTUAN"
+  NO_OPT: "ORA"
+  GAME_HELP_OPT: "BANTUAN GAME"
+  DEBUG_OPT: "MODE DEBUG"
+  SOUND_TITLE: "SWARA"
+  YES_OPT: "YA"
+  CURSOR_TITLE: "KURSOR"
+  CURSOR_CLASSIC: "KLASIK"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEKS"
+  VEL_LABEL: "KACEPETAN >"
+  SIZE_LABEL: "UKURAN >"
+  # Dhaptar prasaja
+  VEL_OPTS: ["LAMBAT", "SEDHENG", "CEPET"]
+  SIZE_OPTS: ["CILIK", "SEDHENG", "GEDHE"]
+  LANG_TITLE: "BASA"
+  CLOSE_CMD: "TUTUP"
+
+# ====================================================================================
+#  JUDUL - LAYAR AWAL
+# ====================================================================================
+titles:
+  NEW_GAME: "GAME ANYAR"
+  LOAD_GAME: "MBUKA GAME"
+  LANGUAGE: "BASA"
+  CREDITS: "KRÉDIT"
+  EXIT: "METU"  
+
+# ====================================================================================
+#  PESEN SISTEM
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Aku ora bisa nindakake kuwi."
+  CANNOT_REACH: "Aku ora bisa tekan kana."
+  DOES_NOT_WORK: "Iku ora bisa digunakake."
+  MAKES_NO_SENSE: "Iku ora masuk akal."
+  DEFAULT_LOOK: "Iki "
+  PICKED_UP: "Aku njupuk "
+  SENTENCE_TO: " menyang "                                   # Yen kosong kanggo basa Spanyol (Melu 'IR a' + panggonan)
+  SENTENCE_WITH: " KARO "
+  PREP_WITH: " karo..."
+  VERB_WALK: "MLAKU MENGGÉ"                                 # Ing terjemahan bisa milih "MLAKU" utawa "MLAKU menyang"
+  SAVE_SUCCESS: "Game kasimpen kanthi sukses."
+  SAVE_ERROR: "Kesalahan nalika nyimpen berkas."
+  LOAD_SUCCESS: "Game wis dimuat."
+  LOAD_CORRUPT: "Berkas rusak."
+  MSG_SPEED: "Kacepetan: "
+  MSG_SIZE: "Ukuran: "
+  CRAFTING_DONE: "Aku gabung {0} karo {1}."
+  CHAR_SWAP: "Saiki aku ngontrol {0}!"
+  CREDITS_TITLE: "KRÉDIT"
+  DEBUG_TITLE: "KONSOL DEBUG (Seret aku)"
+
+  #  sistem nyimpen gaya klasik
+  SLOT_EMPTY: "--- Kosong ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Ora dingerteni"      # EN: "Unknown"
+  SLOT_CORRUPT: "Berkas Rusak"        # EN: "Corrupt File"
+  MSG_NO_SAVE: "Ora ana save game ing kene."  # EN: "No save game here."
+  BTN_CANCEL: "BATAL"                 # EN: "CANCEL"
+
+# ====================================================================================
+#  NAMA LAYAR (Kanggo debug, saves lan peta)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida de la Paz"
+  TOWN_HALL: "Balai Kutha"
+  PANORAMIC: "Panorama"
+  DARK_ROOM: "Panggonan peteng"
+  PARALLAX: "Demo Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NAMA OBJEK (Label sing metu nalika mouse liwat)
+# ====================================================================================
+items:
+  # Layar 1
+  BELL: "Gong"
+  HAMMER: "Palu"  
+  
+  # Layar 2 - Balai Kutha
+  WINDOW_OLD: "Jendela Lawas"
+  LANTERN_OLD: "Lampu lawas"
+  MACHINE_STRANGE: "Mesin Aneh"
+  BONFIRE: "Banyu geni"  # utawa "api unggun" bisa digunakake; dipilih "api unggun"
+  
+   
+  # Layar 3 - Panorama
+  STONE: "Watu"
+  SHOVEL: "Sekop abot"
+  TRASHCAN: "Tong sampah"
+  FLASHLIGHT_EMPTY: "Senter tanpa baterei"
+  BATTERIES: "Baterei kanggo senter"
+  FLASHLIGHT_FULL: "Senter sing nyala"
+  BIRD: "Manuk"
+  
+  # Layar 4
+  MAP: "Peta Lawas"
+
+  # Layar 5
+  MARK_X: "Tandha X ing lemah"
+
+  # Karakter (Label) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  LAYAR : DESKRIPSI LAN REAKSI (Ndeleng, Njupuk, Nyurung...)
+# ====================================================================================
+descriptions:
+  # Layar 1
+  SCENE1_INTRO_MSG: "IKI TEKS DEMO KANGGO PENGGUNA"
+  BELL_HINT: "Gunakake palu ing kene!"
+  BELL_MAGIC_USE: "Swara kuwi dadi loro amarga sihir!"
+  BELL_LOOK: "Iki gong sing gedhe tenan."
+  BELL_OPEN: "Digawe saka wesi padhet."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooonng! Gendhung sing gedhe."
+  HAMMER_LOOK: "Palu tukang kayu."
+  HAMMER_PICK: "Oke, tak entekake."
+  
+  # Layar 2
+  WINDOW_LOOK: "Iki jendela Bu Fletcher."
+  WINDOW_OPEN: "Klelep, wis dicet suwene taun."
+  WINDOW_STONE: "Luwih becik aku ora rusak dina iki."
+  LANTERN_LOOK: "Lampu tua."
+  LANTERN_PICK: "Tak jenengi."
+  MACHINE_LOOK: "Kaya mesin sing kompleks."
+  MACHINE_USE: "Iku bisa mlaku!"
+  MACHINE_PUSH: "Tak dorong sithik..."
+  BONFIRE_LOOK: "Yen daktatap cedhak, aku dadi abang. Ganti palet."
+  
+  # Layar 3
+  SCENE3_INTRO_MSG: "Iki conto layar kanthi SCROLL horisontal"
+  TRASH_LOOK: "Kebak sampah."
+  TRASH_OPEN: "Yuck! Ambune awon."
+  TRASH_CLOSE: "Luwih becik ditutup."
+  NPC_GARBA_LOOK: "Apa kowe ndelok? Apa aku nduwe monyong ing rai?"
+  GARBA_GIVE_FLASHLIGHT: "Iki Garba, simpen wae kowe."  
+  BIRD_LOOK: "Wah, deleng manuk cilik!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Ora ana baterei."
+  FLASHLIGHT_EMPTY_PICK: "Tak goleki."
+  BATTERIES_LOOK: "Baterei alkalin."
+  BATTERIES_PICK: "Dimasukkan nang kantong."  # terjemahan santai
+  FLASHLIGHT_FULL_LOOK: "Saiki sumunar kenceng."
+  FLASHLIGHT_FULL_USE: "Luwih becik tak gunakake ing panggonan peteng."
+  FLASHLIGHT_FULL_OPEN: "Aja dicopot batere saiki."
+  
+  SHOVEL_BART_PICK: "Huff! Abot banget, nanging aku isa."
+  SHOVEL_GILO_FAIL: "Kakehan abot. Perlu Bart."
+  SHOVEL_LOOK_BART: "Sekop sing kuwat. Cocog kanggo ototku."
+  SHOVEL_LOOK_GILO: "Kayane digawe saka wesi padhet. Perlu Bart."
+  SHOVEL_USE: "Aku ora bisa nggo iki kene."
+  SHOVEL_PUSH: "Ketok banget kenceng."
+
+  NPC_BART_LOOK: "Iki kanca ku Bart. Kuat."
+  NPC_BART_TALK: "Eh, Bart. Apa kabar?"
+  NPC_BART_PUSH: "Eh! Aja ditulak!"
+  
+  NPC_GILO_LOOK: "Ana Gilo, lagi mikir dhewe."
+  NPC_GILO_TALK: "Pak Gilo, sampeyan nemu apa-apa?"
+  NPC_GILO_PUSH: "Heh! Ati-ati karo cerek."
+
+  # Layar 4
+  DARK_ROOM_ENTER: "Aku ora ndeleng opo-opo! Perlu cahya."
+  MAP_LOOK: "Peta wisata."
+  MAP_PICK: "Tak gendong."
+  MAP_FAIL: "Aku ora bisa nggo kene. Luwih dhisik tak entuk."
+
+   # Layar 5
+  MARK_LOOK: "X gedhe dicet ing lemah. Kaya peta bajak laut."
+  MARK_DIG_START: "Ana sing kene! Aku arep ngudhun..."
+  MARK_HIT_OBJ: "Crac! Aku nemu barang sing atos."
+  SCENE5_INTRO_MSG: "IKI LAYAR PUNGKASAN"
+  MARK_USE_FAIL: "Butuh barang kanggo ngumbah."
+  MARK_PUSH_FAIL: "Lemah iki atos tenan."
+
+# ====================================================================================
+#  SINEMATIK (Intro lan Akhir)
+# ====================================================================================
+cinematics:
+  # Layar . Awal
+  INTRO_1: "Taun 2001. Kutha katon tentrem..."
+  INTRO_2: "Nanging ing Balai Kutha ana sing peteng lagi dirancang."
+  INTRO_3: "Mung siji pahlawan (utawa loro) sing bisa mandhegake."
+  
+  # Layar 2 . Balai Kutha
+  AYUN_1: "Aku nate ana kene 25 taun kepungkur..."
+  AYUN_2: "...ora ana sing owah."
+  
+  # Layar . Akhir
+  ENDING_1: "Lan mengkono, sawise mbukak rahasia..."
+  ENDING_2: "Kutha bali menyang kahanan normal."
+  THANKS: "MATUR NUWUN WIS MAIN"
+
+  # ====================================================================================
+#  DIALOG
+# ====================================================================================
+dialogues:
+  # Layar 2 - Panorama - Dialog Garba vs NPC utama, Gilo
+    # Node: start
+  GARBA_START_OPT1: "Deleng! Aku wis masang baterei ing senter."
+  GARBA_START_ANS1: "Apik! Aku ngerti kowe trampil."
+  
+  GARBA_START_OPT2: "Halo Garba, kok kene?"
+  GARBA_START_ANS2: "Ora ana, kanca. Mung nggo ngenteni wektu. Aku pengin senter sing nganggo baterei."
+  
+  GARBA_START_OPT3: "Kowe weruh apa-apa sing curiga?"
+  GARBA_START_ANS3: "Mung kowe sing mlaku-mlaku kaya ngono."
+  
+  GARBA_START_OPT4: "Banjur aku bakal ngomong."
+  GARBA_START_ANS4: "Ya, nganti ketemu."
+  
+    # Node: quiero_una_linterna
+  GARBA_WANT_OPT1: "Kowe pengin senter nganggo baterei kanggo apa?"
+  GARBA_WANT_ANS1: "Supaya kowe bisa njupuk loro barang lan nggabung dadi siji."
+  
+  GARBA_WANT_OPT2: "Aku duwe senter, apa iso?"
+  GARBA_WANT_ANS2: "Ya, pasrahna marang aku lan bakal ilang saka inventarismu."
+  
+  GARBA_WANT_OPT3: "Ayo ganti topik."
+  GARBA_WANT_ANS3: "Oke, critakna."
+
+    # Node: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Iki kanggo kowe: senter sing bisa digunakake."
+  GARBA_HAVE_ANS1: "Ya, cobanen nggunakake perintah MARINGI marang aku karo senter kuwi."

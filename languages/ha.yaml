@@ -1,0 +1,254 @@
+# ====================================================================================
+#  FASSARA: SIFANIYANCHI (ha.yaml)
+# ====================================================================================
+language_name: "Hausa"
+
+# ====================================================================================
+#  TSARIN AYYUKA - AKWATIN AYYUKA
+# ====================================================================================
+verbs:
+  WALK: "JE ZUWA"        # <--- MAƘALLI A MANYAN HARUFFA
+  OPEN: "BUƊE"
+  CLOSE: "RUFE"
+  PUSH: "TURE"
+  PULL: "JA"
+  PICK UP: "ƊAUKE"
+  USE: "AMFANI DA"
+  TALK TO: "YI MAGANA DA" # <--- MAƘALLI A MANYAN HARUFFA
+  GIVE: "BA"
+  LOOK AT: "DUBA"
+  WITH: "da"
+
+# ====================================================================================
+#  BABBAR MENU - ANA BUƊEWA DA F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FAYIL"
+  SAVE_CMD: "ADANA"
+  LOAD_CMD: "LODA"
+  HELP_TITLE: "TAIMAKO"
+  NO_OPT: "A'A"
+  GAME_HELP_OPT: "TAIMAKON WASA"
+  DEBUG_OPT: "YANAYIN DEBUG"
+  SOUND_TITLE: "SAUTI"
+  YES_OPT: "EH"
+  CURSOR_TITLE: "ALAMAR LINZAMI"
+  CURSOR_CLASSIC: "NA GARGAJIYA"
+  CURSOR_MODERN: "NA ZAMANI"
+  TEXT_TITLE: "RUBUTU"
+  VEL_LABEL: "SAURI >"
+  SIZE_LABEL: "GIRMA >"
+  # Jerin sauƙi
+  VEL_OPTS: ["A HANKALI", "MATSAKAICI", "DA SAURI"]
+  SIZE_OPTS: ["ƘARAMI", "MATSAKAICI", "BABBAN"]
+  LANG_TITLE: "HARSHE"
+  CLOSE_CMD: "RUFE"
+
+# ====================================================================================
+#  TAKE - ALLON FARA WASA
+# ====================================================================================
+titles:
+  NEW_GAME: "SABON WASA"
+  LOAD_GAME: "LODA WASA"
+  LANGUAGE: "HARSHE"
+  CREDITS: "MASU AIKI"
+  EXIT: "FITA"
+
+# ====================================================================================
+#  SAƘONNI NA TSARI
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Ba zan iya yin haka ba."
+  CANNOT_REACH: "Ba zan iya kaiwa can ba."
+  DOES_NOT_WORK: "Hakan baya aiki."
+  MAKES_NO_SENSE: "Bai da ma'ana."
+  DEFAULT_LOOK: "Yana "
+  PICKED_UP: "Na ɗauki "
+  SENTENCE_TO: " zuwa "                                   # A bar fanko idan tsarin harshe ya bambanta (Je zuwa + wuri)
+  SENTENCE_WITH: " da "
+  PREP_WITH: " da..."
+  VERB_WALK: "JE ZUWA"                                 # A fassara za a iya zaɓar "JE ZUWA" ko "JE" sannan a ƙara "zuwa"
+  SAVE_SUCCESS: "An adana wasan cikin nasara."
+  SAVE_ERROR: "Kuskure wajen adana fayil."
+  LOAD_SUCCESS: "An loda wasan."
+  LOAD_CORRUPT: "Fayil ya lalace."
+  MSG_SPEED: "Sauri: "
+  MSG_SIZE: "Girma: "
+  CRAFTING_DONE: "Na haɗa {0} da {1}."
+  CHAR_SWAP: "Yanzu kana sarrafa {0}!"
+  CREDITS_TITLE: "MASU AIKI"
+  DEBUG_TITLE: "KONSOLIN DEBUG (Ja shi)"
+
+  #  tsarin adanawa na gargajiya
+  SLOT_EMPTY: "--- Fanko ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Ba a sani ba"        # EN: "Unknown"
+  SLOT_CORRUPT: "Fayil Ya Lalace"     # EN: "Corrupt File"
+  MSG_NO_SAVE: "Babu wasan da aka adana a nan."  # EN: "No save game here."
+  BTN_CANCEL: "SOKE"                  # EN: "CANCEL"
+
+# ====================================================================================
+#  SUNAYEN WURARE (Don debug, adanawa da taswira)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Titin Zaman Lafiya"
+  TOWN_HALL: "Gidan Majalisa"
+  PANORAMIC: "Panorama"
+  DARK_ROOM: "Daki Mai Duhu"
+  PARALLAX: "Nuni Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - SUNAYEN ABUBUWA (Alamomi da ke bayyana da linzami)
+# ====================================================================================
+items:
+  # Wuri 1
+  BELL: "Ƙararrawa"
+  HAMMER: "Guduma"  
+  
+  # Wuri 2 - Gidan Majalisa
+  WINDOW_OLD: "Taga Tsohuwa"
+  LANTERN_OLD: "Fitila Tsohuwa"
+  MACHINE_STRANGE: "Na'ura Mai Ban Mamaki"
+  BONFIRE: "Wutar Waje"
+  
+   
+  # Wuri 3 - Panorama
+  STONE: "Dutse"
+  SHOVEL: "Fati Mai Nauyi"
+  TRASHCAN: "Kwantena Shara"
+  FLASHLIGHT_EMPTY: "Fitila Ba Tare da Batir ba"
+  BATTERIES: "Batirin Fitila"
+  FLASHLIGHT_FULL: "Fitila Mai Aiki"
+  BIRD: "Babban Tsuntsu"
+  
+  # Wuri 4
+  MAP: "Taswira Tsohuwa"
+
+  # Wuri 5
+  MARK_X: "Alamar X A Kasa"
+
+  # Haruffa (Alamomi) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  WURARE : BAYANI DA AMSAWA (Duba, Ɗauka, Tura...)
+# ====================================================================================
+descriptions:
+  # Wuri 1
+  SCENE1_INTRO_MSG: "WANNAN RUBUTUN GWADAWA NE GA MAI WASA"
+  BELL_HINT: "Yi amfani da guduma a nan!"
+  BELL_MAGIC_USE: "Sautin yana ƙara ƙarfi sau biyu da sihiri!"
+  BELL_LOOK: "Ƙararrawa ce babba sosai."
+  BELL_OPEN: "An yi ta da tagulla mai ƙarfi."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooong! Babban bugun ƙararrawa."
+  HAMMER_LOOK: "Gudumar kafinta."
+  HAMMER_PICK: "To, zan ɗauka."
+
+  # Wuri 2
+  WINDOW_LOOK: "Tagar Misis Fletcher ce."
+  WINDOW_OPEN: "Ta makale, an yi mata fenti tsawon shekaru."
+  WINDOW_STONE: "Gara kada in fasa komai yau."
+  LANTERN_LOOK: "Fitila mai araha."
+  LANTERN_PICK: "Zan ɗauka."  
+  MACHINE_LOOK: "Ta yi kama da na'ura mai rikitarwa."
+  MACHINE_USE: "Yana aiki!"
+  MACHINE_PUSH: "Ina tura ta kaɗan..."
+  BONFIRE_LOOK: "Ina jin zafi idan na matso kusa. Launuka suna canzawa."  
+  
+  # Wuri 3
+  SCENE3_INTRO_MSG: "Wannan misali ne na allo mai motsi a kwance"
+  TRASH_LOOK: "Cike take da shara."
+  TRASH_OPEN: "Kai! Wari mara kyau."
+  TRASH_CLOSE: "Gara a rufe."
+  NPC_GARBA_LOOK: "Me kake kallo? Ina da birai a fuska?"
+  GARBA_GIVE_FLASHLIGHT: "Ga shi Garba, ka riƙe."  
+  BIRD_LOOK: "Oh, duba tsuntsaye!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Ba ta da batir."
+  FLASHLIGHT_EMPTY_PICK: "Zan ɗauka."
+  BATTERIES_LOOK: "Batirin alkaline."
+  BATTERIES_PICK: "Zan ɗauka."
+  FLASHLIGHT_FULL_LOOK: "Yanzu tana haskakawa sosai."
+  FLASHLIGHT_FULL_USE: "Zan yi amfani da ita a wuri mai duhu."
+  FLASHLIGHT_FULL_OPEN: "Gara kada in cire batir yanzu."
+
+  SHOVEL_BART_PICK: "Hmm! Tana da nauyi, amma zan iya."
+  SHOVEL_GILO_FAIL: "Ta yi nauyi sosai. Ina buƙatar Bart."
+  SHOVEL_LOOK_BART: "Fati mai ƙarfi. Daidai da tsokata."
+  SHOVEL_LOOK_GILO: "An yi ta da ƙarfe mai ƙarfi. Ina buƙatar Bart."
+  SHOVEL_USE: "Ba zan iya amfani da ita a nan ba."
+  SHOVEL_PUSH: "Ta makale sosai."
+
+  NPC_BART_LOOK: "Abokina Bart ne. Yana da ƙarfi."
+  NPC_BART_TALK: "Kai Bart, me ke faruwa?"
+  NPC_BART_PUSH: "Kai! Kada ka tura ni!"
+  
+  NPC_GILO_LOOK: "Ga Gilo can, yana tunani."
+  NPC_GILO_TALK: "Malam Gilo, ka gano wani abu?"
+  NPC_GILO_PUSH: "Kai! Ka kula."
+
+  # Wuri 4
+  DARK_ROOM_ENTER: "Ba na ganin komai! Ina buƙatar haske."
+  MAP_LOOK: "Taswirar yawon buɗe ido."
+  MAP_PICK: "Zan ɗauka."
+  MAP_FAIL: "Ba zan iya amfani da ita a ƙasa haka ba. Gara in ɗauka farko."
+
+   # Wuri 5
+  MARK_LOOK: "Babbar X a zane a ƙasa. Kamar taswirar 'yan fashin teku."
+  MARK_DIG_START: "Akwai wani abu a nan! Zan fara tono..."
+  MARK_HIT_OBJ: "Crac! Na bugi wani abu mai ƙarfi."
+  SCENE5_INTRO_MSG: "WANNAN SHI NE ALLO NA ƘARSHE"
+  MARK_USE_FAIL: "Ina buƙatar wani abu don tono."
+  MARK_PUSH_FAIL: "Ƙasar ta yi wuya sosai."
+
+# ====================================================================================
+#  CINEMATICS (Fara da Ƙarshe)
+# ====================================================================================
+cinematics:
+  # Wuri . Fara
+  INTRO_1: "Shekara ta 2001. Garin ya yi kama da mai natsuwa..."
+  INTRO_2: "Amma wani abu mai duhu yana faruwa a Gidan Majalisa."
+  INTRO_3: "Jarumi ɗaya (ko biyu) ne kaɗai za su iya hana shi."
+  
+  # Wuri 2 . Gidan Majalisa
+  AYUN_1: "Na taɓa zuwa nan shekaru 25 da suka wuce..."
+  AYUN_2: "...babu abin da ya canza."
+  
+  # Wuri . Ƙarshe
+  ENDING_1: "Kuma haka, bayan gano sirrin..."
+  ENDING_2: "Garin ya koma daidai."
+  THANKS: "NA GODE DA WASA"
+
+  # ====================================================================================
+#  TATTAUNAWA
+# ====================================================================================
+dialogues:
+  # Wuri 2 - Panorama - Tattaunawar Garba da babban NPC, Gilo
+    # Node: start
+  GARBA_START_OPT1: "Duba! Na riga na saka batir a fitilar."
+  GARBA_START_ANS1: "Madalla! Na san kai ƙwararre ne."
+  
+  GARBA_START_OPT2: "Sannu Garba, me kake yi a nan?"
+  GARBA_START_ANS2: "Ba komai, ina kashe lokaci. Ina son fitila mai batir."
+  
+  GARBA_START_OPT3: "Ka ga wani abu mai ban mamaki?"
+  GARBA_START_ANS3: "Kai kaɗai nake gani kana gudu ko'ina."
+  
+  GARBA_START_OPT4: "Za mu yi magana daga baya."
+  GARBA_START_ANS4: "To, sai an jima."
+  
+    # Node: quiero_una_linterna
+  GARBA_WANT_OPT1: "Me ya sa kake son fitila mai batir?"
+  GARBA_WANT_ANS1: "Don ka haɗa abubuwa biyu su zama ɗaya."
+  
+  GARBA_WANT_OPT2: "Ina da fitila, za ta yi?"
+  GARBA_WANT_ANS2: "Eh, ba ni ita kuma za ta ɓace daga jakarka."
+  
+  GARBA_WANT_OPT3: "Mu canza batun."
+  GARBA_WANT_ANS3: "To, faɗa mini."
+
+    # Node: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Ga ta nan: fitila mai aiki."
+  GARBA_HAVE_ANS1: "Eh, gwada amfani da umarnin BA a kaina."

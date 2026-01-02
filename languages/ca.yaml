@@ -1,0 +1,254 @@
+# ====================================================================================
+#  翻譯：西班牙文 原檔 (ca.yaml) — 粵語自然化版本
+# ====================================================================================
+
+language_name: "粵語"
+
+# ====================================================================================
+#  動詞系統 — 動詞欄
+# ====================================================================================
+verbs:
+  WALK: "行去"        # <--- 大寫鍵（遊戲內鍵名）
+  OPEN: "打開"
+  CLOSE: "關上"
+  PUSH: "推"
+  PULL: "拉"
+  PICK UP: "拎起"
+  USE: "用"
+  TALK TO: "同...傾偈" # <--- 大寫鍵（遊戲內鍵名）
+  GIVE: "畀"
+  LOOK AT: "望下"
+  WITH: "同"
+
+# ====================================================================================
+#  主選單 — 按 F2 開啟
+# ====================================================================================
+menus:
+  FILE_TITLE: "檔案"
+  SAVE_CMD: "儲存"
+  LOAD_CMD: "載入"
+  HELP_TITLE: "說明"
+  NO_OPT: "否"
+  GAME_HELP_OPT: "遊戲說明"
+  DEBUG_OPT: "除錯模式"
+  SOUND_TITLE: "聲音"
+  YES_OPT: "係"
+  CURSOR_TITLE: "游標"
+  CURSOR_CLASSIC: "經典"
+  CURSOR_MODERN: "現代"
+  TEXT_TITLE: "文字"
+  VEL_LABEL: "速度 >"
+  SIZE_LABEL: "大小 >"
+  # 簡單清單
+  VEL_OPTS: ["慢", "普通", "快"]
+  SIZE_OPTS: ["細", "中", "大"]
+  LANG_TITLE: "語言"
+  CLOSE_CMD: "關閉"
+
+# ====================================================================================
+#  標題 — 開始畫面
+# ====================================================================================
+titles:
+  NEW_GAME: "新遊戲"
+  LOAD_GAME: "載入遊戲"
+  LANGUAGE: "語言"
+  CREDITS: "製作團隊"
+  EXIT: "離開"
+
+# ====================================================================================
+#  系統訊息
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "我做到唔到。"
+  CANNOT_REACH: "我去唔到嗰度。"
+  DOES_NOT_WORK: "唔掂。"
+  MAKES_NO_SENSE: "講唔通。"
+  DEFAULT_LOOK: "係 "
+  PICKED_UP: "我拎咗 "
+  SENTENCE_TO: " 去 "                                   # 廣東話通常用「去 + 地點」
+  SENTENCE_WITH: " 同 "
+  PREP_WITH: " 用..."
+  VERB_WALK: "行去"                                 # 翻譯時可用「行去」或只用「行」再加「去」字
+  SAVE_SUCCESS: "遊戲已成功儲存。"
+  SAVE_ERROR: "儲存檔案出錯。"
+  LOAD_SUCCESS: "遊戲已載入。"
+  LOAD_CORRUPT: "檔案已損壞。"
+  MSG_SPEED: "速度："
+  MSG_SIZE: "大小："
+  CRAFTING_DONE: "我將 {0} 同 {1} 合埋咗。"
+  CHAR_SWAP: "而家我控制住 {0}！"
+  CREDITS_TITLE: "製作團隊"
+  DEBUG_TITLE: "除錯主控台（拖動我）"
+
+  # 傳統存檔系統
+  SLOT_EMPTY: "--- 空白 ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "未知"               # EN: "Unknown"
+  SLOT_CORRUPT: "檔案損壞"           # EN: "Corrupt File"
+  MSG_NO_SAVE: "呢度冇存檔。"        # EN: "No save game here."
+  BTN_CANCEL: "取消"                 # EN: "CANCEL"
+
+# ====================================================================================
+#  場景名稱（用於除錯、存檔同地圖）
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "和平大道"
+  TOWN_HALL: "市政廳"
+  PANORAMIC: "全景"
+  DARK_ROOM: "無光場景"
+  PARALLAX: "視差示範"
+
+# ====================================================================================
+#  熱點 — 物件名稱（滑鼠移到會顯示）
+# ====================================================================================
+items:
+  # 場景 1
+  BELL: "鐘"
+  HAMMER: "鎚"
+
+  # 場景 2 — 市政廳
+  WINDOW_OLD: "舊窗"
+  LANTERN_OLD: "舊燈籠"
+  MACHINE_STRANGE: "奇怪嘅機器"
+  BONFIRE: "篝火"
+
+  # 場景 3 — 全景
+  STONE: "石頭"
+  SHOVEL: "重鏟"
+  TRASHCAN: "垃圾桶"
+  FLASHLIGHT_EMPTY: "冇電池嘅手電筒"
+  BATTERIES: "手電筒電池"
+  FLASHLIGHT_FULL: "有電嘅手電筒"
+  BIRD: "雀仔"
+
+  # 場景 4
+  MAP: "舊地圖"
+
+  # 場景 5
+  MARK_X: "地上標記"
+
+  # 人物（標籤）NPC
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  場景：描述與反應（望、拎、推...）
+# ====================================================================================
+descriptions:
+  # 場景 1
+  SCENE1_INTRO_MSG: "呢段係示範文字，畀玩家睇嘅"
+  BELL_HINT: "用鎚仔敲吓佢！"
+  BELL_MAGIC_USE: "有咗魔法，聲音會回響得更勁！"
+  BELL_LOOK: "好大一個鐘。"
+  BELL_OPEN: "係實心青銅做嘅。"
+  BELL_PUSH: "叮！"
+  BELL_PULL: "咚——！個鐘槌好勁。"
+  HAMMER_LOOK: "木工用嘅鎚仔。"
+  HAMMER_PICK: "好，拎走。"
+
+  # 場景 2
+  WINDOW_LOOK: "呢個係Fletcher太太嘅窗。"
+  WINDOW_OPEN: "開唔開到，已經塗咗好多年油。"
+  WINDOW_STONE: "今日唔好打爛嘢。"
+  LANTERN_LOOK: "睇落係淘寶嗰啲風格嘅燈籠。"
+  LANTERN_PICK: "拎走佢。"
+  MACHINE_LOOK: "睇落係複雜嘅機械。"
+  MACHINE_USE: "有用！"
+  MACHINE_PUSH: "推一推佢……"
+  BONFIRE_LOOK: "靠太近會面紅，色調會換。"
+
+  # 場景 3
+  SCENE3_INTRO_MSG: "呢個係橫向捲動畫面嘅示例"
+  TRASH_LOOK: "入面全係垃圾。"
+  TRASH_OPEN: "嘔心！好臭。"
+  TRASH_CLOSE: "好，關返好佢。"
+  NPC_GARBA_LOOK: "你望緊啲咩？我有猴仔喺面？"
+  GARBA_GIVE_FLASHLIGHT: "拎啦Garba，你留返用。"
+  BIRD_LOOK: "哦，睇吓，啲細雀！"
+
+  FLASHLIGHT_EMPTY_LOOK: "入面冇電池。"
+  FLASHLIGHT_EMPTY_PICK: "拎走佢。"
+  BATTERIES_LOOK: "鹼性電池。"
+  BATTERIES_PICK: "塞入口袋。"
+  FLASHLIGHT_FULL_LOOK: "而家真係好掂，好亮。"
+  FLASHLIGHT_FULL_USE: "留返喺黑暗地方用較好。"
+  FLASHLIGHT_FULL_OPEN: "而家唔好摷電池出嚟。"
+
+  SHOVEL_BART_PICK: "哼！好重，但我扛得住。"
+  SHOVEL_GILO_FAIL: "太重喇，我要Bart幫手。"
+  SHOVEL_LOOK_BART: "好堅固嘅鏟，啱晒我。"
+  SHOVEL_LOOK_GILO: "係實心鐵做嘅，我需要Bart。"
+  SHOVEL_USE: "呢度用唔到。"
+  SHOVEL_PUSH: "推唔郁，好實淨。"
+
+  NPC_BART_LOOK: "呢個係我好友Bart，睇落勁壯。"
+  NPC_BART_TALK: "喂，Bart，有咩事？"
+  NPC_BART_PUSH: "喂！唔好推人！"
+
+  NPC_GILO_LOOK: "嗰個係Gilo，喺度諗嘢。"
+  NPC_GILO_TALK: "Gilo先生，有冇搵到啲嘢？"
+  NPC_GILO_PUSH: "喂！小心條鞭。"
+
+  # 場景 4
+  DARK_ROOM_ENTER: "咩都睇唔到！我要光。"
+  MAP_LOOK: "一張旅遊地圖。"
+  MAP_PICK: "拎走佢。"
+  MAP_FAIL: "放喺度用唔到，先拎起佢。"
+
+  # 場景 5
+  MARK_LOOK: "地上畫咗個好大嘅 X，似海盜地圖。"
+  MARK_DIG_START: "下面有嘢！我開始挖……"
+  MARK_HIT_OBJ: "咔嚓！撞到硬嘢。"
+  SCENE5_INTRO_MSG: "呢度係最後一幕"
+  MARK_USE_FAIL: "我需要工具先可以挖。"
+  MARK_PUSH_FAIL: "啲泥實到爆，推唔掂。"
+
+# ====================================================================================
+#  過場動畫（開頭與結尾）
+# ====================================================================================
+cinematics:
+  # 場景：開始
+  INTRO_1: "2001年。城市睇落好平靜……"
+  INTRO_2: "但市政廳入面有啲陰暗嘢醞釀緊。"
+  INTRO_3: "只有一個英雄（或者兩個）先可能阻止佢。"
+
+  # 場景 2：市政廳
+  AYUN_1: "我係25年前嚟過呢度……"
+  AYUN_2: "……乜都冇變。"
+
+  # 場景：結尾
+  ENDING_1: "就係咁，揭開秘密之後……"
+  ENDING_2: "城市恢復返正常。"
+  THANKS: "多謝你玩"
+
+# ====================================================================================
+#  對話
+# ====================================================================================
+dialogues:
+  # 場景 2 — 全景 — Garba 同主角（Gilo）對話
+    # 節點：start
+  GARBA_START_OPT1: "你睇！我裝好手電嘅電池喇。"
+  GARBA_START_ANS1: "正呀！我就知你識整嘢。"
+
+  GARBA_START_OPT2: "喂Garba，你喺度做乜呀？"
+  GARBA_START_ANS2: "冇乜，喺度hea。想要支有電嘅手電筒。"
+
+  GARBA_START_OPT3: "你見到啲可疑嘢無？"
+  GARBA_START_ANS3: "就見到你四圍跑啫。"
+
+  GARBA_START_OPT4: "遲啲再傾。"
+  GARBA_START_ANS4: "好，掰掰。"
+
+    # 節點：quiero_una_linterna
+  GARBA_WANT_OPT1: "點解要支有電嘅手電？"
+  GARBA_WANT_ANS1: "咁你就可以拎兩樣嘢合成做一樣。"
+
+  GARBA_WANT_OPT2: "我有支手電，可唔可以？"
+  GARBA_WANT_ANS2: "得，畀我就會喺你背包入面消失。"
+
+  GARBA_WANT_OPT3: "換個話題啦。"
+  GARBA_WANT_ANS3: "好，講啦。"
+
+    # 節點：tengo_la_linterna
+  GARBA_HAVE_OPT1: "畀你：一支好用嘅手電筒。"
+  GARBA_HAVE_ANS1: "係，試下用『畀』個指令畀我。"

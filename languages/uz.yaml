@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TARJIMA: ISPAN TILI (es.yaml → Uzbek)
+# ====================================================================================
+
+language_name: "Ispancha"
+
+# ====================================================================================
+#  FE'LLAR SISTEMASI - FE'LLAR QUTISI
+# ====================================================================================
+verbs:
+  WALK: "Borishga"        # <--- KALIT SO'Z KATTA HARFLARDA
+  OPEN: "Ochish"
+  CLOSE: "Yopish"
+  PUSH: "Itarish"
+  PULL: "Tortish"
+  PICK UP: "Olmoq"
+  USE: "Foydalanish"
+  TALK TO: "Gaplashish" # <--- KALIT SO'Z KATTA HARFLARDA
+  GIVE: "Bermek"
+  LOOK AT: "Qarang"
+  WITH: "bilan"
+
+# ====================================================================================
+#  ASOSIY MENYU - F2 BILAN FAOLLASHADI
+# ====================================================================================
+menus:
+  FILE_TITLE: "Fayl"
+  SAVE_CMD: "Saqlash"
+  LOAD_CMD: "Yuklash"
+  HELP_TITLE: "Yordam"
+  NO_OPT: "YO'Q"
+  GAME_HELP_OPT: "O'YIN YORDAMI"
+  DEBUG_OPT: "DEBUG REJIMI"
+  SOUND_TITLE: "Ovoz"
+  YES_OPT: "HA"
+  CURSOR_TITLE: "Kursor"
+  CURSOR_CLASSIC: "Klassik"
+  CURSOR_MODERN: "Zamonaviy"
+  TEXT_TITLE: "Matnlar"
+  VEL_LABEL: "Tezlik >"
+  SIZE_LABEL: "Hajm >"
+  # Oddiy ro'yxatlar
+  VEL_OPTS: ["SEKIN", "O'RTACHA", "TEZ"]
+  SIZE_OPTS: ["KICHIK", "O'RTA", "KATTA"]
+  LANG_TITLE: "Til"
+  CLOSE_CMD: "Yopish"
+
+# ====================================================================================
+#  SAKHIFALAR SARDORI - BOSHLANG'ICH EKRAN SAKHLARI
+# ====================================================================================
+titles:
+  NEW_GAME: "YANGI O'YIN"
+  LOAD_GAME: "O'YINNI YUKLASH"
+  LANGUAGE: "TIL"
+  CREDITS: "MUALLIFLIK"
+  EXIT: "CHIQISH"
+
+# ====================================================================================
+#  TIZIM XABARLARI
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Buni qila olmayman."
+  CANNOT_REACH: "U yerga etib bormayman."
+  DOES_NOT_WORK: "Bu ishlamaydi."
+  MAKES_NO_SENSE: "Bu mantiqsiz."
+  DEFAULT_LOOK: "Bu "
+  PICKED_UP: "Men oldim "
+  SENTENCE_TO: " ga "                                   # Ispan tilida bo'lsa bo'sh qoldiring (Ir a + joy)
+  SENTENCE_WITH: " BILAN "
+  PREP_WITH: " bilan..."
+  VERB_WALK: "BORISH"                                 # Tarjimada "BORISH" yoki faqat "BOR" ni tanlashimiz mumkin, keyin "ga" qo'shamiz
+  SAVE_SUCCESS: "O'yin muvaffaqiyatli saqlandi."
+  SAVE_ERROR: "Faylni saqlashda xato."
+  LOAD_SUCCESS: "O'yin yuklandi."
+  LOAD_CORRUPT: "Fayl buzilgan."
+  MSG_SPEED: "Tezlik: "
+  MSG_SIZE: "Hajm: "
+  CRAFTING_DONE: "{0} ni {1} bilan birlashtirdim."
+  CHAR_SWAP: "Endi men {0} ni boshqaraman!"
+  CREDITS_TITLE: "MUALLIFLIK"
+  DEBUG_TITLE: "DEBUG KONSOLI (Sudrab o'tkazing)"
+
+  #  klassik uslubdagi saqlash tizimi
+  SLOT_EMPTY: "--- Bo'sh ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Noma'lum"            # EN: "Unknown"
+  SLOT_CORRUPT: "Fayl buzilgan"      # EN: "Corrupt File"
+  MSG_NO_SAVE: "Bu yerda saqlangan o'yin yo'q."  # EN: "No save game here."
+  BTN_CANCEL: "BEKOR QILISH"          # EN: "CANCEL"
+
+# ====================================================================================
+#  SENE (Debug, saqlash va xarita uchun sahna nomlari)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Tinchlik prospekti"
+  TOWN_HALL: "Shahar hokimiyati"
+  PANORAMIC: "Panoramik"
+  DARK_ROOM: "Yorug'liksiz sahna"
+  PARALLAX: "Parallax demo"
+
+# ====================================================================================
+#  HOTSPOTLAR - OBYEKT NOMLARI (Kursor ustidan o'tganda chiqadigan yorliq)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Chaqmoq"
+  HAMMER: "Bolg'a"
+  
+  # Escena 2 - Ayuntamiento
+  WINDOW_OLD: "Eski deraza"
+  LANTERN_OLD: "Qadimiy chiroq"
+  MACHINE_STRANGE: "G'alati mashina"
+  BONFIRE: "Yo'qolgan olov"
+  
+   
+  # Escena 3 - Panoramica
+  STONE: "Tosh"
+  SHOVEL: "Og'ir belkurak"
+  TRASHCAN: "Axlat qutisi"
+  FLASHLIGHT_EMPTY: "Batareyasiz qalamcha chiroq"
+  BATTERIES: "Chiroq uchun batareyalar"
+  FLASHLIGHT_FULL: "Yonayotgan chiroq"
+  BIRD: "Katta qush"
+  
+  # Escena 4
+  MAP: "Eski xarita"
+
+  # Escena 5
+  MARK_X: "Yerdagi X belgisi"
+
+  # Personajlar (Yorliqlar) NPClar
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SAHNALAR: TAVSIFLAR VA REAKSIYALAR (Qarang, Oling, Itarish...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "BU FOYDALANUVCHI UCHUN NAMUNA MATN"
+  BELL_HINT: "Bu yerda bolg'adan foydalan!"  # ¡Usa el martillo aquí!
+  BELL_MAGIC_USE: "Ovoz sehr bilan ikki barobar aks sado beradi!"
+  BELL_LOOK: "Bu juda katta chiroq/qo'ng'iroq."
+  BELL_OPEN: "U qattiq bronzadandir."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Juda katta yadro."
+  HAMMER_LOOK: "Daraxtga ishlov berish bolg'asi."
+  HAMMER_PICK: "Xo'p, olib ketaman."
+  
+  # Escena 2
+  WINDOW_LOOK: "Bu xonim Fletcherning derazasi."
+  WINDOW_OPEN: "U tiqilib qolgan, yillar davomida bo'yalgan."
+  WINDOW_STONE: "Bugun hech narsani sindirmayman."
+  LANTERN_LOOK: "AliExpressdan olingan chiroqqa o'xshaydi."
+  LANTERN_PICK: "Uni olaman."  
+  MACHINE_LOOK: "Murakkab mexanizmga o'xshaydi."
+  MACHINE_USE: "Ishlaydi!"
+  MACHINE_PUSH: "Men uni ozgina itardim..."
+  BONFIRE_LOOK: "Yaqinroq kirsam qizaraman. Palitra o'zgaradi."
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Bu gorizontal SCROLL bilan ekran namunasi"
+  TRASH_LOOK: "U chiqindilar bilan to'la."
+  TRASH_OPEN: "¡Puaj! Qanday iflos!"
+  TRASH_CLOSE: "Yaxshiroq yopiq qoldirsam."
+  NPC_GARBA_LOOK: "Nimani ko'ryapsan? Mening yuzimda maymunlar bormi?"  # ¿Qué miras? ¿Tengo monos en la cara?
+  GARBA_GIVE_FLASHLIGHT: "Ol Garba, o'zingga olib qol."  
+  BIRD_LOOK: "Oh, qarang, qushlar!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Unda batareya yo'q."
+  FLASHLIGHT_EMPTY_PICK: "Men uni olaman."
+  BATTERIES_LOOK: "Alkalin batareyalar."
+  BATTERIES_PICK: "Sumkaga solaman."
+  FLASHLIGHT_FULL_LOOK: "Endi u juda kuchli yonadi."
+  FLASHLIGHT_FULL_USE: "Qorong'i joyda undan foydalanish yaxshiroq."
+  FLASHLIGHT_FULL_OPEN: "Hozir batareyalarni chiqarish yaxshi emas."
+  
+  SHOVEL_BART_PICK: "¡Humpf! U juda og'ir, lekin men buni ko'tara olaman."
+  SHOVEL_GILO_FAIL: "U juda og'ir. Bart kerak."
+  SHOVEL_LOOK_BART: "Qalin belkurak. Mening mushaklarim uchun ideal."
+  SHOVEL_LOOK_GILO: "Bu qotma temirdan. Bart kerak."
+  SHOVEL_USE: "Men buni shu yerda ishlata olmayman."
+  SHOVEL_PUSH: "U juda mahkam."
+
+  NPC_BART_LOOK: "Bu mening do'stim Bart. Ko'rinishi kuchli."
+  NPC_BART_TALK: "Ey, Bart. Nima gap?"
+  NPC_BART_PUSH: "Ey! Itarmang!"
+  
+  NPC_GILO_LOOK: "U yerda Gilo, o'z ishlarini o'ylayapti."
+  NPC_GILO_TALK: "Janob Gilo, nimadir topdingizmi?"
+  NPC_GILO_PUSH: "Ey! Kamaringizga ehtiyot bo'ling."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "Hech narsa ko'rmayapman! Menga yorug'lik kerak."
+  MAP_LOOK: "Sayohat xaritasi."
+  MAP_PICK: "Men olaman."
+  MAP_FAIL: "Uni shu yerdan ishlata olmayman. Avval olsam yaxshi bo'ladi."
+
+   # Escena 5
+  MARK_LOOK: "Yerdagi ulkan X belgisi. Xazina xaritalaridagi kabi."
+  MARK_DIG_START: "Bu yerda bir narsa bor! Qaziy boshlayman..."
+  MARK_HIT_OBJ: "¡Crac! Qattiq narsaga urildim."
+  SCENE5_INTRO_MSG: "BU OXIRGI EKRAN"
+  MARK_USE_FAIL: "Qazish uchun nimadir kerak."
+  MARK_PUSH_FAIL: "Tuproq juda qattiq."
+
+# ====================================================================================
+#  KINEMATIKALAR (Intro va Yakun)
+# ====================================================================================
+cinematics:
+  # Escena . Boshlanish
+  INTRO_1: "2001 yil. Shahar tinch ko'rinishga ega edi..."
+  INTRO_2: "Ammo hokimiyat binosida qorong'u ishlar rejalashtirilayotgan edi."
+  INTRO_3: "Faqat bitta (yoki ikki) qahramon uni to'xtata olardi."
+  
+  # Escena 2 . Ayuntamiento
+  AYUN_1: "Men bu yerda 25 yil oldin bo'lganman..."
+  AYUN_2: "...hech narsa o'zgarmagan."
+  
+  # Escena . Yakun
+  ENDING_1: "Shunday qilib, sir topilgandan keyin..."
+  ENDING_2: "Shahar yana o'z holatiga qaytdi."
+  THANKS: "O'YNAGANINGIZ UCHUN RAHMAT"
+
+# ====================================================================================
+#  SUHBATLAR
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panoramica - Garba va bosh qahramon, Gilo o'rtasidagi suhbat
+    # Nodo: start
+  GARBA_START_OPT1: "Qarang! Men chiroqqa batareya qo'ydim."
+  GARBA_START_ANS1: "Zo'r! Sen buni uddalaysan deb bilardim."
+  
+  GARBA_START_OPT2: "Salom Garba, nima qilyapsan bu yerda?"
+  GARBA_START_ANS2: "Hech narsa, vaqtni kuzatayapman. Menga batareya bilan chiroq kerak."
+  
+  GARBA_START_OPT3: "Hech qanday shubhali narsani ko'rdingmi?"
+  GARBA_START_ANS3: "Faqat seni har tarafga yugurayotganingni ko'rdim."
+  
+  GARBA_START_OPT4: "Keyin gaplashamiz."
+  GARBA_START_ANS4: "Mayli, ko'rishguncha."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Nega batareyali chiroqni xohlaysan?"
+  GARBA_WANT_ANS1: "Iki narsani olib, ularni bitta narsaga birlashtirish uchun."
+  
+  GARBA_WANT_OPT2: "Menda chiroq bor, u ishlaydimi?"
+  GARBA_WANT_ANS2: "Albatta, menga ber, u inventaringdan yo'qoladi."
+  
+  GARBA_WANT_OPT3: "Mavzuni o'zgartiraylik."
+  GARBA_WANT_ANS3: "Xo'sh, ayt."
+  
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Mana: ishlaydigan chiroq."
+  GARBA_HAVE_ANS1: "Ha, menga 'BER' buyrug'i bilan berib ko'r."

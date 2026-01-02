@@ -1,0 +1,254 @@
+# ====================================================================================
+#  PAGSASALIN: ESPAÑOL (ta.yaml)
+# ====================================================================================
+language_name: "Tagalog"
+
+# ====================================================================================
+#  SISTEMA NG MGA PANDIWA - KAHON NG MGA PANDIWA
+# ====================================================================================
+verbs:
+  WALK: "PUMUNTA SA"        # <--- SUSI SA MALALAKING MGA TITIK
+  OPEN: "Buksan"
+  CLOSE: "Isara"
+  PUSH: "Itulak"
+  PULL: "Hilahin"
+  PICK UP: "Kunin"
+  USE: "Gamitin"
+  TALK TO: "Kausapin"      # <--- SUSI SA MALALAKING MGA TITIK
+  GIVE: "Ibigay"
+  LOOK AT: "Tumingin sa"
+  WITH: "kasama"
+
+# ====================================================================================
+#  PANGUNAHING MENU - BUKSAN GAMIT ANG F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "File"
+  SAVE_CMD: "I-save"
+  LOAD_CMD: "I-load"
+  HELP_TITLE: "Tulong"
+  NO_OPT: "Hindi"
+  GAME_HELP_OPT: "Tulong ng Laro"
+  DEBUG_OPT: "Modo ng Debug"
+  SOUND_TITLE: "Tunog"
+  YES_OPT: "Oo"
+  CURSOR_TITLE: "Cursor"
+  CURSOR_CLASSIC: "Klasiko"
+  CURSOR_MODERN: "Moderno"
+  TEXT_TITLE: "Teksto"
+  VEL_LABEL: "Bilis >"
+  SIZE_LABEL: "Laki >"
+  # Listahang simple
+  VEL_OPTS: ["MABAGAL", "KATAMTAMAN", "MABILIS"]
+  SIZE_OPTS: ["MALIIT", "KATAMTAMAN", "MALAKI"]
+  LANG_TITLE: "Wika"
+  CLOSE_CMD: "Isara"
+
+# ====================================================================================
+#  MGA PAMAGAT - PAGSIMULA NG SCREEN
+# ====================================================================================
+titles:
+  NEW_GAME: "Bagong Laro"
+  LOAD_GAME: "I-load ang Laro"
+  LANGUAGE: "Wika"
+  CREDITS: "Mga Kredito"
+  EXIT: "Lumabas"
+
+# ====================================================================================
+#  MGA MENSAHE NG SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Hindi ko magagawa iyon."
+  CANNOT_REACH: "Hindi ako makakarating doon."
+  DOES_NOT_WORK: "Hindi gumagana iyan."
+  MAKES_NO_SENSE: "Walang katuturan iyon."
+  DEFAULT_LOOK: "Ito ay "
+  PICKED_UP: "Nakuha ko ang "
+  SENTENCE_TO: " sa "                                   # Iwanang blangko kung iba ang istruktura (Pumunta sa + destinasyon)
+  SENTENCE_WITH: " kasama "
+  PREP_WITH: " kasama..."
+  VERB_WALK: "PUMUNTA SA"                                 # Sa pagsasalin puwedeng piliin ang "PUMUNTA SA" o "LAKAD" at idugtong ang pangungusap "sa"
+  SAVE_SUCCESS: "Nai-save nang matagumpay ang laro."
+  SAVE_ERROR: "Error sa pag-save ng file."
+  LOAD_SUCCESS: "Na-load ang laro."
+  LOAD_CORRUPT: "Sira ang file."
+  MSG_SPEED: "Bilis: "
+  MSG_SIZE: "Laki: "
+  CRAFTING_DONE: "Pinagsama ko ang {0} at {1}."
+  CHAR_SWAP: "Ngayon ikaw ang kumokontrol kay {0}!"
+  CREDITS_TITLE: "Mga Kredito"
+  DEBUG_TITLE: "Debug Console (I-drag ako)"
+
+  #  klasikong sistema ng pag-save
+  SLOT_EMPTY: "--- Walang laman ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Hindi Kilala"              # EN: "Unknown"
+  SLOT_CORRUPT: "Sira ang File"             # EN: "Corrupt File"
+  MSG_NO_SAVE: "Walang naka-save na laro dito."  # EN: "No save game here."
+  BTN_CANCEL: "Kanselahin"                  # EN: "CANCEL"
+
+# ====================================================================================
+#  MGA PANGALAN NG TAGPO (Para sa debug, save at mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida ng Kapayapaan"
+  TOWN_HALL: "Munisipyo"
+  PANORAMIC: "Panoramik"
+  DARK_ROOM: "Tagpong Walang Ilaw"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - MGA PANGALAN NG ITEM (Labels na lumilitaw sa pag-hover)
+# ====================================================================================
+items:
+  # Tagpo 1
+  BELL: "Kampanilya"
+  HAMMER: "Martilyo"  
+  
+  # Tagpo 2 - Munisipyo
+  WINDOW_OLD: "Lumang Bintana"
+  LANTERN_OLD: "Lumang Parol"
+  MACHINE_STRANGE: "Kakaibang Makina"
+  BONFIRE: "Bonfire"
+  
+   
+  # Tagpo 3 - Panoramik
+  STONE: "Bato"
+  SHOVEL: "Mabigat na Pala"
+  TRASHCAN: "Basurahan"
+  FLASHLIGHT_EMPTY: "Flashlight na walang baterya"
+  BATTERIES: "Baterya para sa flashlight"
+  FLASHLIGHT_FULL: "Naka-on na Flashlight"
+  BIRD: "Malaking Ibon"
+  
+  # Tagpo 4
+  MAP: "Lumang Mapa"
+
+  # Tagpo 5
+  MARK_X: "Marka sa Lupa"
+
+  # Mga Tauhan (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  MGA TAGPO : MGA DESKRIPSYON AT REAKSIYON (Tingnan, Kunin, Itulak...)
+# ====================================================================================
+descriptions:
+  # Tagpo 1
+  SCENE1_INTRO_MSG: "ITO AY ISANG DEMO NA TEKSTO PARA SA MANLALARO"
+  BELL_HINT: "Gamitin ang martilyo rito!"
+  BELL_MAGIC_USE: "Tumitibay ang tunog dahil sa mahika!"
+  BELL_LOOK: "Isa itong napakalaking kampana."
+  BELL_OPEN: "Gawa ito sa matibay na tanso."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooong! Ang laki ng hikaw ng kampana."
+  HAMMER_LOOK: "Martilyo ng karpintero."
+  HAMMER_PICK: "Sige, kukunin ko."
+
+  # Tagpo 2
+  WINDOW_LOOK: "Ito ang bintana ni Mrs. Fletcher."
+  WINDOW_OPEN: "Nakaipit ito, pininturahan nang maraming taon."
+  WINDOW_STONE: "Mas mabuti sigurong huwag akong sumira ng kahit ano ngayon."
+  LANTERN_LOOK: "Isang murang parol."
+  LANTERN_PICK: "Kukunin ko."  
+  MACHINE_LOOK: "Mukhang komplikadong makina."
+  MACHINE_USE: "Gumagana ito!"
+  MACHINE_PUSH: "Bigla ko lang itong tinulak..."
+  BONFIRE_LOOK: "Nangingitim ang mukha ko kapag masyado akong lumalapit. Nagbabago ang palette."  
+  
+  # Tagpo 3
+  SCENE3_INTRO_MSG: "Ito ay halimbawa ng screen na may pahalang na scroll"
+  TRASH_LOOK: "Puno ito ng basura."
+  TRASH_OPEN: "Naku! Ang baho."
+  TRASH_CLOSE: "Mas mabuti nang isara."
+  NPC_GARBA_LOOK: "Ano ang tinitingnan mo? May unggoy ba sa mukha ko?"
+  GARBA_GIVE_FLASHLIGHT: "Hetong Garba, itago mo yan."  
+  BIRD_LOOK: "O, tingnan ang mga ibon!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Walang baterya."
+  FLASHLIGHT_EMPTY_PICK: "Kukunin ko."
+  BATTERIES_LOOK: "Mga alkaline na baterya."
+  BATTERIES_PICK: "Kukunin ko."
+  FLASHLIGHT_FULL_LOOK: "Ngayon ay maliwanag na."
+  FLASHLIGHT_FULL_USE: "Mas mabuting gamitin sa madilim na lugar."
+  FLASHLIGHT_FULL_OPEN: "Mas mabuting huwag alisin ang baterya ngayon."
+
+  SHOVEL_BART_PICK: "Humph! Mabigat, pero kaya ko."
+  SHOVEL_GILO_FAIL: "Masyadong mabigat. Kailangan ko si Bart."
+  SHOVEL_LOOK_BART: "Matibay na pala. Mainam para sa aking lakas."
+  SHOVEL_LOOK_GILO: "Gawa ito sa matibay na bakal. Kailangan ko si Bart."
+  SHOVEL_USE: "Hindi ko ito magagamit dito."
+  SHOVEL_PUSH: "Napakahigpit."
+
+  NPC_BART_LOOK: "Ito si Bart, kaibigan ko. Mukhang malakas."
+  NPC_BART_TALK: "Hoy, Bart. Ano'ng balita?"
+  NPC_BART_PUSH: "Hoy! Huwag magtulak!"
+  
+  NPC_GILO_LOOK: "Naroon si Gilo, nag-iisip."
+  NPC_GILO_TALK: "Mr. Gilo, may nahanap ka ba?"
+  NPC_GILO_PUSH: "Hoy! Mag-ingat sa latigo."
+
+  # Tagpo 4
+  DARK_ROOM_ENTER: "Hindi ako makakita ng kahit ano! Kailangan ko ng ilaw."
+  MAP_LOOK: "Isang tourist na mapa."
+  MAP_PICK: "Kukunin ko."
+  MAP_FAIL: "Hindi ko ito magagamit habang nakahagdan lang. Mas mabuting kunin muna."
+
+   # Tagpo 5
+  MARK_LOOK: "Isang higanteng X ang iginuhit sa lupa. Parang sa mga mapa ng pirata."
+  MARK_DIG_START: "May laman ito! Magsisimula akong maghukay..."
+  MARK_HIT_OBJ: "Crac! May natama akong matigas na bagay."
+  SCENE5_INTRO_MSG: "ITO ANG HULING SCREEN"
+  MARK_USE_FAIL: "Kailangan ko ng bagay para humukay."
+  MARK_PUSH_FAIL: "Napakatigas ng lupa."
+
+# ====================================================================================
+#  CINEMATICS (Intro at Ending)
+# ====================================================================================
+cinematics:
+  # Tagpo . Simula
+  INTRO_1: "Taong 2001. Mukhang payapa ang lungsod..."
+  INTRO_2: "Ngunit may madilim na nangyayari sa Munisipyo."
+  INTRO_3: "Tanging isang bayani (o dalawa) ang makapipigil dito."
+  
+  # Tagpo 2 . Munisipyo
+  AYUN_1: "Dito ako noon 25 taon na ang nakakaraan..."
+  AYUN_2: "...wala namang nagbago."
+  
+  # Tagpo . Wakas
+  ENDING_1: "At sa gayon, matapos mabunyag ang lihim..."
+  ENDING_2: "Bumalik sa normal ang lungsod."
+  THANKS: "SALAMAT SA PAGLALARO"
+
+# ====================================================================================
+#  DIALOGUES
+# ====================================================================================
+dialogues:
+  # Tagpo 2 - Panoramik - Diyalogo Garba vs Pangunahing NPC, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Tingnan! Nakapaglagay na ako ng baterya sa flashlight."
+  GARBA_START_ANS1: "Ang galing! Alam ko sanang magaling ka."
+  
+  GARBA_START_OPT2: "Kumusta Garba, ano'ng ginagawa mo dito?"
+  GARBA_START_ANS2: "Wala naman, nagmamasid lang. Gusto ko ng flashlight na may baterya."
+  
+  GARBA_START_OPT3: "May nakita ka bang kahina-hinala?"
+  GARBA_START_ANS3: "Ikaw lang ang tumatakbo dito't doon."
+  
+  GARBA_START_OPT4: "Mag-uusap tayo mamaya."
+  GARBA_START_ANS4: "Sige, paalam."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Bakit kailangan mo ng flashlight na may baterya?"
+  GARBA_WANT_ANS1: "Para kunin mo ang dalawang bagay at pagsamahin sa isa."
+  
+  GARBA_WANT_OPT2: "Mayroon akong flashlight, okay ba iyon?"
+  GARBA_WANT_ANS2: "Oo, ibigay mo sa akin at mawawala na ito sa iyong imbentaryo."
+  
+  GARBA_WANT_OPT3: "Magpalit tayo ng usapan."
+  GARBA_WANT_ANS3: "Sige, sabihin mo."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Heto: isang gumaganang flashlight."
+  GARBA_HAVE_ANS1: "Oo, subukang gamitin ang utos na 'IBIGAY' dito."  

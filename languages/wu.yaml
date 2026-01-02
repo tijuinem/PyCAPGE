@@ -1,0 +1,254 @@
+# ====================================================================================
+#  翻译：西班牙语 (wu.yaml) -> 吴语/吴方言（以书面汉字呈现）
+# ====================================================================================
+language_name: "吴语"
+
+# ====================================================================================
+#  动词系统 - 动词盒
+# ====================================================================================
+verbs:
+  WALK: "去"        # <--- 大写键名
+  OPEN: "打开"
+  CLOSE: "关闭"
+  PUSH: "推"
+  PULL: "拉"
+  PICK UP: "拿起"
+  USE: "使用"
+  TALK TO: "和…说话" # <--- 大写键名
+  GIVE: "给"
+  LOOK AT: "看着"
+  WITH: "和"
+
+# ====================================================================================
+#  主菜单 - 按 F2 激活
+# ====================================================================================
+menus:
+  FILE_TITLE: "文件"
+  SAVE_CMD: "保存"
+  LOAD_CMD: "读取"
+  HELP_TITLE: "帮助"
+  NO_OPT: "否"
+  GAME_HELP_OPT: "游戏帮助"
+  DEBUG_OPT: "调试模式"
+  SOUND_TITLE: "声音"
+  YES_OPT: "是"
+  CURSOR_TITLE: "光标"
+  CURSOR_CLASSIC: "经典"
+  CURSOR_MODERN: "现代"
+  TEXT_TITLE: "文本"
+  VEL_LABEL: "速度 >"
+  SIZE_LABEL: "大小 >"
+  # 简单列表
+  VEL_OPTS: ["慢", "中", "快"]
+  SIZE_OPTS: ["小", "中", "大"]
+  LANG_TITLE: "语言"
+  CLOSE_CMD: "关闭"
+
+# ====================================================================================
+#  标题 - 启动画面
+# ====================================================================================
+titles:
+  NEW_GAME: "新游戏"
+  LOAD_GAME: "读取游戏"
+  LANGUAGE: "语言"
+  CREDITS: "制作名单"
+  EXIT: "退出"
+
+# ====================================================================================
+#  系统信息
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "我做不了那件事。"
+  CANNOT_REACH: "我到不了那里。"
+  DOES_NOT_WORK: "那不行。"
+  MAKES_NO_SENSE: "那毫无意义。"
+  DEFAULT_LOOK: "是 "
+  PICKED_UP: "我拿到了 "
+  SENTENCE_TO: " 到 "                                   # 如果语言用不同结构则留空（例如：去 + 目的地）
+  SENTENCE_WITH: " 和 "
+  PREP_WITH: " 和..."
+  VERB_WALK: "去"                                 # 翻译时可选“去”或“走”，并在需要时加上“到”
+  SAVE_SUCCESS: "游戏保存成功。"
+  SAVE_ERROR: "保存文件时出错。"
+  LOAD_SUCCESS: "游戏已加载。"
+  LOAD_CORRUPT: "文件损坏。"
+  MSG_SPEED: "速度: "
+  MSG_SIZE: "大小: "
+  CRAFTING_DONE: "你把 {0} 和 {1} 合成了。"
+  CHAR_SWAP: "现在你控制 {0} 了！"
+  CREDITS_TITLE: "制作名单"
+  DEBUG_TITLE: "调试控制台（拖动我）"
+
+  #  经典存档系统
+  SLOT_EMPTY: "--- 空 ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "未知"         # EN: "Unknown"
+  SLOT_CORRUPT: "文件损坏"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "这里没有存档。"  # EN: "No save game here."
+  BTN_CANCEL: "取消"              # EN: "CANCEL"
+
+# ====================================================================================
+#  场景名称（用于调试、存档和地图）
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "和平大道"
+  TOWN_HALL: "市政厅"
+  PANORAMIC: "全景"
+  DARK_ROOM: "无光场景"
+  PARALLAX: "视差演示"
+
+# ====================================================================================
+#  热点 - 物品名称（鼠标悬停时显示的标签）
+# ====================================================================================
+items:
+  # 场景 1
+  BELL: "钟"
+  HAMMER: "锤子"  
+  
+  # 场景 2 - 市政厅
+  WINDOW_OLD: "旧窗"
+  LANTERN_OLD: "旧灯笼"
+  MACHINE_STRANGE: "奇怪的机器"
+  BONFIRE: "篝火"
+  
+   
+  # 场景 3 - 全景
+  STONE: "石头"
+  SHOVEL: "重铲"
+  TRASHCAN: "垃圾桶"
+  FLASHLIGHT_EMPTY: "没电的手电"
+  BATTERIES: "手电电池"
+  FLASHLIGHT_FULL: "亮着的手电"
+  BIRD: "大鸟"
+  
+  # 场景 4
+  MAP: "旧地图"
+
+  # 场景 5
+  MARK_X: "地上的 X 标记"
+
+  # 人物（标签） NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  场景：描述与反应（看、拿起、推……）
+# ====================================================================================
+descriptions:
+  # 场景 1
+  SCENE1_INTRO_MSG: "这是给玩家的演示文本"
+  BELL_HINT: "在这里用锤子！"
+  BELL_MAGIC_USE: "声音在魔法下回响两倍！"
+  BELL_LOOK: "这真是个很大的钟。"
+  BELL_OPEN: "是实心青铜做的。"
+  BELL_PUSH: "叮！"
+  BELL_PULL: "嘟~~~~噔！钟锤真大。"
+  HAMMER_LOOK: "木工用的锤子。"
+  HAMMER_PICK: "好，我拿走。"
+  
+  # 场景 2
+  WINDOW_LOOK: "这是弗莱彻太太的窗户。"
+  WINDOW_OPEN: "卡住了，好多年没动过漆了。"
+  WINDOW_STONE: "今天最好别弄坏什么。"
+  LANTERN_LOOK: "一个便宜的灯笼。"
+  LANTERN_PICK: "我拿走。"
+  MACHINE_LOOK: "看起来像台复杂的机器。"
+  MACHINE_USE: "它动起来了！"
+  MACHINE_PUSH: "我轻轻推了下……"
+  BONFIRE_LOOK: "靠近点我会脸红。调色板会变。"
+  
+  # 场景 3
+  SCENE3_INTRO_MSG: "这是个带水平滚动的屏幕示例"
+  TRASH_LOOK: "它装满了垃圾。"
+  TRASH_OPEN: "呃！好臭。"
+  TRASH_CLOSE: "还是关上吧。"
+  NPC_GARBA_LOOK: "你看什么？我脸上有猴子吗？"
+  GARBA_GIVE_FLASHLIGHT: "拿去 Garba，留着你用吧。"
+  BIRD_LOOK: "哦，看，那鸟！"
+  
+  FLASHLIGHT_EMPTY_LOOK: "没有电池。"
+  FLASHLIGHT_EMPTY_PICK: "我拿走。"
+  BATTERIES_LOOK: "碱性电池。"
+  BATTERIES_PICK: "收入囊中。"
+  FLASHLIGHT_FULL_LOOK: "现在亮得很。"
+  FLASHLIGHT_FULL_USE: "还是在黑暗的地方用吧。"
+  FLASHLIGHT_FULL_OPEN: "现在不该把电池拆出来。"
+  
+  SHOVEL_BART_PICK: "哼！很重，但我能搬动。"
+  SHOVEL_GILO_FAIL: "太重了。需要 Bart。"
+  SHOVEL_LOOK_BART: "一把结实的铲子。正适合我的肌肉。"
+  SHOVEL_LOOK_GILO: "是结实的铁制。需要 Bart。"
+  SHOVEL_USE: "这里不能用。"
+  SHOVEL_PUSH: "卡得很牢。"
+
+  NPC_BART_LOOK: "那是我哥们 Bart。看起来很壮。"
+  NPC_BART_TALK: "诶，Bart。有事吗？"
+  NPC_BART_PUSH: "喂！别推！"
+  
+  NPC_GILO_LOOK: "那是 Gilo，在沉思。"
+  NPC_GILO_TALK: "Gilo 先生，找到什么了吗？"
+  NPC_GILO_PUSH: "喂！小心马鞭。"
+
+  # 场景 4
+  DARK_ROOM_ENTER: "我什么也看不见！需要光。"
+  MAP_LOOK: "一张旅游地图。"
+  MAP_PICK: "我拿走。"
+  MAP_FAIL: "扔着就不能用，最好先捡起来。"
+
+   # 场景 5
+  MARK_LOOK: "地上画了个巨大的 X。像海盗地图。"
+  MARK_DIG_START: "这里有东西！我要开始挖……"
+  MARK_HIT_OBJ: "咔嚓！碰到硬物了。"
+  SCENE5_INTRO_MSG: "这是最后的场景"
+  MARK_USE_FAIL: "需要点挖掘工具。"
+  MARK_PUSH_FAIL: "土太硬了。"
+
+# ====================================================================================
+#  过场动画（开头与结尾）
+# ====================================================================================
+cinematics:
+  # 场景：开头
+  INTRO_1: "2001 年。城市看起来很安静……"
+  INTRO_2: "但在市政厅有些阴暗的事情在策划。"
+  INTRO_3: "只有一位（或两位）英雄能阻止它。"
+  
+  # 场景 2：市政厅
+  AYUN_1: "我 25 年前来过这里……"
+  AYUN_2: "……什么都没变。"
+  
+  # 场景：结尾
+  ENDING_1: "于是，在挖掘出秘密之后……"
+  ENDING_2: "城市恢复了正常。"
+  THANKS: "感谢游玩"
+
+# ====================================================================================
+#  对话
+# ====================================================================================
+dialogues:
+  # 场景 2 - 全景 - Garba 与 主角 NPC Gilo 的对话
+    # 节点：start
+  GARBA_START_OPT1: "看！我已经给手电装上电池了。"
+  GARBA_START_ANS1: "太棒了！我就知道你行。"
+  
+  GARBA_START_OPT2: "嗨 Garba，你在这里做什么？"
+  GARBA_START_ANS2: "没啥，看看时间。我想要个带电池的手电。"
+  
+  GARBA_START_OPT3: "你看到可疑的东西了吗？"
+  GARBA_START_ANS3: "就你在这儿到处跑。"
+  
+  GARBA_START_OPT4: "我们以后再聊。"
+  GARBA_START_ANS4: "好，回头见。"
+  
+    # 节点：quiero_una_linterna
+  GARBA_WANT_OPT1: "你为啥要带电池的手电？"
+  GARBA_WANT_ANS1: "为了把两个物品拿来合成成一个。"
+  
+  GARBA_WANT_OPT2: "我有个手电，行吗？"
+  GARBA_WANT_ANS2: "当然，给我它就会从你的物品栏消失。"
+  
+  GARBA_WANT_OPT3: "换个话题吧。"
+  GARBA_WANT_ANS3: "好，说吧。"
+
+    # 节点：tengo_la_linterna
+  GARBA_HAVE_OPT1: "给你：一个能用的手电。"
+  GARBA_HAVE_ANS1: "嗯，试试对我用 'GIVE' 命令吧。"

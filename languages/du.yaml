@@ -1,0 +1,255 @@
+# ====================================================================================
+#  VERTALING: DUTCH du.yaml
+# ====================================================================================
+
+language_name: "Nederlands"
+
+# ====================================================================================
+#  WERKWOORDENSYSTEEM - WERKWOORDENKADER
+# ====================================================================================
+verbs:
+  WALK: "GA NAAR"        # <--- SLEUTEL IN HOOFDLETTERS
+  OPEN: "OPENEN"
+  CLOSE: "SLUITEN"
+  PUSH: "DUWEN"
+  PULL: "TREKKEN"
+  PICK UP: "OPRAAPEN"
+  USE: "GEBRUIKEN"
+  TALK TO: "PRATEN MET" # <--- SLEUTEL IN HOOFDLETTERS
+  GIVE: "GEVEN"
+  LOOK AT: "BEKIJKEN"
+  WITH: "met"
+
+# ====================================================================================
+#  HOOFDMENU - ACTIEF MET F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "BESTAND"
+  SAVE_CMD: "OPSLAAN"
+  LOAD_CMD: "LADEN"
+  HELP_TITLE: "HULP"
+  NO_OPT: "NEE"
+  GAME_HELP_OPT: "SPELHELP"
+  DEBUG_OPT: "DEBUG-MODUS"
+  SOUND_TITLE: "GELUID"
+  YES_OPT: "JA"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "KLASSIEK"
+  CURSOR_MODERN: "MODERN"
+  TEXT_TITLE: "TEKSTEN"
+  VEL_LABEL: "SNEL >"
+  SIZE_LABEL: "GROOTTE >"
+  # Eenvoudige lijsten
+  VEL_OPTS: ["LANGZAAM", "NORMAAL", "SNEL"]
+  SIZE_OPTS: ["KLEIN", "GEMIDDELD", "GROOT"]
+  LANG_TITLE: "TAAL"
+  CLOSE_CMD: "SLUITEN"
+
+# ====================================================================================
+#  TITELS - STARTSCHERM
+# ====================================================================================
+titles:
+  NEW_GAME: "NIEUW SPEL"
+  LOAD_GAME: "LAAD SPEL"
+  LANGUAGE: "TAAL"
+  CREDITS: "CREDITS"
+  EXIT: "AFSLUITEN"
+
+# ====================================================================================
+#  SYSTEEMBERICHTEN
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Dat kan ik niet doen."
+  CANNOT_REACH: "Ik kan daar niet komen."
+  DOES_NOT_WORK: "Dat werkt niet."
+  MAKES_NO_SENSE: "Dat slaat nergens op."
+  DEFAULT_LOOK: "Het is "
+  PICKED_UP: "Ik heb opgepakt "
+  SENTENCE_TO: " naar "                                   # Laat leeg als Nederlands (Ga naar + bestemming)
+  SENTENCE_WITH: " MET "
+  PREP_WITH: " met..."
+  VERB_WALK: "GA NAAR"                                 # In de vertaling kunnen we kiezen voor "GA NAAR" of alleen "GA" en dan de zin "naar" toevoegen
+  SAVE_SUCCESS: "Spel succesvol opgeslagen."
+  SAVE_ERROR: "Fout bij het opslaan van het bestand."
+  LOAD_SUCCESS: "Spel geladen."
+  LOAD_CORRUPT: "Beschadigd bestand."
+  MSG_SPEED: "Snelheid: "
+  MSG_SIZE: "Grootte: "
+  CRAFTING_DONE: "Ik heb {0} met {1} gecombineerd."
+  CHAR_SWAP: "Nu bestuur ik {0}!"
+  CREDITS_TITLE: "CREDITS"
+  DEBUG_TITLE: "DEBUGCONSOLE (Sleep mij)"
+
+  #  klassiek opslagsysteem
+  SLOT_EMPTY: "--- Leeg ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Onbekend"          # EN: "Unknown"
+  SLOT_CORRUPT: "Beschadigd bestand"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "Er is geen opgeslagen spel aanwezig."  # EN: "No save game here."
+  BTN_CANCEL: "ANNULEREN"              # EN: "CANCEL"
+
+# ====================================================================================
+#  SCÈNENAMEN (Voor debug, saves en kaart)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Vredeslaan"
+  TOWN_HALL: "Stadhuis"
+  PANORAMIC: "Panoramisch"
+  DARK_ROOM: "Scène zonder licht"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - NAAMEN VAN OBJECTEN (Labels die verschijnen bij muisover)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Bel"
+  HAMMER: "Hamer"
+  
+  # Escena 2 - Ayuntamiento
+  WINDOW_OLD: "Oud raam"
+  LANTERN_OLD: "Een oude lantaarn"
+  MACHINE_STRANGE: "Vreemde machine"
+  BONFIRE: "Vuurplaats"
+  
+   
+  # Escena 3 - Panoramica
+  STONE: "Steen"
+  SHOVEL: "Zware schop"
+  TRASHCAN: "Vuilnisbak"
+  FLASHLIGHT_EMPTY: "Een zaklamp zonder batterijen"
+  BATTERIES: "Batterijen voor de zaklamp"
+  FLASHLIGHT_FULL: "Een werkende zaklamp"
+  BIRD: "Grote vogel"
+  
+  # Escena 4
+  MAP: "Oude kaart"
+
+  # Escena 5
+  MARK_X: "Markering op de grond"
+
+  # Personages (Labels) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCÈNES : OMSCHRIJVINGEN EN REACTIES (Bekijken, Oppakken, Duwen...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "DIT IS EEN DEMOTEXT VOOR DE SPELER"
+  BELL_HINT: "Gebruik hier de hamer!"
+  BELL_MAGIC_USE: "Het geluid weerklinkt dubbel door de magie!"
+  BELL_LOOK: "Het is een echt grote bel."
+  BELL_OPEN: "Hij is van massief brons."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Dooooooong! Wat een klepel."
+  HAMMER_LOOK: "Timmermanshamer."
+  HAMMER_PICK: "Oké, ik neem hem mee."
+  
+  # Escena 2
+  WINDOW_LOOK: "Het is het raam van mevrouw Fletcher."
+  WINDOW_OPEN: "Het zit vast, het is al jaren overschilderd."
+  WINDOW_STONE: "Beter geen dingen kapotmaken vandaag."
+  LANTERN_LOOK: "Een lantaarn van Aliexpress."
+  LANTERN_PICK: "Ik neem hem mee."
+  MACHINE_LOOK: "Het lijkt een complexe machine."
+  MACHINE_USE: "Het werkt!"
+  MACHINE_PUSH: "Ik geef het een duwtje..."
+  BONFIRE_LOOK: "Als ik te dicht bij kom, word ik rood. Kleurenpalet verandert."
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Dit is een voorbeeldscherm met horizontaal SCROLLEN"
+  TRASH_LOOK: "Het zit vol afval."
+  TRASH_OPEN: "Bah! Wat een stank."
+  TRASH_CLOSE: "Beter dicht."
+  NPC_GARBA_LOOK: "Wat kijk je? Heb ik apen op mijn gezicht?"
+  GARBA_GIVE_FLASHLIGHT: "Hier Garba, hou hem maar."
+  BIRD_LOOK: "Oh, kijk, vogeltjes!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Er zitten geen batterijen in."
+  FLASHLIGHT_EMPTY_PICK: "Ik neem hem mee."
+  BATTERIES_LOOK: "Alkalinebatterijen."
+  BATTERIES_PICK: "In de zak ermee."
+  FLASHLIGHT_FULL_LOOK: "Nu ja, hij schijnt sterk."
+  FLASHLIGHT_FULL_USE: "Beter om hem in een donkere plek te gebruiken."
+  FLASHLIGHT_FULL_OPEN: "Ik haal nu liever geen batterijen uit hem."
+  
+  SHOVEL_BART_PICK: "Humpf! Hij weegt een ton, maar ik kan het aan."
+  SHOVEL_GILO_FAIL: "Hij is te zwaar. Ik heb Bart nodig."
+  SHOVEL_LOOK_BART: "Een stevige schop. Perfect voor mijn spieren."
+  SHOVEL_LOOK_GILO: "Hij is van massief ijzer. Ik heb Bart nodig."
+  SHOVEL_USE: "Ik kan hem hier niet gebruiken."
+  SHOVEL_PUSH: "Het zit erg vast."
+
+  NPC_BART_LOOK: "Dat is mijn maat Bart. Hij ziet er sterk uit."
+  NPC_BART_TALK: "Hee, Bart. Wat is er?"
+  NPC_BART_PUSH: "Hee! Niet duwen!"
+  
+  NPC_GILO_LOOK: "Daar is Gilo, verdiept in zijn gedachten."
+  NPC_GILO_TALK: "Meneer Gilo, heeft u iets gevonden?"
+  NPC_GILO_PUSH: "Hé! Pas op met de zweep."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "Ik zie helemaal niets! Ik heb licht nodig."
+  MAP_LOOK: "Een toeristische kaart."
+  MAP_PICK: "Ik neem hem mee."
+  MAP_FAIL: "Ik kan het niet gebruiken als het daar ligt. Beter eerst oppakken."
+
+   # Escena 5
+  MARK_LOOK: "Een gigantische X op de grond geschilderd. Net als op piratenkaarten."
+  MARK_DIG_START: "Er zit iets! Ik ga graven..."
+  MARK_HIT_OBJ: "Krak! Ik heb iets stevigs geraakt."
+  SCENE5_INTRO_MSG: "DIT IS HET EINDSCHERM"
+  MARK_USE_FAIL: "Ik heb iets nodig om te graven."
+  MARK_PUSH_FAIL: "De aarde is erg hard."
+
+# ====================================================================================
+#  CINEMATIEKEN (Intro en Einde)
+# ====================================================================================
+cinematics:
+  # Escena . Inicio
+  INTRO_1: "Jaar 2001. De stad leek rustig..."
+  INTRO_2: "Maar er speelde iets duisters af in het stadhuis."
+  INTRO_3: "Alleen een held (of twee) konden het tegenhouden."
+  
+  # Escena 2 . Ayuntamiento
+  AYUN_1: "Ik was hier 25 jaar geleden..."
+  AYUN_2: "...niets is veranderd."
+  
+  # Escena . Final
+  ENDING_1: "En zo, na het geheim te hebben opgegraven..."
+  ENDING_2: "Keerde de stad terug naar normaliteit."
+  THANKS: "DANK JE WEL VOOR HET SPELEN"
+
+  # ====================================================================================
+#  DIALOOGEN
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panoramica - Dialoog Garba vs Hoofd NPC, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Kijk! Ik heb de zaklamp nu van batterijen voorzien."
+  GARBA_START_ANS1: "Geweldig! Ik wist dat je handig was."
+  
+  GARBA_START_OPT2: "Hoi Garba, wat doe je hier?"
+  GARBA_START_ANS2: "Niks man, ik kijk wat rond. Ik wil een zaklamp met batterijen."
+  
+  GARBA_START_OPT3: "Heb je iets verdachts gezien?"
+  GARBA_START_ANS3: "Alleen jou die van hot naar her rent."
+  
+  GARBA_START_OPT4: "We praten later."
+  GARBA_START_ANS4: "Oké, tot later."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Waarom wil je een zaklamp met batterijen?"
+  GARBA_WANT_ANS1: "Zodat je twee voorwerpen kunt nemen en ze kunt combineren tot één."
+  
+  GARBA_WANT_OPT2: "Ik heb een zaklamp, is die goed?"
+  GARBA_WANT_ANS2: "Tuurlijk, geef hem maar en hij verdwijnt uit je inventaris."
+  
+  GARBA_WANT_OPT3: "Laten we van onderwerp veranderen."
+  GARBA_WANT_ANS3: "Oké, zeg het maar."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Hier: een werkende zaklamp."
+  GARBA_HAVE_ANS1: "Ja, probeer het GEVEN-commando op mij te gebruiken."

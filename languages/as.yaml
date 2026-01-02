@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRADUCCIÓN: ASTURIANO (as.yaml)
+# ====================================================================================
+
+language_name: "Asturianu"
+
+# ====================================================================================
+#  SISTEMA D'ADIXOS - CAIXA D'ADIXOS
+# ====================================================================================
+verbs:
+  WALK: "IR A"        # <--- CLAU EN MAYÚSCULES
+  OPEN: "ABRIR"
+  CLOSE: "ZARRAR"
+  PUSH: "EMPURRAR"
+  PULL: "TIRAR"
+  PICK UP: "COLLÉ"         # recoyer/colle: alzar, llevar (forma natural)
+  USE: "USAR"
+  TALK TO: "FALAR CON"     # <--- CLAU EN MAYÚSCULES
+  GIVE: "DAR"
+  LOOK AT: "MIRAR"
+  WITH: "con"
+
+# ====================================================================================
+#  MENÚ PRINCIPAL - ACTIVU CON F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FICHERU"
+  SAVE_CMD: "GARDAR"
+  LOAD_CMD: "CARGAR"
+  HELP_TITLE: "AXUDA"
+  NO_OPT: "NON"
+  GAME_HELP_OPT: "AXUDA DEL XUEGU"
+  DEBUG_OPT: "MÓDU DEBUG"
+  SOUND_TITLE: "SONIU"
+  YES_OPT: "SÍ"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLÁSICU"
+  CURSOR_MODERN: "MODERNU"
+  TEXT_TITLE: "TEXTOS"
+  VEL_LABEL: "VEL >"
+  SIZE_LABEL: "TAMAÑU >"
+  # Listes simples
+  VEL_OPTS: ["LENTU", "MEDIU", "RÁPIDU"]
+  SIZE_OPTS: ["PEQUEÑU", "MEDIU", "GRANDI"]
+  LANG_TITLE: "LLENGUA"
+  CLOSE_CMD: "ZARRAR"
+
+# ====================================================================================
+#  TÍTULOS - PANTAYA D'ENTRADA
+# ====================================================================================
+titles:
+  NEW_GAME: "PARTIDA NUEVA"
+  LOAD_GAME: "CARGAR PARTIDA"
+  LANGUAGE: "LLENGUA"
+  CREDITS: "CRÉDITOS"
+  EXIT: "SAIR"
+
+# ====================================================================================
+#  MENSAJES DEL SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Nun pueo facelo."                    # Acción imposible
+  CANNOT_REACH: "Nun pueo llegar ahí."             # Non s'alcansa
+  DOES_NOT_WORK: "Eso nun funciona."                # No funciona
+  MAKES_NO_SENSE: "Eso nun tien senteu."            # Non tien lòxica
+  DEFAULT_LOOK: "Ye "
+  PICKED_UP: "He collíu "
+  SENTENCE_TO: " a "                                # Deixar vacíu si nun fai falta (Ir a + destinu)
+  SENTENCE_WITH: " CON "
+  PREP_WITH: "con..."
+  VERB_WALK: "IR A"                                 # Podemos usar "IR A" y depués añadir el destinu
+  SAVE_SUCCESS: "Partida gardada correutamente."
+  SAVE_ERROR: "Erro al gardar el ficheru."
+  LOAD_SUCCESS: "Partida cargada."
+  LOAD_CORRUPT: "Ficheru corrompíu."
+  MSG_SPEED: "Velocidá: "
+  MSG_SIZE: "Tamañu: "
+  CRAFTING_DONE: "He xuntáu {0} con {1}."
+  CHAR_SWAP: "¡Agora controlo a {0}!"
+  CREDITS_TITLE: "CRÉDITOS"
+  DEBUG_TITLE: "CONSOLE DEBUG (Arrástrao)"
+
+  #  sistema de guardá clásica
+  SLOT_EMPTY: "--- Vacíu ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Desconocíu"          # EN: "Unknown"
+  SLOT_CORRUPT: "Ficheru corrompíu"   # EN: "Corrupt File"
+  MSG_NO_SAVE: "Nun hai partida equí." # EN: "No save game here."
+  BTN_CANCEL: "CANCELAR"              # EN: "CANCEL"
+
+# ====================================================================================
+#  NOMBRES DES ESCENES (Pa debug, saves y mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida de la Paz"
+  TOWN_HALL: "Conceyu"
+  PANORAMIC: "Panorámica"
+  DARK_ROOM: "Escena ensin llum"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTS - NOMBRES D'AXETOS (Etiquetes qu'aparez al pasar el mouse)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Campana"
+  HAMMER: "Martellu"  
+  
+  # Escena 2 - Conceyu
+  WINDOW_OLD: "Ventana vieja"
+  LANTERN_OLD: "Un farol antiguu"
+  MACHINE_STRANGE: "Máquina estraña"
+  BONFIRE: "Foguera"
+  
+   
+  # Escena 3 - Panorámica
+  STONE: "Piedra"
+  SHOVEL: "Pala pesá"
+  TRASHCAN: "Cubeta de la basura"
+  FLASHLIGHT_EMPTY: "Unu linterna ensin piles"
+  BATTERIES: "Piles pa la linterna"
+  FLASHLIGHT_FULL: "Unu linterna encendida"
+  BIRD: "Paxarru"
+  
+  # Escena 4
+  MAP: "Mapa antiguu"
+
+  # Escena 5
+  MARK_X: "Marca nel suelu"
+
+  # Personaxes (Etiquetes) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  ESCENES : DESCRIPCIONES Y REACCIÓNS (Mirar, Coller, Empurrar...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "ESTO ES UN TEXTO DEMO PA' L'USUARIU"
+  BELL_HINT: "¡Usa equí'l martellu!"
+  BELL_MAGIC_USE: "¡El sonu resuena'l doble cola máxia!"
+  BELL_LOOK: "Ye una campana realmente grande."
+  BELL_OPEN: "Ta feita de bronce macizu."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Menudar badaxu."
+  HAMMER_LOOK: "Martellu de carpinteru."
+  HAMMER_PICK: "Vale, collélu."
+
+  # Escena 2
+  WINDOW_LOOK: "Ye la ventana de la Sra. Fletcher."
+  WINDOW_OPEN: "Ta atascada, lleva anyos pintada."
+  WINDOW_STONE: "Ye meyor nun rompel nada güei."
+  LANTERN_LOOK: "Un farol d'Aliexpress."
+  LANTERN_PICK: "Collélu."
+  MACHINE_LOOK: "Paez una maquinaria compleja."
+  MACHINE_USE: "¡Funciona!"
+  MACHINE_PUSH: "Doy-y un empurrín..."
+  BONFIRE_LOOK: "Si m'aproxime m'enrojezco. Cambiu de paleta."
+
+  # Escena 3
+  SCENE3_INTRO_MSG: "Isto ye un exemplu de pantalla con SCROLL horizontal"
+  TRASH_LOOK: "Ta chenu de desperdicios."
+  TRASH_OPEN: "¡Puaj! Qué pestilencia."
+  TRASH_CLOSE: "Meyor pusilu cerráu."
+  NPC_GARBA_LOOK: "¿Qué mires? ¿Teño monos na cara?"
+  GARBA_GIVE_FLASHLIGHT: "Toma Garba, quédate cola linterna."
+  BIRD_LOOK: "Oh, mira, paxarinos!"
+
+  FLASHLIGHT_EMPTY_LOOK: "Nun tien piles."
+  FLASHLIGHT_EMPTY_PICK: "Collélu."
+  BATTERIES_LOOK: "Piles alcalines."
+  BATTERIES_PICK: "Pa'l boso."
+  FLASHLIGHT_FULL_LOOK: "Agora sí, brilla con forza."
+  FLASHLIGHT_FULL_USE: "Meyor usala nun llugar escuru."
+  FLASHLIGHT_FULL_OPEN: "Meyor nun sacales les piles agora."
+
+  SHOVEL_BART_PICK: "¡Humpf! Pesa muncho, pero yo pueo con ella."
+  SHOVEL_GILO_FAIL: "Pesa demasiáu. Necesito a Bart."
+  SHOVEL_LOOK_BART: "Una pala robusta. Ideal pa los mio músculos."
+  SHOVEL_LOOK_GILO: "Ta hecha de ferru macizu. Necesito a Bart."
+  SHOVEL_USE: "Nun pueo usala equí."
+  SHOVEL_PUSH: "Ta muncho afincada."
+
+  NPC_BART_LOOK: "Ye mi colega Bart. Paez fuerte."
+  NPC_BART_TALK: "Eh, Bart. ¿Qué pasa?"
+  NPC_BART_PUSH: "¡Eh! ¡Nun empurres!"
+
+  NPC_GILO_LOOK: "Equí ta Gilo, pensando nos sos coses."
+  NPC_GILO_TALK: "Señor Gilo, ¿topasti dalgo?"
+  NPC_GILO_PUSH: "¡Ei! Cuidado col látigu."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "¡Nun veyo un pimiento! Necesito lllum."
+  MAP_LOOK: "Un mapa turísticu."
+  MAP_PICK: "Collélu."
+  MAP_FAIL: "Nun puedo usalu tendíu nel suelu. Meyor collelu primero."
+
+   # Escena 5
+  MARK_LOOK: "Una X xigante pinta nel suelu. Como nos mapas pirata."
+  MARK_DIG_START: "¡Equí hai dalgo! Voy cavar..."
+  MARK_HIT_OBJ: "¡Crac! Topé con dalgo duru."
+  SCENE5_INTRO_MSG: "ESTA YE LA PANTAYA FINAL"
+  MARK_USE_FAIL: "Necesito dalgo pa cavar."
+  MARK_PUSH_FAIL: "La tierra ta muncho dura."
+
+# ====================================================================================
+#  CINEMÁTICAS (Intro y Final)
+# ====================================================================================
+cinematics:
+  # Escena . Iniciu
+  INTRO_1: "Añu 2001. La ciudá paecía tranquila..."
+  INTRO_2: "Pero nel Conceyu tramábase dalgo escuru."
+  INTRO_3: "Namái un héroe (o dos) pueeren detenelu."
+
+  # Escena 2 . Conceyu
+  AYUN_1: "Estuve equí fai 25 años..."
+  AYUN_2: "...nada cambió."
+
+  # Escena . Final
+  ENDING_1: "Y asina, depués d'escabar el secretu..."
+  ENDING_2: "La ciudá volvió a la normalidá."
+  THANKS: "GRACIES POR XUGAR"
+
+# ====================================================================================
+#  DIÁLOGOS
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panorámica - Garba vs NPC principal, Gilo
+    # Nodu: start
+  GARBA_START_OPT1: "¡Mira! Ya conseguí poner-y piles a la linterna."
+  GARBA_START_ANS1: "¡Genial! Sabía que yes habilidosu."
+
+  GARBA_START_OPT2: "Hola Garba, ¿qué fas equí?"
+  GARBA_START_ANS2: "Nada, tío, mirando pasar el tiempu. Quier una linterna con piles."
+
+  GARBA_START_OPT3: "¿Viste dalgo sospechoso?"
+  GARBA_START_ANS3: "Namái a ti correteando d'un llau a otru."
+
+  GARBA_START_OPT4: "Meyor hablando más tarde."
+  GARBA_START_ANS4: "Bueno, hasta más tardi."
+
+    # Nodu: quiero_una_linterna
+  GARBA_WANT_OPT1: "¿Pa qué quieras una linterna con piles?"
+  GARBA_WANT_ANS1: "Pa que pueas xunten dos axetos y facelos unu."
+
+  GARBA_WANT_OPT2: "Yo tengo una linterna, ¿te sirve?"
+  GARBA_WANT_ANS2: "Claro, dame-la y desaparecierá del to inventariu."
+
+  GARBA_WANT_OPT3: "Cambiemos de tema."
+  GARBA_WANT_ANS3: "Vale, dilo."
+
+    # Nodu: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Aquí tienes: una linterna que funciona."
+  GARBA_HAVE_ANS1: "Sí, prueba a usal el mandatu 'DAR' sobre mio."

@@ -1,0 +1,258 @@
+# ====================================================================================
+#  TƏRCÜMƏ: İSPAN (es.yaml)
+# ====================================================================================
+language_name: "Azərbaycan dili"
+
+# ====================================================================================
+#  FEILLƏR SİSTEMİ - FEİL QUTUSU
+# ====================================================================================
+# AÇARLAR BÖYÜK HƏRFLƏRLƏ
+verbs:
+  # AÇARLAR BÖYÜK HƏRFLƏRLƏ
+  WALK: "GEDİN"
+  OPEN: "AÇ"
+  CLOSE: "BAĞLA"
+  PUSH: "İTƏLƏ"
+  PULL: "ÇƏK"
+  PICK UP: "AL"
+  USE: "İSTİFADƏ ET"
+  # AÇARLAR BÖYÜK HƏRFLƏRLƏ
+  TALK TO: "DANIŞ"
+  GIVE: "VER"
+  LOOK AT: "BAX"
+  WITH: "ilə"
+
+# ====================================================================================
+#  ƏSAS MENYU - F2 İLƏ AKTİV
+# ====================================================================================
+menus:
+  FILE_TITLE: "FAYL"
+  SAVE_CMD: "YADDA SAXLA"
+  LOAD_CMD: "YÜKLƏ"
+  HELP_TITLE: "KÖMƏK"
+  NO_OPT: "Xeyr"
+  GAME_HELP_OPT: "OYUN KÖMƏYİ"
+  DEBUG_OPT: "DƏBUG REJİMİ"
+  SOUND_TITLE: "SƏS"
+  YES_OPT: "Bəli"
+  CURSOR_TITLE: "KURSOR"
+  CURSOR_CLASSIC: "KLASSİK"
+  CURSOR_MODERN: "MÜASİR"
+  TEXT_TITLE: "MƏTN"
+  VEL_LABEL: "SÜRƏT >"
+  SIZE_LABEL: "ÖLÇÜ >"
+  # Sadə siyahılar
+  VEL_OPTS: ["YAVAŞ", "ORTA", "SÜRƏTLİ"]
+  SIZE_OPTS: ["KİÇİK", "ORTA", "BÖYÜK"]
+  LANG_TITLE: "DİL"
+  CLOSE_CMD: "BAĞLA"
+
+# ====================================================================================
+#  BAŞLIQLAR - BAŞLANĞIÇ EKRANI
+# ====================================================================================
+titles:
+  NEW_GAME: "YENİ OYUN"
+  LOAD_GAME: "OYUNU YÜKLƏ"
+  LANGUAGE: "DİL"
+  CREDITS: "KREDİTLƏR"
+  EXIT: "ÇIXIŞ"
+
+# ====================================================================================
+#  SİSTEM MƏTNİ
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Mən bunu edə bilmərəm."
+  CANNOT_REACH: "Ora çata bilmirəm."
+  DOES_NOT_WORK: "Bu işləmir."
+  MAKES_NO_SENSE: "Bu məntiqli deyil."
+  DEFAULT_LOOK: "Odur "
+  PICKED_UP: "Mən götürdüm "
+  # İspan dili üçün boş buraxın (Gedən + məkan)
+  SENTENCE_TO: " ə "
+  SENTENCE_WITH: " İLƏ "
+  PREP_WITH: " ilə..."
+  # Tərcümədə 'GEDİN' və sonra uyğun ifadəni əlavə etmək olar
+  VERB_WALK: "GEDİN"
+  SAVE_SUCCESS: "Oyun uğurla yadda saxlanıldı."
+  SAVE_ERROR: "Fayl yadda saxlanarkən səhv baş verdi."
+  LOAD_SUCCESS: "Oyun yükləndi."
+  LOAD_CORRUPT: "Fayl korlanmışdır."
+  MSG_SPEED: "Sürət: "
+  MSG_SIZE: "Ölçü: "
+  CRAFTING_DONE: "{0}-i {1}-lə birləşdirdim."
+  CHAR_SWAP: "İndi {0}-ni idarə edirəm!"
+  CREDITS_TITLE: "KREDİTLƏR"
+  DEBUG_TITLE: "DƏBUG KONSOLU (Məni sürüklə)"
+
+  # Klassik yaddaş sistemi
+  SLOT_EMPTY: "--- Boş ---"
+  SLOT_UNKNOWN: "Naməlum"
+  SLOT_CORRUPT: "Korlənmiş fayl"
+  MSG_NO_SAVE: "Burada qeyd edilmiş oyun yoxdur."
+  BTN_CANCEL: "LƏĞV ET"
+
+# ====================================================================================
+#  SƏHNƏLƏRİN ADLARI (debug, saves və xəritə üçün)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Sülh prospekti"
+  TOWN_HALL: "Bələdiyyə"
+  PANORAMIC: "Panoramik"
+  DARK_ROOM: "İşıqsız səhnə"
+  PARALLAX: "Parallax Demo"
+
+# ====================================================================================
+#  HOTSPOTLAR - OBYEKT ADLARI (Siçan üzərinə gətirəndə görünən etiketlər)
+# ====================================================================================
+items:
+  # Səhnə 1
+  BELL: "Zəng"
+  HAMMER: "Çəkic"
+  
+  # Səhnə 2 - Bələdiyyə
+  WINDOW_OLD: "Köhnə pəncərə"
+  LANTERN_OLD: "Köhnə fənər"
+  MACHINE_STRANGE: "Qəribə maşın"
+  BONFIRE: "Tonqal"
+  
+  # Səhnə 3 - Panoramik
+  STONE: "Daş"
+  SHOVEL: "Belçə"
+  TRASHCAN: "Zibil qutusu"
+  FLASHLIGHT_EMPTY: "Batareyasız fənər"
+  BATTERIES: "Fənər batareyaları"
+  FLASHLIGHT_FULL: "Yanan fənər"
+  BIRD: "Quş"
+  
+  # Səhnə 4
+  MAP: "Köhnə xəritə"
+
+  # Səhnə 5
+  MARK_X: "Yerdə işarə"
+
+  # Personajlar (etiketlər) NPC-lər
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SƏHNƏLƏR: TƏSVİR VƏ REAKSİYALAR (Bax, Al, Itələ...)
+# ====================================================================================
+descriptions:
+  # Səhnə 1
+  SCENE1_INTRO_MSG: "BU İSTİFADƏÇİ ÜÇÜN DEMO MƏTNİDİR"
+  BELL_HINT: "Burada çəkicdən istifadə et!"
+  BELL_MAGIC_USE: "Səda sehrlə ikiqat əks-səda verir!"
+  BELL_LOOK: "Bu həqiqətən böyük bir zəngdir."
+  BELL_OPEN: "O, möhkəm misdən hazırlanıb."
+  BELL_PUSH: "DİNQ!"
+  BELL_PULL: "DOOOOOOONG! Nə böyük dənək."
+  HAMMER_LOOK: "Dülgər çəkici."
+  HAMMER_PICK: "Yaxşı, götürürəm."
+  
+  # Səhnə 2
+  WINDOW_LOOK: "Bu xanım Fletcher-in pəncərəsidir."
+  WINDOW_OPEN: "Sıxılıb, illərdir boya vurulub."
+  WINDOW_STONE: "Bu gün heç nəyi sındırmamaq daha yaxşıdır."
+  LANTERN_LOOK: "Aliexpress-dən alınmış fənər."
+  LANTERN_PICK: "Mən onu götürürəm."
+  MACHINE_LOOK: "Mürəkkəb maşın kimi görünür."
+  MACHINE_USE: "İşləyir!"
+  MACHINE_PUSH: "Mən ona yüngülcə itələyirəm..."
+  BONFIRE_LOOK: "Çox yaxınlaşsam üzüm qızaracaq. Rəng dəyişir."
+  
+  # Səhnə 3
+  SCENE3_INTRO_MSG: "Bu üfüqi sürüşmə ilə ekran nümunəsidir"
+  TRASH_LOOK: "O, tullantılarla doludur."
+  TRASH_OPEN: "Ürkütücü! Nə pis qoxudur."
+  TRASH_CLOSE: "Bağlı saxlamaq daha yaxşıdır."
+  NPC_GARBA_LOOK: "Nəyə baxırsan? Üzümə meymun mu yapışıb?"
+  GARBA_GIVE_FLASHLIGHT: "Götür Garba, saxla sənə."
+  BIRD_LOOK: "O, bax, kiçik quşlar!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Onun batareyası yoxdur."
+  FLASHLIGHT_EMPTY_PICK: "Mən onu götürürəm."
+  BATTERIES_LOOK: "Alkali batareyalar."
+  BATTERIES_PICK: "Cibə qoyuram."
+  FLASHLIGHT_FULL_LOOK: "İndi o güclü şəkildə parlayır."
+  FLASHLIGHT_FULL_USE: "Onu qaranlıq yerdə istifadə edəcəyəm."
+  FLASHLIGHT_FULL_OPEN: "İndi onun batareyalarını çıxarmaq yaxşı olmaz."
+  
+  SHOVEL_BART_PICK: "Hmpf! Bu çox ağırdır, amma mən qaldıra bilərəm."
+  SHOVEL_GILO_FAIL: "Bu çox ağırdır. Bart-a ehtiyacım var."
+  SHOVEL_LOOK_BART: "Güclü bir belçə. Əzələlərim üçün idealdır."
+  SHOVEL_LOOK_GILO: "Bu möhkəm dəmirdəndir. Bart-a ehtiyacım var."
+  SHOVEL_USE: "Mən bunu burada istifadə edə bilmərəm."
+  SHOVEL_PUSH: "O, çox möhkəmdir."
+
+  NPC_BART_LOOK: "Bu mənim dostum Bart-dır. Güclü görünür."
+  NPC_BART_TALK: "Hey, Bart. Nə var-nə yox?"
+  NPC_BART_PUSH: "Hey! Itələmə!"
+  
+  NPC_GILO_LOOK: "Gilo oradadır, düşüncələr içində."
+  NPC_GILO_TALK: "Cənab Gilo, nəsə tapdınız?"
+  NPC_GILO_PUSH: "Hey! Qamçı ilə ehtiyatlı ol."
+
+  # Səhnə 4
+  DARK_ROOM_ENTER: "Heç nə görmürəm! İşığa ehtiyacım var."
+  MAP_LOOK: "Turistlər üçün xəritə."
+  MAP_PICK: "Mən onu götürürəm."
+  MAP_FAIL: "Onu əllə yerdə istifadə edə bilmərəm. Əvvəl götürmək daha yaxşıdır."
+
+  # Səhnə 5
+  MARK_LOOK: "Yerdə nəhəng X işarəsi. Dəniz quldurlarının xəritələri kimi."
+  MARK_DIG_START: "Burada nəsə var! Mən qazmağa başlayıram..."
+  MARK_HIT_OBJ: "Çırp! Mən möhkəm bir şeyə dəydim."
+  SCENE5_INTRO_MSG: "BU SON EKRANDIR"
+  MARK_USE_FAIL: "Qazmaq üçün nəsə lazımdır."
+  MARK_PUSH_FAIL: "Torpaq çox sərtdir."
+
+# ====================================================================================
+#  SİNEMATİKA (Başlanğıc və Son)
+# ====================================================================================
+cinematics:
+  # Səhnə . Başlanğıc
+  INTRO_1: "İl 2001. Şəhər sakit görünürdü..."
+  INTRO_2: "Amma Bələdiyyədə qarışıq işlər gedirdi."
+  INTRO_3: "Yalnız bir qəhrəman (və ya iki) onu dayandıra bilərdi."
+  
+  # Səhnə 2 . Bələdiyyə
+  AYUN_1: "Mən burada 25 il əvvəl idim..."
+  AYUN_2: "...heç nə dəyişməyib."
+  
+  # Səhnə . Son
+  ENDING_1: "Və beləliklə, sirri ortaya çıxardıqdan sonra..."
+  ENDING_2: "Şəhər yenidən normal vəziyyətinə qayıtdı."
+  THANKS: "OYUN ÜÇÜN TƏŞƏKKÜRLƏR"
+
+# ====================================================================================
+#  DİALOQLAR
+# ====================================================================================
+dialogues:
+  # Səhnə 2 - Panoramik - Garba vs Əsas NPC, Gilo
+  # Node: start
+  GARBA_START_OPT1: "Bax! Mən fənərə batareyalar taxmağı bacardım."
+  GARBA_START_ANS1: "Əla! Mən bilirdim ki, sən bacarıqlısan."
+  
+  GARBA_START_OPT2: "Salam Garba, burada nə edirsən?"
+  GARBA_START_ANS2: "Heç nə, vaxt keçir. Mənə batareyalı fənər lazımdır."
+  
+  GARBA_START_OPT3: "Şübhəli bir şey gördünmü?"
+  GARBA_START_ANS3: "Yalnız səni burada bir tərəfə qaçanda gördüm."
+  
+  GARBA_START_OPT4: "Sonra danışarıq."
+  GARBA_START_ANS4: "Yaxşı, sonra görüşərik."
+  
+  # Node: istəyirəm_batareyali_fənər
+  GARBA_WANT_OPT1: "Batareyalı fənəri nə üçün istəyirsən?"
+  GARBA_WANT_ANS1: "İki əşyanı götürüb onları birləşdirmək üçün."
+  
+  GARBA_WANT_OPT2: "Məndə bir fənər var, onunla olar?"
+  GARBA_WANT_ANS2: "Əlbəttə, ver, o sənin inventarından silinəcək."
+  
+  GARBA_WANT_OPT3: "Mövzunu dəyişək."
+  GARBA_WANT_ANS3: "Yaxşı, danış."
+  
+  # Node: mənim_fənərim_var
+  GARBA_HAVE_OPT1: "Budur: işıqlı bir fənər."
+  GARBA_HAVE_ANS1: "Bəli, ona 'VER' əmri ilə məni seçərək ver."

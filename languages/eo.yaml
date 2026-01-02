@@ -1,0 +1,254 @@
+# ====================================================================================
+#  TRADUKO: ESPERANTO (eo.yaml)
+# ====================================================================================
+
+language_name: "Esperanto"
+
+# ====================================================================================
+#  SISTEMO DE VERBOJ - VERBA KESTO
+# ====================================================================================
+verbs:
+  WALK: "IRI al"        # <--- ŜLOSILO EN MAJUSKLOJ
+  OPEN: "MALFERMI"
+  CLOSE: "FERMI"
+  PUSH: "PUŜI"
+  PULL: "TIRI"
+  PICK UP: "PRENI"
+  USE: "UZI"
+  TALK TO: "PAROLI kun" # <--- ŜLOSILO EN MAJUSKLOJ
+  GIVE: "DONI"
+  LOOK AT: "RIGARDI"
+  WITH: "kun"
+
+# ====================================================================================
+#  ĈEFA MENUO - AKTIVA PER F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "DOSIERO"
+  SAVE_CMD: "KONSERVI"
+  LOAD_CMD: "ŜARGI"
+  HELP_TITLE: "HELPILO"
+  NO_OPT: "NE"
+  GAME_HELP_OPT: "LUD-HELPO"
+  DEBUG_OPT: "DEBUG-MODO"
+  SOUND_TITLE: "SONO"
+  YES_OPT: "JES"
+  CURSOR_TITLE: "KURSORO"
+  CURSOR_CLASSIC: "KLASIKA"
+  CURSOR_MODERN: "MODERNA"
+  TEXT_TITLE: "TEKSTOJ"
+  VEL_LABEL: "RAPIDO >"
+  SIZE_LABEL: "GRANDO >"
+  # Simplaj listoj
+  VEL_OPTS: ["MALRAPIDA", "MEZA", "RAPIDA"]
+  SIZE_OPTS: ["ETA", "MEZA", "GRANDA"]
+  LANG_TITLE: "LINGVO"
+  CLOSE_CMD: "FERMI"
+
+# ====================================================================================
+#  TITOLAJ BUTONOJ - KOMENCA EKRANO
+# ====================================================================================
+titles:
+  NEW_GAME: "NOVA LUDO"
+  LOAD_GAME: "ŜARGI LUDON"
+  LANGUAGE: "LINGVO"
+  CREDITS: "KREDITOJ"
+  EXIT: "ELIRI"
+
+# ====================================================================================
+#  SISTEMAJ MESAĜOJ
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Mi ne povas fari tion."
+  CANNOT_REACH: "Mi ne povas atingi tion."
+  DOES_NOT_WORK: "Tio ne funkcias."
+  MAKES_NO_SENSE: "Tio ne havas sencon."
+  DEFAULT_LOOK: "Ĝi estas "
+  PICKED_UP: "Mi prenis "
+  SENTENCE_TO: " al "                                   # Lasu malplena por la hispana (Ir a + celo)
+  SENTENCE_WITH: " KUN "
+  PREP_WITH: " kun..."
+  VERB_WALK: "IRI AL"                                 # Oni povas elekti "IRI" aŭ "IRI AL" + celo
+  SAVE_SUCCESS: "Ludo sukcese konservita."
+  SAVE_ERROR: "Eraro dum konservado de la dosiero."
+  LOAD_SUCCESS: "Ludo ŝargita."
+  LOAD_CORRUPT: "Difektita dosiero."
+  MSG_SPEED: "Rapido: "
+  MSG_SIZE: "Grando: "
+  CRAFTING_DONE: "Mi kombinis {0} kun {1}."
+  CHAR_SWAP: "Nun mi regas {0}!"
+  CREDITS_TITLE: "KREDITOJ"
+  DEBUG_TITLE: "DEBUG-KONZOLO (Trenu min)"
+
+  #  klasika konserva sistemo
+  SLOT_EMPTY: "--- Malplena ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Nekonata"               # EN: "Unknown"
+  SLOT_CORRUPT: "Difektita Dosiero"       # EN: "Corrupt File"
+  MSG_NO_SAVE: "Ne estas konservita ludo ĉi tie."  # EN: "No save game here."
+  BTN_CANCEL: "NULIGI"                    # EN: "CANCEL"
+
+# ====================================================================================
+#  NOMOJ DE SCENOJ (Por debug, konservadoj kaj mapo)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenuo de Paco"
+  TOWN_HALL: "Urbodomo"
+  PANORAMIC: "Panoramo"
+  DARK_ROOM: "Malluma sceno"
+  PARALLAX: "Parallax-Demonstracio"
+
+# ====================================================================================
+#  HOTSPOTS - NOMOJ DE OBJEKTOJ (Etikedoj montrataj per muso)
+# ====================================================================================
+items:
+  # Sceno 1
+  BELL: "Sonorilo"
+  HAMMER: "Martelo"  
+  
+  # Sceno 2 - Urbodomo
+  WINDOW_OLD: "Malnova Fenestro"
+  LANTERN_OLD: "Malnova Lanterno"
+  MACHINE_STRANGE: "Stranga Maŝino"
+  BONFIRE: "Fajrujo"
+  
+  # Sceno 3 - Panoramo
+  STONE: "Ŝtono"
+  SHOVEL: "Peza Ŝovelilo"
+  TRASHCAN: "Rubujo"
+  FLASHLIGHT_EMPTY: "Poŝlampo sen baterioj"
+  BATTERIES: "Baterioj por la poŝlampo"
+  FLASHLIGHT_FULL: "Ŝaltita Poŝlampo"
+  BIRD: "Birdo"
+  
+  # Sceno 4
+  MAP: "Malnova Mapo"
+
+  # Sceno 5
+  MARK_X: "X-marko sur la grundo"
+
+  # Roluloj (Etikedoj) NPC-oj
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  SCENOJ : PRISKRIBOJ KAJ REAGOJ (Rigardi, Preni, Puŝi...)
+# ====================================================================================
+descriptions:
+  # Sceno 1
+  SCENE1_INTRO_MSG: "ĈI TIO ESTAS DEMO-TEKSTO POR LA LUDANTO"
+  BELL_HINT: "Uzu la martelon ĉi tie!"
+  BELL_MAGIC_USE: "La sono duobliĝas danke al magio!"
+  BELL_LOOK: "Ĝi estas vere granda sonorilo."
+  BELL_OPEN: "Ĝi estas el solida bronzo."
+  BELL_PUSH: "Ding!"
+  BELL_PULL: "Doooooonng! Kia granda batilo."
+  HAMMER_LOOK: "Lignaĵista martelo."
+  HAMMER_PICK: "Bone, mi prenas ĝin."
+  
+  # Sceno 2
+  WINDOW_LOOK: "Estas la fenestro de s-ino Fletcher."
+  WINDOW_OPEN: "Ĝi estas blokita, pentrita jam de jaroj."
+  WINDOW_STONE: "Pli bone ne rompi ion hodiaŭ."
+  LANTERN_LOOK: "Lanterno el interreta vendejo."
+  LANTERN_PICK: "Mi prenas ĝin."  
+  MACHINE_LOOK: "Ŝajnas kompleksa maŝino."
+  MACHINE_USE: "Ĝi funkcias!"
+  MACHINE_PUSH: "Mi donas etan puŝon..."
+  BONFIRE_LOOK: "Se mi proksimiĝas tro multe, mi ruĝiĝas. Paletro ŝanĝiĝas."
+  
+  # Sceno 3
+  SCENE3_INTRO_MSG: "Jen ekzemplo de ekrano kun horizontala rulumado"
+  TRASH_LOOK: "Ĝi estas plena je rubaĵoj."
+  TRASH_OPEN: "Uf! Kia fetoro."
+  TRASH_CLOSE: "Pli bone fermita."
+  NPC_GARBA_LOOK: "Kion vi rigardas? Ĉu mi havas simiojn sur la vizaĝo?"
+  GARBA_GIVE_FLASHLIGHT: "Jen, Garba, tenu ĝin por vi."  
+  BIRD_LOOK: "Ho, rigardu! Birdoj!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Ĝi ne havas bateriojn."
+  FLASHLIGHT_EMPTY_PICK: "Mi prenas ĝin."
+  BATTERIES_LOOK: "Alkalaj baterioj."
+  BATTERIES_PICK: "En la poŝon."
+  FLASHLIGHT_FULL_LOOK: "Nun ĝi brilas forte."
+  FLASHLIGHT_FULL_USE: "Pli bone uzi ĝin en malluma loko."
+  FLASHLIGHT_FULL_OPEN: "Pli bone ne elpreni la bateriojn nun."
+  
+  SHOVEL_BART_PICK: "Humpf! Ĝi pezas multe, sed mi povas."
+  SHOVEL_GILO_FAIL: "Tro peza. Mi bezonas Bart."
+  SHOVEL_LOOK_BART: "Solida ŝovelilo. Perfekta por miaj muskoloj."
+  SHOVEL_LOOK_GILO: "El solida fero. Mi bezonas Bart."
+  SHOVEL_USE: "Mi ne povas uzi ĝin ĉi tie."
+  SHOVEL_PUSH: "Ĝi estas tre firme fiksita."
+
+  NPC_BART_LOOK: "Jen mia kamarado Bart. Li aspektas forta."
+  NPC_BART_TALK: "Hej, Bart. Kio okazas?"
+  NPC_BART_PUSH: "Hej! Ne puŝu!"
+  
+  NPC_GILO_LOOK: "Tie estas Gilo, pensante pri siaj aferoj."
+  NPC_GILO_TALK: "Sinjoro Gilo, ĉu vi trovis ion?"
+  NPC_GILO_PUSH: "Hej! Atentu."
+
+  # Sceno 4
+  DARK_ROOM_ENTER: "Mi nenion vidas! Mi bezonas lumon."
+  MAP_LOOK: "Turisma mapo."
+  MAP_PICK: "Mi prenas ĝin."
+  MAP_FAIL: "Mi ne povas uzi ĝin tiel. Unue mi devas preni ĝin."
+
+   # Sceno 5
+  MARK_LOOK: "Granda X pentrita sur la grundo. Kiel en pirataj mapoj."
+  MARK_DIG_START: "Io estas ĉi tie! Mi komencas fosi..."
+  MARK_HIT_OBJ: "Krac! Mi trafis ion solidan."
+  SCENE5_INTRO_MSG: "ĈI TIU ESTAS LA FINA EKRANO"
+  MARK_USE_FAIL: "Mi bezonas ion por fosi."
+  MARK_PUSH_FAIL: "La grundo estas tre malmola."
+
+# ====================================================================================
+#  CINEMATIKOJ (Komenco kaj Fino)
+# ====================================================================================
+cinematics:
+  # Sceno . Komenco
+  INTRO_1: "Jaro 2001. La urbo ŝajnis trankvila..."
+  INTRO_2: "Sed en la urbodomo io malluma estis planata."
+  INTRO_3: "Nur unu heroo (aŭ du) povus haltigi ĝin."
+  
+  # Sceno 2 . Urbodomo
+  AYUN_1: "Mi estis ĉi tie antaŭ 25 jaroj..."
+  AYUN_2: "...nenio ŝanĝiĝis."
+  
+  # Sceno . Fino
+  ENDING_1: "Kaj tiel, post elfosi la sekreton..."
+  ENDING_2: "La urbo revenis al normalo."
+  THANKS: "DANKON PRO LUDI"
+
+# ====================================================================================
+#  DIALOGOJ
+# ====================================================================================
+dialogues:
+  # Sceno 2 - Panoramo - Dialogo Garba kontraŭ ĉefa NPC, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Rigardu! Mi jam metis bateriojn en la poŝlampon."
+  GARBA_START_ANS1: "Bonege! Mi sciis, ke vi estas lerta."
+  
+  GARBA_START_OPT2: "Saluton Garba, kion vi faras ĉi tie?"
+  GARBA_START_ANS2: "Nenion, amiko, nur pasigas la tempon. Mi volas poŝlampon kun baterioj."
+  
+  GARBA_START_OPT3: "Ĉu vi vidis ion suspektan?"
+  GARBA_START_ANS3: "Nur vin kuranta tien kaj reen."
+  
+  GARBA_START_OPT4: "Ni parolos poste."
+  GARBA_START_ANS4: "Bone, ĝis poste."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Kial vi volas poŝlampon kun baterioj?"
+  GARBA_WANT_ANS1: "Por ke vi prenu du objektojn kaj kunigu ilin en unu."
+  
+  GARBA_WANT_OPT2: "Mi havas poŝlampon, ĉu tio taŭgas?"
+  GARBA_WANT_ANS2: "Kompreneble, donu ĝin al mi kaj ĝi malaperos el via inventaro."
+  
+  GARBA_WANT_OPT3: "Ni ŝanĝu la temon."
+  GARBA_WANT_ANS3: "Bone, diru."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Jen por vi: funkcianta poŝlampo."
+  GARBA_HAVE_ANS1: "Jes, provu uzi la komandon DONI kun ĝi sur mi."

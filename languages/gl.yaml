@@ -1,0 +1,255 @@
+# ====================================================================================
+#  TRADUCIÓN: GALEGO (gl.yaml)
+# ====================================================================================
+
+language_name: "Galego"
+
+# ====================================================================================
+#  SISTEMA DE VERBOS - CAIXA DE VERBOS
+# ====================================================================================
+verbs:
+  WALK: "IR A"        # <--- CHAVE EN MAIÚSCULAS
+  OPEN: "ABRIR"
+  CLOSE: "PECHAR"
+  PUSH: "EMPURRAR"
+  PULL: "TIRAR"
+  PICK UP: "COLLER"
+  USE: "USAR"
+  TALK TO: "FALAR CON" # <--- CHAVE EN MAIÚSCULAS
+  GIVE: "DAR"
+  LOOK AT: "MIRAR"
+  WITH: "con"
+
+# ====================================================================================
+#  MENÚ PRINCIPAL - ACTIVO CON F2
+# ====================================================================================
+menus:
+  FILE_TITLE: "FICHEIRO"
+  SAVE_CMD: "GARDAR"
+  LOAD_CMD: "CARGAR"
+  HELP_TITLE: "AXUDA"
+  NO_OPT: "NON"
+  GAME_HELP_OPT: "AXUDA XOGO"
+  DEBUG_OPT: "MODO DEBUG"
+  SOUND_TITLE: "SON"
+  YES_OPT: "SI"
+  CURSOR_TITLE: "CURSOR"
+  CURSOR_CLASSIC: "CLÁSICO"
+  CURSOR_MODERN: "MODERNO"
+  TEXT_TITLE: "TEXTO"
+  VEL_LABEL: "VEL >"
+  SIZE_LABEL: "TAMAÑO >"
+  # Listas sinxelas
+  VEL_OPTS: ["LENTO", "MEDIO", "RÁPIDO"]
+  SIZE_OPTS: ["PEQUENO", "MEDIO", "GRANDE"]
+  LANG_TITLE: "IDIOMA"
+  CLOSE_CMD: "PECHAR"
+
+# ====================================================================================
+#  TÍTULOS - PANTALLA DE INICIO
+# ====================================================================================
+titles:
+  NEW_GAME: "PARTIDA NOVA"
+  LOAD_GAME: "CARGAR PARTIDA"
+  LANGUAGE: "IDIOMA"
+  CREDITS: "CRÉDITOS"
+  EXIT: "SAIR"
+
+# ====================================================================================
+#  MENSAJES DO SISTEMA
+# ====================================================================================
+system_messages:
+  CANNOT_DO: "Non podo facer iso."
+  CANNOT_REACH: "Non podo chegar alí."
+  DOES_NOT_WORK: "Iso non funciona."
+  MAKES_NO_SENSE: "Non ten sentido."
+  DEFAULT_LOOK: "É "
+  PICKED_UP: "Recollín "
+  SENTENCE_TO: " a "                                   # Deixar baleiro se é galego (Ir a + destino)
+  SENTENCE_WITH: " CON "
+  PREP_WITH: "con..."
+  VERB_WALK: "IR A"                                 # Na tradución pódese elixir "IR A" ou só "IR" e logo engadir a frase
+  SAVE_SUCCESS: "Partida gardada correctamente."
+  SAVE_ERROR: "Erro ao gardar o ficheiro."
+  LOAD_SUCCESS: "Partida cargada."
+  LOAD_CORRUPT: "Ficheiro corrompido."
+  MSG_SPEED: "Velocidade: "
+  MSG_SIZE: "Tamaño: "
+  CRAFTING_DONE: "Combinei {0} con {1}."
+  CHAR_SWAP: "Agora controlo a {0}!"
+  CREDITS_TITLE: "CRÉDITOS"
+  DEBUG_TITLE: "CONSOLA DEBUG (Arrástrao)"
+
+  #  sistema de gardado estilo clásico
+  SLOT_EMPTY: "--- Vazio ---"         # EN: "--- Empty ---"
+  SLOT_UNKNOWN: "Descoñecido"        # EN: "Unknown"
+  SLOT_CORRUPT: "Ficheiro corrompido"    # EN: "Corrupt File"
+  MSG_NO_SAVE: "Non hai partida aquí."  # EN: "No save game here."
+  BTN_CANCEL: "CANCELAR"              # EN: "CANCEL"
+
+# ====================================================================================
+#  NOMS DE ESCENAS (Para debug, saves e mapa)
+# ====================================================================================
+scenes:
+  AVDA_PAZ: "Avenida da Paz"
+  TOWN_HALL: "Concello"
+  PANORAMIC: "Panorámica"
+  DARK_ROOM: "Escena sen luz"
+  PARALLAX: "Demostración Parallax"
+
+# ====================================================================================
+#  HOTSPOTS - NOMS DE OBXECTOS (Etiquetas que saen ao pasar o rato)
+# ====================================================================================
+items:
+  # Escena 1
+  BELL: "Campá"
+  HAMMER: "Martelo"  
+  
+  # Escena 2 - Concello
+  WINDOW_OLD: "Xanela antiga"
+  LANTERN_OLD: "Un farol antigo"
+  MACHINE_STRANGE: "Máquina estraña"
+  BONFIRE: "Fogueira"
+  
+   
+  # Escena 3 - Panorámica
+  STONE: "Pedra"
+  SHOVEL: "Pala pesada"
+  TRASHCAN: "Cubo do lixo"
+  FLASHLIGHT_EMPTY: "Unha lanterna sen pilas"
+  BATTERIES: "Pilas para a lanterna"
+  FLASHLIGHT_FULL: "Unha lanterna acesa"
+  BIRD: "Paxarraco"
+  
+  # Escena 4
+  MAP: "Mapa antigo"
+
+  # Escena 5
+  MARK_X: "Marca no chan"
+
+  # Personaxes (Etiquetas) NPCs
+  NPC_GARBA:  "Garba"
+  NPC_BART:   "Bart"
+  NPC_GILO:   "Gilo"
+
+# ====================================================================================
+#  ESCENAS : DESCRICIÓNS E REACCIÓNS (Mirar, Colle, Empurrar...)
+# ====================================================================================
+descriptions:
+  # Escena 1
+  SCENE1_INTRO_MSG: "ISTO É UN TEXTO DEMO PARA O USUARIO"
+  BELL_HINT: "Usa aquí o martelo!"
+  BELL_MAGIC_USE: "¡O son resoa o dobre coa maxia!"
+  BELL_LOOK: "É unha campá ben grande."
+  BELL_OPEN: "É de bronce macizo."
+  BELL_PUSH: "¡Ding!"
+  BELL_PULL: "¡Dooooooonng! Vaya badajo."
+  HAMMER_LOOK: "Martelo de carpinteiro."
+  HAMMER_PICK: "Vale, levareino."
+  
+  # Escena 2
+  WINDOW_LOOK: "É a xanela da Sra. Fletcher."
+  WINDOW_OPEN: "Está atascada, leva anos pintada."
+  WINDOW_STONE: "Mellor non rompo nada hoxe."
+  LANTERN_LOOK: "Un farol de Aliexpress."
+  LANTERN_PICK: "Levareina."  
+  MACHINE_LOOK: "Parece unha maquinaria complexa."
+  MACHINE_USE: "Funciona!"
+  MACHINE_PUSH: "Débolle un pequeno empurrón..."
+  BONFIRE_LOOK: "Pórnme vermello se me achego moito. Cambio de paleta."  
+  
+  # Escena 3
+  SCENE3_INTRO_MSG: "Isto é un exemplo de pantalla con SCROLL horizontal"
+  TRASH_LOOK: "Está cheo de desperdicios."
+  TRASH_OPEN: "Puaj! Que peste."
+  TRASH_CLOSE: "Mellor pechado."
+  NPC_GARBA_LOOK: "Que miras? Teño monos na cara?"
+  GARBA_GIVE_FLASHLIGHT: "Toma Garba, quédate con ela."  
+  BIRD_LOOK: "Oh, mira, paxaros!"
+  
+  FLASHLIGHT_EMPTY_LOOK: "Non ten pilas."
+  FLASHLIGHT_EMPTY_PICK: "Levareina."
+  BATTERIES_LOOK: "Pilas alcalinas."
+  BATTERIES_PICK: "Para o peto."
+  FLASHLIGHT_FULL_LOOK: "Agora si, brilla con forza."
+  FLASHLIGHT_FULL_USE: "Mellor usala nun sitio escuro."
+  FLASHLIGHT_FULL_OPEN: "Mellor non lle saco as pilas agora."
+  
+  SHOVEL_BART_PICK: "¡Humpf! Pesa un mundo, pero eu podo con todo."
+  SHOVEL_GILO_FAIL: "Pesa demasiado. Preciso a Bart."
+  SHOVEL_LOOK_BART: "Unha pala robusta. Ideal para os meus músculos."
+  SHOVEL_LOOK_GILO: "É de ferro macizo. Preciso a Bart."
+  SHOVEL_USE: "Non podo usala aquí."
+  SHOVEL_PUSH: "Está moi firme."
+
+  NPC_BART_LOOK: "É o meu colega Bart. Semella forte."
+  NPC_BART_TALK: "Eh, Bart. Que pasa?"
+  NPC_BART_PUSH: "¡Eh! Sen empurrar!"
+  
+  NPC_GILO_LOOK: "Alí está Gilo, pensando nas súas cousas."
+  NPC_GILO_TALK: "Sr Gilo, atopou algo?"
+  NPC_GILO_PUSH: "¡Ei! Coidado co xuízo."
+
+  # Escena 4
+  DARK_ROOM_ENTER: "Non vexo un chisco! Preciso luz."
+  MAP_LOOK: "Un mapa turístico."
+  MAP_PICK: "Levareino."
+  MAP_FAIL: "Non podo usalo aí estendido. Mellor collelo primeiro."
+
+   # Escena 5
+  MARK_LOOK: "Unha X xigante pintada no chan. Como nos mapas dos piratas."
+  MARK_DIG_START: "¡Aquí hai algo! Vou cavar..."
+  MARK_HIT_OBJ: "¡Crac! Deime con algo sólido."
+  SCENE5_INTRO_MSG: "ESTA É A PANTALLA FINAL"
+  MARK_USE_FAIL: "Preciso algo para cavar."
+  MARK_PUSH_FAIL: "A terra está moi dura."
+
+# ====================================================================================
+#  CINEMÁTICAS (Intro e Final)
+# ====================================================================================
+cinematics:
+  # Escena . Inicio
+  INTRO_1: "Ano 2001. A cidade parecía tranquila..."
+  INTRO_2: "Pero no Concello tramábase algo escuro."
+  INTRO_3: "Só un héroe (ou dous) poderían detelo."
+  
+  # Escena 2 . Concello
+  AYUN_1: "Estiven aquí hai 25 anos..."
+  AYUN_2: "...nada cambiou."
+  
+  # Escena . Final
+  ENDING_1: "E así, despois de desenterrar o segredo..."
+  ENDING_2: "A cidade volveu á normalidade."
+  THANKS: "GRAZAS POR XOGAR"
+
+# ====================================================================================
+#  DIÁLOGOS
+# ====================================================================================
+dialogues:
+  # Escena 2 - Panorámica - Diálogo Garba vs NPC principal, Gilo
+    # Nodo: start
+  GARBA_START_OPT1: "Mira! Xa conseguín poñer pilas á lanterna."
+  GARBA_START_ANS1: "Xenial! Sabía que eras manitas."
+  
+  GARBA_START_OPT2: "Ola Garba, que fas aquí?"
+  GARBA_START_ANS2: "Nada, home, vendo pasar o tempo. Quero unha lanterna con pilas."
+  
+  GARBA_START_OPT3: "Viste algo sospeitoso?"
+  GARBA_START_ANS3: "Só ti correndo de aquí para aló."
+  
+  GARBA_START_OPT4: "Logo falamos."
+  GARBA_START_ANS4: "Vaia, ata logo."
+  
+    # Nodo: quiero_una_linterna
+  GARBA_WANT_OPT1: "Para que queres unha lanterna con pilas?"
+  GARBA_WANT_ANS1: "Para que collas dous obxectos e os xuntes nun so."
+  
+  GARBA_WANT_OPT2: "Eu teño unha lanterna, serve?"
+  GARBA_WANT_ANS2: "Claro, dámola e desaparecerá do teu inventario."
+  
+  GARBA_WANT_OPT3: "Cambiamos de tema."
+  GARBA_WANT_ANS3: "Vale, dime."
+
+    # Nodo: tengo_la_linterna
+  GARBA_HAVE_OPT1: "Aquí tes: unha lanterna que funciona."
+  GARBA_HAVE_ANS1: "Si, proba usar o comando 'DAR' sobre min."
