@@ -2,6 +2,8 @@ PyCAPGE - Python Classic Adventure Point and Click Game Engine
 
 ![Logo PyCAPGE](tutorial/pycapge_logo_color.png)
 
+<img src="tutorial/pycapge_logo_color.png" alt="PyCAPTGE logo" width="400">
+
 PyCAPGE is a free and open source engine for creating Classic point-and-click graphic adventures, written in Python. This project is released as copyleft software. 
 
 PLAYERS
