@@ -1,6 +1,4 @@
-==
- PyCAPGE - Python Classic Adventure Point and Click Game Engine
-==
+PyCAPGE - Python Classic Adventure Point and Click Game Engine
 
 ![Logo PyCAPGE](tutorial/pycapge_logo_color.png)
 
