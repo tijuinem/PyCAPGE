@@ -28,10 +28,10 @@ Configure the script to your liking, then create your adventure scenes in /scene
 - Source code is available and modifiable
 
 <p align="center">
-  <img src="pyvapge%20panoramic%20street.jpg" width="600"><br>
-  <img src="pyvapge%20parallax%20exampleu.jpg" width="600"><br>
-  <img src="pyvapge%20peace%20avenue.jpg" width="600"><br>
-  <img src="pyvapge%20tawn%20hall.jpg" width="600">
+  <img src="tutorial/pyvapge%20panoramic%20street.jpg" width="600"><br>
+  <img src="tutorial/pyvapge%20parallax%20exampleu.jpg" width="600"><br>
+  <img src="tutorial/pyvapge%20peace%20avenue.jpg" width="600"><br>
+  <img src="tutorial/pyvapge%20tawn%20hall.jpg" width="600">
 </p>
 
 ```text
