@@ -39,34 +39,35 @@ Designed for education, research, and digital preservation.
 ```
 (root)
 │
-├── __pycache__/
-├── backgrounds/
-├── cursor/
-├── fonts/
-├── games/
-├── hotspots/
-├── items/
-├── languages/
-├── objects/
-├── snd/
-├── tutorial/
-├── tests/
-├── paper/
+├── __pycache__/              <!-- Python bytecode cache (.pyc files). Should not be committed to version control. -->
+├── backgrounds/              <!-- Background images and walkmasks (masks defining navigable areas). -->
+├── cursor/                   <!-- Cursor assets (e.g., eye, hand) used by CURSOR_STYLE. -->
+├── fonts/                    <!-- Font files (.ttf) employed by the user interface and dialogue system. -->
+├── games/                    <!-- Saved game files (.json). -->
+├── hotspots/                 <!-- Definitions of scene-specific interactive elements (hotspots). -->
+├── items/                    <!-- Sprites and assets for items and simple non-player characters. -->
+├── languages/                <!-- YAML-based localization and translation files. -->
+├── objects/                  <!-- Inventory objects (distinct from in-scene hotspots). -->
+├── snd/                      <!-- Audio resources (music tracks and sound effects). -->
+├── tutorial/                 <!-- Tutorials, manuals, and illustrative resources (images, logos, guides). -->
+├── tests/                    <!-- Unit tests and validation scripts. -->
+├── paper/                    <!-- Academic documentation for JOSS and related research material. -->
 │
-├── engine/
+├── engine/                   <!-- Core engine implementation: internal logic and low-level systems. -->
 │   ├── __init__.py
-│   ├── classes.py
-│   └── resources.py
+│   ├── classes.py            <!-- Fundamental classes (e.g., Scene, Hotspot, SceneManager). -->
+│   └── resources.py          <!-- Asset loading routines and general-purpose utilities. -->
 │
-├── scenes/
+├── scenes/                   <!-- Game scenes (e.g., introduction, ending, demo sequences). -->
 │   ├── __init__.py
-│   ├── scenes.py
-│   ├── intro.py
-│   ├── ending.py
-│   └── variables.py
+│   ├── scenes.py             <!-- Scene registration and instantiation logic. -->
+│   ├── intro.py              <!-- Control flow and playlist for the introductory sequence. -->
+│   ├── ending.py             <!-- Control flow and playlist for the ending sequence. -->
+│   └── variables.py          <!-- Persistent game state variables and global flags. -->
 │
-├── main.py
-└── config.py
+├── main.py                   <!-- Primary entry point responsible for initializing and launching the engine. -->
+└── config.py                 <!-- Global configuration (e.g., resolution, paths, PLAYER_CONFIG). -->
+
 ```
 
 ---
