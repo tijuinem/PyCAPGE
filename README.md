@@ -40,9 +40,9 @@ The `tutorial/` directory contains supplementary materials intended to facilitat
 
 - `pycapge_logo_color.png` and other illustrative images used in this README.
 - Example scenes and sample assets that demonstrate engine features (parallax, walkmasks, hotspot definitions).
-- Step-by-step usage notes and a short tutorial manual explaining how to run the demo scenes.
+- Step-by-step usage notes and a full manual (80 pages) in spanish and english, explaining how to run the demo scenes.
 
-If you intend to reproduce the examples, please ensure the dependencies listed in **Requirements** are installed, then follow the instructions in `tutorial/README` (or run `python main.py` to launch the demo).
+If you intend to reproduce the examples, please ensure the dependencies listed in **Requirements** are installed, then follow the instructions in `tutorial/[PDF FILES]` (or run `python main.py` to launch the demo).
 
 ---
 
