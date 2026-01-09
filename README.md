@@ -115,9 +115,10 @@ python main.py
   author    = {Garbayo, Eduardo},
   title     = {PyCAPGE: A Python Engine for Classic Adventure Game Education},
   year      = {2025},
-  publisher = {GitHub},
-  journal   = {GitHub repository},
-  url       = {https://github.com/tijuinem/pycapge}
+  publisher = {Zenodo},
+  version   = {v1.1.0}, 
+  doi       = {10.5281/zenodo.18183594},
+  url       = {https://doi.org/10.5281/zenodo.18183594}
 }
 ```
 
