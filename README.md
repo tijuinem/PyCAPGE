@@ -5,10 +5,9 @@
   <img src="tutorial/pycapge_logo_color.png" alt="PyCAPGE logo" width="400">
   <br><br>
 
-    <a href="https://github.com/tijuinem/pycapge/actions">
+  <a href="https://github.com/tijuinem/pycapge/actions">
     <img src="https://img.shields.io/github/actions/workflow/status/tijuinem/pycapge/python-app.yml?style=flat-square&label=Tests" alt="Tests Status">
   </a>
-
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" alt="License GPLv3">
   </a>
