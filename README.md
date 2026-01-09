@@ -1,107 +1,53 @@
-PyCAPGE - Python Classic Adventure Point and Click Game Engine
+# PyCAPGE  
+**Python Classic Adventure Point-and-Click Game Engine**
 
-<img src="tutorial/pycapge_logo_color.png" alt="PyCAPTGE logo" width="400">
+<div align="center">
+  <img src="tutorial/pycapge_logo_color.png" alt="PyCAPGE logo" width="400">
+  <br><br>
 
-PyCAPGE is a free and open source engine for creating Classic point-and-click graphic adventures, written in Python. This project is released as copyleft software. 
+  <a href="https://github.com/tijuinem/pycapge/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/tijuinem/pycapge/CI.yml?style=flat-square&label=Build" alt="Build Status">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" alt="License GPLv3">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square" alt="Python 3.8+">
+  <a href="https://doi.org/10.5281/zenodo.18183594">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18183594.svg" alt="DOI">
+  </a>
+</div>
 
-PLAYERS
-==================================================================
-- F1 : Help mode
-- F2 : Menu ( on - off )
-- F11: Full Screen
-- Double click to change screen ( left o right)
-- Click in dialogue to fast mode
-- ESC on dialogue to exit
+---
 
-PROGRAMMERS
-==================================================================
-Configure the script to your liking, then create your adventure scenes in /scenes. You can use the intro, ending, or create entirely new scene. Use global variables to ensure that saving games is effective across all languages
+## Summary
 
-- Read the manual / documentation
-- F1 : Help mode
-- F2 : Menu ( on - off )
-- F3 : Debug mode
-- F4 : show walkeable map
-- F11: Full Screen
-- Configure the engine in config.py
-- Place Your: variables, intro, ending, and scenes in the /scenes/ directory
-- Source code is available and modifiable
+**PyCAPGE** is an open-source game engine for creating classic point-and-click graphic adventure games using Python.
 
-<table align="center">
-  <tr>
-    <td><img src="tutorial/pyvapge%20panoramic%20street.jpg" width="400"></td>
-    <td><img src="tutorial/pyvapge%20parallax%20exampleu.jpg" width="400"></td>
-  </tr>
-  <tr>
-    <td><img src="tutorial/pyvapge%20peace%20avenue.jpg" width="400"></td>
-    <td><img src="tutorial/pyvapge%20tawn%20hall.jpg" width="400"></td>
-  </tr>
-</table>
+Unlike commercial engines that rely heavily on visual editors, PyCAPGE exposes its internal logic directly in code.
 
-```text
-(root)
-│
-├── __pycache__/         <-- Cache storage
-├── backgrounds/         <-- Walkable and environment backgrounds
-├── cursor/              <-- Cursor graphics
-├── fonts/               <-- Typography (Free fonts) - International -
-├── games/               <-- Saved games (Save files)
-├── hotspots/            <-- Interactive area definitions. General objects.
-├── items/               <-- NPC sprite sheets
-├── languages/           <-- Translation files (YAML)
-├── objects/             <-- Inventory images (different from hotspots)
-├── snd/                 <-- Sound effects and music
-├── tutorial/            <-- Tutorial resources 
-│
-├── engine/              <-- ENGINE LOGIC
-│   ├── __init__.py
-│   ├── classes.py
-│   └── resources.py
-│
-├── scenes/              <-- SCENE MANAGEMENT
-│   ├── __init__.py
-│   ├── scenes.py
-│   ├── intro.py
-│   ├── ending.py
-│   └── variables.py
-│
-├── main.py              <-- Entry point
-└── config.py            <-- General configuration
+Designed for education, research, and digital preservation.
+
+---
+
+## Requirements
+
+- Python 3.8+
+- Pygame Community Edition
+- PyYAML
+
+---
+
+## Quick Installation
+
+```bash
+git clone https://github.com/tijuinem/pycapge.git
+cd pycapge
+pip install pygame pyyaml
+python main.py
 ```
 
+---
 
-GAMES CREATED WITH PyCAPGE
-==================================================================
-Any game created using PyCAPGE, including its source code or runtime, is considered a derivative work of the engine.
-Therefore:
-- Games created with PyCAPGE MUST be released under GPL-3.0-or-later.
-- The complete source code of the game must be made available.
-- Closed-source or proprietary games are NOT permitted.
+## License
 
-FORKS & REDISTRIBUTION
-==================================================================
-- Forks are welcome, but we especially encourage collaboration and direct contributions.
-- Modified versions may be redistributed.
-- All redistributions must comply with GPL-3.0-or-later.
-- The original author credit must be preserved.
-- Derived works must remain under the same license.
-
-ATTRIBUTION
-==================================================================
-If you distribute or publish modified versions of this engine or games created with it, you must keep the following attribution:
-"PyCAPGE - Python Classic Adventure Point and Click Game Engine Copyright (c) 2025 Garba"
-This attribution must appear in the source code and documentation.
-
-LICENSE
-==================================================================
-Copyleft © 2025-2025 Garba
-https://eduardogarbayo.com
-This program is free software: you can redistribute it and/or Modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-SPDX-License-Identifier: GPL-3.0-or-later
-A copy of the GNU General Public License must be included in the file LICENSE distributed with this project.
-
-DONATIONS
-==================================================================
-If you want to support the development of PyCAPGE, you can donate at:
-https://www.zainder.com/donations/
-==================================================================
+GPLv3 © 2025 Eduardo Garbayo
