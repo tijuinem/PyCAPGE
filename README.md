@@ -19,43 +19,6 @@ Designed for education, research, and digital preservation.
 
 ---
 
-## Controls & Usage
-
-### For Players
-
-- **F1** – Help / View controls
-- **F2** – Menu (Save / Load / Options)
-- **F11** – Toggle fullscreen
-- **Mouse Left Click** – Walk / Interact
-- **Double Click** – Fast walk
-- **Dialogue**
-  - Click: Fast-forward
-  - ESC: Skip
-
-### For Developers
-
-- **F3** – Toggle debug mode (hitboxes)
-- **F4** – Show walkable areas (navigation mesh)
-
-## Requirements
-
-- Python 3.8+
-- Pygame
-- PyYAML
-
----
-
-## Quick Installation
-
-```bash
-git clone https://github.com/tijuinem/pycapge.git
-cd pycapge
-pip install pygame pyyaml
-python main.py
-```
-
----
-
 ## Screenshots
 
 <table align="center">
@@ -104,6 +67,43 @@ python main.py
 │
 ├── main.py
 └── config.py
+```
+
+---
+
+## Controls & Usage
+
+### For Players
+
+- **F1** – Help / View controls
+- **F2** – Menu (Save / Load / Options)
+- **F11** – Toggle fullscreen
+- **Mouse Left Click** – Walk / Interact
+- **Double Click** – Fast walk
+- **Dialogue**
+  - Click: Fast-forward
+  - ESC: Skip
+
+### For Developers
+
+- **F3** – Toggle debug mode (hitboxes)
+- **F4** – Show walkable areas (navigation mesh)
+
+## Requirements
+
+- Python 3.8+
+- Pygame
+- PyYAML
+
+---
+
+## Quick Installation
+
+```bash
+git clone https://github.com/tijuinem/pycapge.git
+cd pycapge
+pip install pygame pyyaml
+python main.py
 ```
 
 ---
