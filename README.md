@@ -6,7 +6,7 @@
   <br><br>
 
   <a href="https://github.com/tijuinem/pycapge/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/tijuinem/pycapge/CI.yml?style=flat-square&label=Build" alt="Build Status">
+    <img src="https://img.shields.io/github/actions/workflow/status/tijuinem/pycapge/python-app.yml?style=flat-square&label=Build" alt="Build Status">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square" alt="License GPLv3">
@@ -16,6 +16,7 @@
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18183594.svg" alt="DOI">
   </a>
 </div>
+
 
 ---
 
@@ -29,10 +30,28 @@ Designed for education, research, and digital preservation.
 
 ---
 
+## Controls & Usage
+
+### For Players
+
+- **F1** – Help / View controls
+- **F2** – Menu (Save / Load / Options)
+- **F11** – Toggle fullscreen
+- **Mouse Left Click** – Walk / Interact
+- **Double Click** – Fast walk
+- **Dialogue**
+  - Click: Fast-forward
+  - ESC: Skip
+
+### For Developers
+
+- **F3** – Toggle debug mode (hitboxes)
+- **F4** – Show walkable areas (navigation mesh)
+
 ## Requirements
 
 - Python 3.8+
-- Pygame Community Edition
+- Pygame
 - PyYAML
 
 ---
@@ -47,6 +66,74 @@ python main.py
 ```
 
 ---
+
+## Screenshots
+
+<table align="center">
+  <tr>
+    <td><img src="tutorial/pyvapge%20panoramic%20street.jpg" width="400" alt="Panoramic Street"></td>
+    <td><img src="tutorial/pyvapge%20parallax%20exampleu.jpg" width="400" alt="Parallax Example"></td>
+  </tr>
+  <tr>
+    <td><img src="tutorial/pyvapge%20peace%20avenue.jpg" width="400" alt="Peace Avenue"></td>
+    <td><img src="tutorial/pyvapge%20tawn%20hall.jpg" width="400" alt="Town Hall"></td>
+  </tr>
+</table>
+
+---
+
+## Project Structure
+
+```
+(root)
+│
+├── __pycache__/
+├── backgrounds/
+├── cursor/
+├── fonts/
+├── games/
+├── hotspots/
+├── items/
+├── languages/
+├── objects/
+├── snd/
+├── tutorial/
+├── tests/
+├── paper/
+│
+├── engine/
+│   ├── __init__.py
+│   ├── classes.py
+│   └── resources.py
+│
+├── scenes/
+│   ├── __init__.py
+│   ├── scenes.py
+│   ├── intro.py
+│   ├── ending.py
+│   └── variables.py
+│
+├── main.py
+└── config.py
+```
+
+---
+
+## Citation
+
+```bibtex
+@software{pycapge2025,
+  author    = {Garbayo, Eduardo},
+  title     = {PyCAPGE: A Python Engine for Classic Adventure Game Education},
+  year      = {2025},
+  publisher = {GitHub},
+  journal   = {GitHub repository},
+  url       = {https://github.com/tijuinem/pycapge}
+}
+```
+
+---
+
 
 ## License
 
