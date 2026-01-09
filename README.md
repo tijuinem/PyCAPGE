@@ -126,4 +126,14 @@ python main.py
 
 ## License
 
-GPLv3 © 2025 Eduardo Garbayo
+GPLv3 © 2025 Eduardo Garbayo "Garba" www.eduardogarbayo.com
+
+### Games Created With PyCAPGE
+
+Any game created using PyCAPGE is considered a **derivative work** of the engine. Therefore:
+
+- Games **must** be released under **GPL-3.0-or-later**
+- The **complete source code** must be made available
+- **Closed-source or proprietary games are not permitted**
+
+See the `LICENSE` file for full details.
