@@ -129,7 +129,7 @@ python main.py
   title     = {PyCAPGE: A Python Engine for Classic Adventure Game Education},
   year      = {2025},
   publisher = {Zenodo},
-  version   = {v1.1.0}, 
+  version   = {v1.0.0}, 
   doi       = {10.5281/zenodo.18183594},
   url       = {https://doi.org/10.5281/zenodo.18183594}
 }
